@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مجله خبری روزانه — ۱۶ شهریور ۱۴۰۵</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #151d30;
+      --card-border: #232f48;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --primary: #38bdf8;
+      --primary-hover: #0284c7;
+      --badge-bg: rgba(56, 189, 248, 0.15);
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, Tahoma, sans-serif;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      padding: 24px 12px;
+      direction: rtl;
+    }
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+    }
+    header {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 24px 20px;
+      margin-bottom: 20px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 12px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+    .meta-tag {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 4px 14px;
+      border-radius: 9999px;
+    }
+    .search-box {
+      margin-bottom: 18px;
+    }
+    .search-input {
+      width: 100%;
+      padding: 14px 18px;
+      border-radius: 12px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: #fff;
+      font-size: 0.95rem;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+    }
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+    .tab-btn {
+      flex: 1;
+      min-width: 130px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+    .tab-btn.active {
+      background: var(--primary);
+      color: #0f172a;
+      border-color: var(--primary);
+    }
+    .badge {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 2px 8px;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+    }
+    .news-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .news-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 20px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .news-card:hover {
+      border-color: rgba(56, 189, 248, 0.4);
+      transform: translateY(-2px);
+    }
+    .news-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .news-num {
+      background: var(--badge-bg);
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 0.85rem;
+      min-width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      margin-top: 2px;
+    }
+    .news-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.6;
+    }
+    .news-summary {
+      font-size: 0.94rem;
+      color: #cbd5e1;
+      margin-bottom: 14px;
+      text-align: justify;
+      line-height: 1.75;
+    }
+    .news-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 12px;
+      font-size: 0.85rem;
+    }
+    .news-source {
+      color: var(--text-muted);
+    }
+    .news-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+    .news-link:hover {
+      color: #7dd3fc;
+      text-decoration: underline;
+    }
+    @media (max-width: 640px) {
+      h1 { font-size: 1.4rem; }
+      .tab-btn { min-width: 100px; font-size: 0.82rem; padding: 10px 6px; }
+      .news-card { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📰 مجله خبری روزانه</h1>
+      <div class="meta-bar">
+        <span class="meta-tag">📅 ۱۶ شهریور ۱۴۰۵</span>
+        <span class="meta-tag">🌍 ۷ سپتامبر ۲۰۲۶</span>
+        <span class="meta-tag">⏰ ساعت انتشار: ۱۶:۴۸</span>
+      </div>
+    </header>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" class="search-input" placeholder="🔍 جست‌وجو در تمام اخبار امروز...">
+    </div>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('tech')">
+        🤖 فناوری و هوش مصنوعی
+        <span class="badge">۰</span>
+      </button>
+      <button class="tab-btn" onclick="switchTab('media')">
+        🎬 سینما و رسانه
+        <span class="badge">۱</span>
+      </button>
+      <button class="tab-btn" onclick="switchTab('persian')">
+        🇮🇷 اخبار ایران و عمومی
+        <span class="badge">۲</span>
+      </button>
+    </div>
+
+    <main id="newsContainer" class="news-grid"></main>
+  </div>
+
+  <script>
+    const data = {
+      tech: [],
+      media: [{"source": "Rolling Stone", "title": "Watch Carrie Underwood Cover Limp Bizkit, Papa Roach, Linkin Park at Velocity Festival", "link": "https://www.rollingstone.com/music/music-news/carrie-underwood-limp-bizkit-papa-roach-covers-live-1235622371/", "summary": "The country singer performed a series of nu-metal covers at the Iowa music festival on Saturday", "date_str": "2026-09-07T07:37:04+00:00", "hash": "77f529d1dd47c7321131a401f3e7af831a699b6d68d7eb342e5eb0df8240690c", "title_fa": "Carrie Underwood Cover Limp Bizkit، Papa Roach، Linkin Park را در فستیوال Velocity تماشا کنید", "summary_fa": "این خواننده کانتری روز شنبه در جشنواره موسیقی آیووا مجموعه ای از کاورهای نو متال اجرا کرد"}],
+      persian: [{"source": "BBC Persian", "title": "خروج هواپیمای باری آمازون از باند فرودگاه میامی آمریکا ۵ کشته و ۵ مجروح به‌ جا‌گذاشت", "link": "https://www.bbc.com/persian/articles/c93v9g3w6veo?at_medium=RSS&at_campaign=rss", "summary": "در پی خروج یک هواپیمای باری شرکت آمازون ایر از باند هنگام فرود در فرودگاه بین‌المللی میامی فلوریدا، دست‌کم پنج نفر کشته و پنج نفر دیگر به شدت زخمی شدند.", "date_str": "2026-09-07T01:14:31+00:00", "hash": "1630714606fdc2a1afd75126284529783b6b1d04a1132aec51ab5ff11f641ecc"}, {"source": "Radio Farda", "title": "کمیسر حقوق بشر سازمان ملل: هوش مصنوعی می‌تواند خطری «وجودی» برای بشریت ایجاد کند", "link": "https://www.radiofarda.com/a/ai-could-pose-existential-risk-to-humanity-un-rights-chief-warns/33849254.html", "summary": "فولکر تورک، کمیسر حقوق بشر سازمان ملل، هشدار داد که تنها «چند مرد قدرتی تقریباً نامحدود» بر هوش مصنوعی دارند.", "date_str": "2026-09-07T13:03:18+00:00", "hash": "b731ad55c4f517829b56aa1d7a1a6e095fd23f93acb1a48eec68f18589b2e8b4"}]
+    };
+
+    let currentTab = 'tech';
+    let searchQuery = '';
+
+    function toFaDigits(n) {
+      const f = ['۰','۱','۲','۳','۴','۵','۶','۷','۸','۹'];
+      return n.toString().replace(/\d/g, d => f[d]);
+    }
+
+    function renderNews() {
+      const container = document.getElementById('newsContainer');
+      const items = data[currentTab] || [];
+      const filtered = items.filter(item => {
+        if (!searchQuery) return true;
+        const q = searchQuery.toLowerCase();
+        const title = (item.title_fa || item.title || '').toLowerCase();
+        const summary = (item.summary_fa || item.summary || '').toLowerCase();
+        const source = (item.source || '').toLowerCase();
+        return title.includes(q) || summary.includes(q) || source.includes(q);
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = '<div style="text-align:center; padding: 40px; color: var(--text-muted);">هیچ خبر جدیدی در این بخش در ۲۴ ساعت گذشته ثبت نشده است.</div>';
+        return;
+      }
+
+      container.innerHTML = filtered.map((item, idx) => {
+        const title = item.title_fa || item.title || '';
+        const summary = item.summary_fa || item.summary || '';
+        const source = item.source || 'منبع خبر';
+        const link = item.link || '#';
+        const num = toFaDigits(idx + 1);
+
+        return `
+          <article class="news-card">
+            <div class="news-header">
+              <span class="news-num">${num}</span>
+              <h2 class="news-title">${title}</h2>
+            </div>
+            ${summary ? `<p class="news-summary">${summary}</p>` : ''}
+            <div class="news-footer">
+              <span class="news-source">📌 منبع: ${source}</span>
+              ${link && link.startsWith('http') ? `<a href="${link}" target="_blank" rel="noopener noreferrer" class="news-link">مطالعه اصل خبر ↗</a>` : ''}
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    function switchTab(tab) {
+      currentTab = tab;
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+      renderNews();
+    }
+
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim();
+      renderNews();
+    });
+
+    renderNews();
+  </script>
+</body>
+</html>
