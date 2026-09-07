@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +8,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root {
+    :root[data-theme="dark"] {
       --bg: #0b0f19;
+      --header-bg: linear-gradient(135deg, #1e293b, #0f172a);
       --card-bg: #151d30;
       --card-border: #232f48;
       --text: #f1f5f9;
@@ -17,6 +18,35 @@
       --primary: #38bdf8;
       --primary-hover: #0284c7;
       --badge-bg: rgba(56, 189, 248, 0.15);
+      --tab-bg: #151d30;
+      --tab-border: #232f48;
+      --tab-text: #94a3b8;
+      --tab-active-bg: #38bdf8;
+      --tab-active-text: #0f172a;
+      --search-bg: #151d30;
+      --search-border: #232f48;
+      --toggle-bg: #1e293b;
+      --toggle-border: #334155;
+    }
+    :root[data-theme="light"] {
+      --bg: #f8fafc;
+      --header-bg: linear-gradient(135deg, #ffffff, #f1f5f9);
+      --card-bg: #ffffff;
+      --card-border: #e2e8f0;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --primary: #0284c7;
+      --primary-hover: #0369a1;
+      --badge-bg: rgba(2, 132, 199, 0.1);
+      --tab-bg: #ffffff;
+      --tab-border: #e2e8f0;
+      --tab-text: #64748b;
+      --tab-active-bg: #0284c7;
+      --tab-active-text: #ffffff;
+      --search-bg: #ffffff;
+      --search-border: #cbd5e1;
+      --toggle-bg: #f1f5f9;
+      --toggle-border: #cbd5e1;
     }
     * {
       box-sizing: border-box;
@@ -28,27 +58,49 @@
       background-color: var(--bg);
       color: var(--text);
       line-height: 1.8;
-      padding: 24px 12px;
+      padding: 20px 12px;
       direction: rtl;
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
     .container {
       max-width: 880px;
       margin: 0 auto;
     }
     header {
-      background: linear-gradient(135deg, #1e293b, #0f172a);
+      background: var(--header-bg);
       border: 1px solid var(--card-border);
       border-radius: 18px;
-      padding: 24px 20px;
+      padding: 22px 20px;
       margin-bottom: 20px;
+      position: relative;
       text-align: center;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+    }
+    .theme-toggle {
+      position: absolute;
+      top: 18px;
+      left: 18px;
+      background: var(--toggle-bg);
+      border: 1px solid var(--toggle-border);
+      color: var(--text);
+      padding: 7px 12px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 0.88rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    .theme-toggle:hover {
+      border-color: var(--primary);
     }
     h1 {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       font-weight: 800;
-      color: #fff;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
     .meta-bar {
       display: flex;
@@ -56,13 +108,13 @@
       justify-content: center;
       gap: 10px;
       margin-top: 12px;
-      font-size: 0.88rem;
+      font-size: 0.85rem;
       color: var(--text-muted);
     }
     .meta-tag {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      padding: 4px 14px;
+      padding: 4px 12px;
       border-radius: 9999px;
     }
     .search-box {
@@ -70,51 +122,57 @@
     }
     .search-input {
       width: 100%;
-      padding: 14px 18px;
+      padding: 13px 18px;
       border-radius: 12px;
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      color: #fff;
+      background: var(--search-bg);
+      border: 1px solid var(--search-border);
+      color: var(--text);
       font-size: 0.95rem;
       outline: none;
       transition: all 0.2s ease;
     }
     .search-input:focus {
       border-color: var(--primary);
-      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
     }
     .tabs {
       display: flex;
       gap: 8px;
       margin-bottom: 20px;
       overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
       padding-bottom: 4px;
+    }
+    .tabs::-webkit-scrollbar {
+      display: none;
     }
     .tab-btn {
       flex: 1;
-      min-width: 130px;
+      white-space: nowrap;
       padding: 12px 14px;
       border-radius: 12px;
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      color: var(--text-muted);
+      background: var(--tab-bg);
+      border: 1px solid var(--tab-border);
+      color: var(--tab-text);
       font-size: 0.92rem;
       font-weight: 600;
       cursor: pointer;
-      display: flex;
+      display: inline-flex;
       align-items: center;
       justify-content: center;
       gap: 8px;
       transition: all 0.2s ease;
+      flex-shrink: 0;
     }
     .tab-btn.active {
-      background: var(--primary);
-      color: #0f172a;
-      border-color: var(--primary);
+      background: var(--tab-active-bg);
+      color: var(--tab-active-text);
+      border-color: var(--tab-active-bg);
     }
     .badge {
-      background: rgba(0, 0, 0, 0.2);
-      padding: 2px 8px;
+      background: rgba(0, 0, 0, 0.15);
+      padding: 2px 7px;
       border-radius: 9999px;
       font-size: 0.8rem;
     }
@@ -128,10 +186,11 @@
       border: 1px solid var(--card-border);
       border-radius: 14px;
       padding: 20px;
-      transition: transform 0.2s ease, border-color 0.2s ease;
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
     }
     .news-card:hover {
-      border-color: rgba(56, 189, 248, 0.4);
+      border-color: var(--primary);
       transform: translateY(-2px);
     }
     .news-header {
@@ -152,16 +211,16 @@
       justify-content: center;
       border-radius: 8px;
       margin-top: 2px;
+      flex-shrink: 0;
     }
     .news-title {
-      font-size: 1.1rem;
+      font-size: 1.08rem;
       font-weight: 700;
-      color: #fff;
       line-height: 1.6;
     }
     .news-summary {
       font-size: 0.94rem;
-      color: #cbd5e1;
+      color: var(--text-muted);
       margin-bottom: 14px;
       text-align: justify;
       line-height: 1.75;
@@ -170,12 +229,13 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      border-top: 1px solid rgba(128, 128, 128, 0.12);
       padding-top: 12px;
       font-size: 0.85rem;
     }
     .news-source {
       color: var(--text-muted);
+      font-weight: 500;
     }
     .news-link {
       color: var(--primary);
@@ -184,24 +244,33 @@
       transition: color 0.2s ease;
     }
     .news-link:hover {
-      color: #7dd3fc;
       text-decoration: underline;
     }
     @media (max-width: 640px) {
-      h1 { font-size: 1.4rem; }
-      .tab-btn { min-width: 100px; font-size: 0.82rem; padding: 10px 6px; }
+      header { padding: 18px 14px; padding-top: 52px; }
+      .theme-toggle { top: 12px; left: 12px; font-size: 0.8rem; padding: 6px 10px; }
+      h1 { font-size: 1.35rem; }
+      .tabs { gap: 6px; }
+      .tab-btn { padding: 10px 10px; font-size: 0.84rem; gap: 6px; }
+      .badge { padding: 1px 5px; font-size: 0.75rem; }
       .news-card { padding: 16px; }
+      .news-title { font-size: 0.98rem; }
+      .news-summary { font-size: 0.88rem; }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
+      <button class="theme-toggle" id="themeBtn" onclick="toggleTheme()">
+        <span id="themeIcon">☀️</span>
+        <span id="themeText">حالت روشن</span>
+      </button>
       <h1>📰 مجله خبری روزانه</h1>
       <div class="meta-bar">
         <span class="meta-tag">📅 ۱۶ شهریور ۱۴۰۵</span>
         <span class="meta-tag">🌍 ۷ سپتامبر ۲۰۲۶</span>
-        <span class="meta-tag">⏰ ساعت انتشار: ۱۸:۰۰</span>
+        <span class="meta-tag">⏰ ساعت انتشار: ۱۸:۱۱</span>
       </div>
     </header>
 
@@ -210,17 +279,17 @@
     </div>
 
     <div class="tabs">
-      <button class="tab-btn active" onclick="switchTab('tech')">
-        🤖 فناوری و هوش مصنوعی
-        <span class="badge">۱۵</span>
+      <button class="tab-btn active" onclick="switchTab('persian', this)">
+        🇮🇷 عمومی
+        <span class="badge">۸</span>
       </button>
-      <button class="tab-btn" onclick="switchTab('media')">
-        🎬 سینما و رسانه
-        <span class="badge">۱۲</span>
+      <button class="tab-btn" onclick="switchTab('tech', this)">
+        🤖 تکنولوژی
+        <span class="badge">۱۳</span>
       </button>
-      <button class="tab-btn" onclick="switchTab('persian')">
-        🇮🇷 اخبار ایران و عمومی
-        <span class="badge">۶</span>
+      <button class="tab-btn" onclick="switchTab('media', this)">
+        🎬 مدیا
+        <span class="badge">۳</span>
       </button>
     </div>
 
@@ -229,12 +298,12 @@
 
   <script>
     const data = {
-      tech: [{"source": "Medium AI", "title": "What Should a Child’s First Digital World Look Like?", "link": "https://yusufmirzapicakci.medium.com/what-should-a-childs-first-digital-world-look-like-d35c02061e7b?source=rss------artificial_intelligence-5", "summary": "Perhaps we have been asking the wrong question about children and technology. Continue reading on Medium »", "date_str": "2026-09-07T14:28:23+00:00", "hash": "72f14a047c244bdc1f2a34418dfb6e51f25f9396f49e21643ff6262a26a92aa9", "title_fa": "اولین دنیای دیجیتالی یک کودک چگونه باید باشد؟", "summary_fa": "شاید ما در مورد کودکان و فناوری سوال اشتباهی پرسیده ایم. ادامه مطلب در Medium »"}, {"source": "Medium AI", "title": "Career Navigator: Using Machine Learning to Understand Career Success", "link": "https://medium.com/@DhruvTemkar2907/career-navigator-using-machine-learning-to-understand-career-success-c82c68936e7d?source=rss------artificial_intelligence-5", "summary": "How education, skills, internships, and experience can be analysed using Machine Learning Continue reading on Medium »", "date_str": "2026-09-07T14:27:08+00:00", "hash": "f585e86ebd94f50e47763d0b8bf90822cfe29fdfb638cbe31eb77e5a5aaf67a1", "title_fa": "Career Navigator: استفاده از یادگیری ماشینی برای درک موفقیت شغلی", "summary_fa": "چگونه تحصیلات، مهارت‌ها، دوره‌های کارآموزی و تجربه را می‌توان با استفاده از یادگیری ماشین تجزیه و تحلیل کرد ادامه خواندن در رسانه »"}, {"source": "Medium AI", "title": "An Assistant Should Be Able to Do Less Than You. Never More.", "link": "https://medium.com/@mack1996jain/an-assistant-should-be-able-to-do-less-than-you-never-more-87bd4ae9760c?source=rss------artificial_intelligence-5", "summary": "## Designing the authorization model for an MCP server &#x2014; and the six decisions behind it Continue reading on Medium »", "date_str": "2026-09-07T14:27:07+00:00", "hash": "201e4c052ac6bd3f61ffdc25d28b877b04c4ce3f99c8781f2b054f8b3d84a4a2", "title_fa": "یک دستیار باید بتواند کمتر از شما انجام دهد. هرگز بیشتر.", "summary_fa": "## طراحی مدل مجوز برای سرور MCP - و شش تصمیم پشت آن ادامه خواندن در Medium »"}, {"source": "Medium AI", "title": "How to Create AI Product Photography Without Writing a Single Prompt", "link": "https://medium.com/@monoshoot/how-to-create-ai-product-photography-without-writing-a-single-prompt-80b12e4091c4?source=rss------artificial_intelligence-5", "summary": "The prompt-engineering era of AI product photos is ending. Here&#x2019;s what&#x2019;s replacing it. Continue reading on Medium »", "date_str": "2026-09-07T14:26:40+00:00", "hash": "2aeedfdf8ef32d3c6871140306937380c5d00bbd9f0a230928239ee1eb535add", "title_fa": "نحوه ایجاد عکاسی از محصول هوش مصنوعی بدون نوشتن یک درخواست", "summary_fa": "دوران مهندسی سریع عکس های محصولات هوش مصنوعی در حال پایان است. در اینجا چیزی است که آن را جایگزین می کند. ادامه مطلب در Medium »"}, {"source": "Medium AI", "title": "How We Built Our AI Invoice Automation", "link": "https://medium.com/@mygom.tech/how-we-built-our-ai-invoice-automation-26f7bfb5a025?source=rss------artificial_intelligence-5", "summary": "How We Built Invoice Automation That Reconciles Against Bank Payments Continue reading on Medium »", "date_str": "2026-09-07T14:26:25+00:00", "hash": "e0b75efbd9394eac687286b868b2efd9aecc8c5baf0f0365baffbf12ffe03e90", "title_fa": "چگونه اتوماسیون فاکتور هوش مصنوعی خود را ساختیم", "summary_fa": "چگونه اتوماسیون فاکتور را ایجاد کردیم که با پرداخت های بانکی تطبیق می کند ادامه خواندن در Medium »"}, {"source": "Medium AI", "title": "Reality As It Sits: From First Fire to the Green Lantern", "link": "https://medium.com/@signaloftheeye/reality-as-it-sits-from-first-fire-to-the-green-lantern-6f1ae52ff725?source=rss------artificial_intelligence-5", "summary": "## 0. The joke at the door Continue reading on Medium »", "date_str": "2026-09-07T14:24:35+00:00", "hash": "90aaec81d295d26a8cc985ddb82588af4aa53606267f56b34e2bb1e8299d4a5a", "title_fa": "واقعیت همانطور که می نشیند: از اولین آتش تا فانوس سبز", "summary_fa": "## 0. شوخی در در ادامه خواندن در Medium »"}, {"source": "Medium AI", "title": "AIoT Isn’t About Connecting More Things. It’s About Understanding Them.", "link": "https://medium.com/@venturegoodwill4/aiot-isnt-about-connecting-more-things-it-s-about-understanding-them-cb3900181c05?source=rss------artificial_intelligence-5", "summary": "For the past decade, the pitch around the Internet of Things has been pretty consistent: connect the physical world, and good things&#x2026; Continue reading on Medium »", "date_str": "2026-09-07T14:23:12+00:00", "hash": "00d60e131bb76b538e813878a48a6dc5ec0eb0166729d14d5b29a9441cad0ad7", "title_fa": "AIoT در مورد اتصال چیزهای بیشتر نیست. این در مورد درک آنها است.", "summary_fa": "در دهه گذشته، اینترنت اشیا کاملاً ثابت بوده است: جهان فیزیکی و چیزهای خوب را به هم متصل کنید… ادامه مطلب در Medium »"}, {"source": "Medium AI", "title": "America Added 162,000 Jobs — But AI Is Quietly Changing Who Gets Hired", "link": "https://johnadamledford.medium.com/america-added-162-000-jobs-but-ai-is-quietly-changing-who-gets-hired-14790f99aa10?source=rss------artificial_intelligence-5", "summary": "The latest jobs report looked reassuring. Buried inside it was a warning about the future of work. Continue reading on Medium »", "date_str": "2026-09-07T14:21:55+00:00", "hash": "4707059420810e1f4b4c3ccde9ff2fd73689c34b6dc4c928a282ef3ef2931823", "title_fa": "آمریکا 162000 شغل اضافه کرد - اما هوش مصنوعی بی سر و صدا در حال تغییر افرادی است که استخدام می شوند", "summary_fa": "آخرین گزارش مشاغل اطمینان بخش به نظر می رسید. دفن شده در داخل آن هشداری در مورد آینده کار بود. ادامه مطلب در Medium »"}, {"source": "Medium AI", "title": "AI — The apocalyptic THREAT that provides solutions", "link": "https://medium.com/@akinjisolasunkanmi/ai-the-apocalyptic-threat-that-provides-solutions-a6214c454c4f?source=rss------artificial_intelligence-5", "summary": "Continue reading on Medium »", "date_str": "2026-09-07T14:20:28+00:00", "hash": "83815de699ceaa233d6a3b48ffef3cebd5a88f3686a9b9646342a13156530848", "title_fa": "هوش مصنوعی - تهدید آخرالزمانی که راه حل هایی را ارائه می دهد", "summary_fa": "ادامه مطلب در Medium »"}, {"source": "The Verge", "title": "The real reason your phone is getting more expensive", "link": "https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone", "summary": "When Apple debuts the next generation of iPhones this week, they're likely to come with an unwanted change: a higher price tag. A price hike from the supply-chain powerhouse would be the clearest sign yet that soaring memory costs have become unavoidable - with no end to the memory crunch in sight. Call it \"chipflation\" [ ]", "date_str": "2026-09-07T12:00:00+00:00", "hash": "d070f4f61230b72318d45a28ce77b8f2edf393db6e5eff36fd526eaaf3839a6b", "title_fa": "دلیل واقعی گران شدن گوشی شما", "summary_fa": "هنگامی که اپل نسل بعدی آیفون‌های خود را در این هفته معرفی می‌کند، احتمالاً با یک تغییر ناخواسته همراه می‌شوند: برچسب قیمت بالاتر. افزایش قیمت از نیروگاه زنجیره تامین، واضح‌ترین نشانه تا کنون است که نشان می‌دهد افزایش هزینه‌های حافظه اجتناب‌ناپذیر شده است - بدون اینکه پایانی برای تنگنای حافظه وجود داشته باشد. اسمش را بگذارید \"چیپ تورم\" [ ]"}, {"source": "Wired", "title": "The 57 Best Deals From the REI Labor Day Sale", "link": "https://www.wired.com/story/rei-labor-day-sale-2026/", "summary": "Labor Day already? Say it ain’t so. Today is the last day to shop the best deals on WIRED-tested outdoor gear from REI, Nemo, MSR, Coleman, and more during REI’s Labor Day sale.", "date_str": "2026-09-07T13:33:30+00:00", "hash": "9c6c684d83b6dfc5e334b499085970830ce3e544f116e410147eea57a0ac21fc", "title_fa": "57 بهترین پیشنهاد از فروش روز کارگر REI", "summary_fa": "روز کارگر قبلا؟ بگو اینطور نیست امروز آخرین روز برای خرید بهترین تخفیف‌ها برای تجهیزات فضای باز تست‌شده با سیم از REI، Nemo، MSR، Coleman و موارد دیگر در طول فروش روز کارگر REI است."}, {"source": "The Next Web", "title": "ByteDance is preparing a real-time spatial video model under Zhang Yiming, Bloomberg reports", "link": "https://thenextweb.com/news/bytedance-spatial-video-world-model-zhang-yiming", "summary": "ByteDance is preparing an AI model for real-time spatial video generation, with founder Zhang Yiming personally overseeing the work and a launch possible as soon as next month, Bloomberg reported, citing people familiar with the matter who asked not to be identified. One of those people cautioned that the timing is not settled and the plans [ ] This story continues at The Next Web", "date_str": "2026-09-07T12:53:44+00:00", "hash": "317993d7d3d05695f1ebb29a3b103443b62e9ddfead9185ec629596d4ac5eee7", "title_fa": "به گزارش بلومبرگ، ByteDance در حال آماده سازی یک مدل ویدیوی فضایی بلادرنگ زیر نظر Zhang Yiming است", "summary_fa": "بلومبرگ به نقل از افراد آشنا که خواستند نامشان فاش نشود گزارش داد، ByteDance در حال آماده سازی یک مدل هوش مصنوعی برای تولید ویدیوی فضایی در زمان واقعی است که بنیانگذار آن Zhang Yiming شخصاً بر این کار نظارت می کند و ممکن است در ماه آینده راه اندازی شود. یکی از آن افراد هشدار داد که زمان بندی مشخص نشده است و برنامه ها [ ] این داستان در The Next Web ادامه دارد"}, {"source": "Zoomit", "title": "مشخصات کامل و قیمت گوشی اقتصادی سامسونگ گلکسی A18 لو رفت", "link": "https://www.zoomit.ir/mobile/466659-samsung-galaxy-a18-specs-price-leak/", "summary": "مشخصات فنی کامل و برچسب قیمتی گوشی اقتصادی گلکسی A18 4G سامسونگ پیش از رونمایی رسمی فاش شد.", "date_str": "2026-09-07T13:50:00+00:00", "hash": "b3f2036c036cf8e364f01b28e4ac83b36cc5b917b1fbb878b29b8ea80375491a", "title_fa": "مشخصات کامل و قیمت گوشی اقتصادی سامسونگ گلکسی A18 لو رفت", "summary_fa": "مشخصات فنی کامل و برچسب قیمتی گوشی اقتصادی گلکسی A18 4G سامسونگ پیش از رونمایی رسمی فاش شد."}, {"source": "Zoomit", "title": "راز رضایت از زندگی شاید چیزی نباشد که فکر می‌کنیم", "link": "https://www.zoomit.ir/human-science/466616-autonomy-life-satisfaction-study/", "summary": "خوشبختی فقط به پول، لذت یا احساس خوب محدود نمی‌شود؛ پژوهشی تازه نشان می‌دهد عامل دیگری هم می‌تواند نقش مهمی در رضایت از زندگی داشته باشد.", "date_str": "2026-09-07T13:40:00+00:00", "hash": "60c87b418d50464883edc2e4b4df53365c7c6d4ad302d99bea06688e3b4edfd2", "title_fa": "راز رضایت از زندگی شاید چیزی نباشد که فکر می‌کنیم", "summary_fa": "خوشبختی فقط به پول، لذت یا احساس خوب محدود نمی‌شود؛ پژوهشی تازه نشان می‌دهد عامل دیگری هم می‌تواند نقش مهمی در رضایت از زندگی داشته باشد."}, {"source": "Zoomit", "title": "نگاهی به عملکرد آموت آیدی؛ دستگاه ثبت شماره مشتری در فروشگاه‌ها", "link": "https://www.zoomit.ir/pr/466720-amoot-id-customer-number-device/", "summary": "استفاده از دستگاه‌های ذخیره شماره تلفن مانند آموت آیدی و اتصال آن به پنل پیامک، امکان ارتباط مجدد با مشتریان حضوری و مدیریت داده‌ها را فراهم می‌کند.", "date_str": "2026-09-07T13:30:00+00:00", "hash": "7e0147d939a05ac11ac6bd9e64bc6381a1c9ec6f0a4d82e8dec49a10390a8889", "title_fa": "نگاهی به عملکرد آموت آیدی؛ دستگاه ثبت شماره مشتری در فروشگاه‌ها", "summary_fa": "استفاده از دستگاه‌های ذخیره شماره تلفن مانند آموت آیدی و اتصال آن به پنل پیامک، امکان ارتباط مجدد با مشتریان حضوری و مدیریت داده‌ها را فراهم می‌کند."}],
-      media: [{"source": "Deadline", "title": "Vertical Video Studio LoveHit Launches With Adaptations Of Literary Classics Starring Microdrama Regulars & Eric Roberts", "link": "https://deadline.com/2026/09/lovehit-microdrama-literary-classic-originals-1237069378/", "summary": "EXCLUSIVE: Literary classics such as Wuthering Heights and Jane Eyre are getting the microdrama treatment. This is through the latest entrant into the microdrama field, LoveHit, an L.A.-based studio and app focused on originals based on classic literary adaptations. LoveHit, which launches this month, has a vertical video slate built entirely from classic novels in [ ]", "date_str": "2026-09-07T14:15:00+00:00", "hash": "38dacd5cbbcb92874a508edd1860af4eeb097da5709093dabd9f2954c37fe20f", "title_fa": "استودیوی ویدیویی عمودی LoveHit با اقتباس از آثار کلاسیک ادبی با بازی Microdrama Regulars و اریک رابرتز راه اندازی شد", "summary_fa": "انحصاری: آثار کلاسیک ادبی مانند بلندی‌های بادگیر و جین ایر در حال دریافت میکرودرام هستند. این از طریق جدیدترین شرکت کننده در حوزه میکرودرام، LoveHit، یک استودیو و برنامه مستقر در لس آنجلس است که بر روی نسخه های اصلی بر اساس اقتباس های ادبی کلاسیک متمرکز شده است. LoveHit که این ماه راه اندازی می شود، دارای یک صفحه ویدیویی عمودی است که کاملاً از رمان های کلاسیک در [ ] ساخته شده است."}, {"source": "Deadline", "title": "Steve Callaghan’s ‘Trivia Night Mysteries’ Cozy Crime Franchise Expands With Two Movies", "link": "https://deadline.com/2026/09/trivia-night-mysteries-steve-callaghan-franchise-expands-1237069391/", "summary": "EXCLUSIVE: There s no question about it, Steve Callaghan s Trivia Night Mysteries is expanding. The Nicely Entertainment-produced cozy crime franchise has wrapped production on its second and third instalments, Fit for a Murder and A Fatal Lesson, with stars Morgan Bradley (The Christmas Recipe Files) and Alex Trumble (A Scottosh Christmas Secret) reuniting in the lead [ ]", "date_str": "2026-09-07T14:00:00+00:00", "hash": "eb2d656c60ed55c4016ee50b1d5645663e7c5692b7ef6b9007f58ab56a09ec49", "title_fa": "مجموعه جنایی دنج «Trivia Night Mysteries» استیو کالاگان با دو فیلم گسترش می یابد", "summary_fa": "انحصاری: هیچ سوالی در مورد آن وجود ندارد، استیو کالاگان رازهای شبانه چیزهای بی اهمیت در حال گسترش است. فرانچایز جنایی دنج که توسط Nicely Entertainment تولید شده است، تولید قسمت دوم و سوم خود را با نام های Fit for a Murder و A Fatal Lesson به پایان رسانده است و ستاره های مورگان بردلی (The Christmas Recipe Files) و الکس ترامبل (A Scottosh Christmas Secret) در نقش اصلی حضور دارند [ ]"}, {"source": "Deadline", "title": "Paul Thomas Anderson’s Cameron Winter Concert Film Joins London Film Festival Lineup As Mubi Acquires World Rights", "link": "https://deadline.com/2026/09/london-film-festival-paul-thomas-andersons-cameron-winter-1237070157/", "summary": "The London Film Festival has made several additions to this year’s lineup, including the concert film Paul Thomas Anderson shot at Carnegie Hall last year with Geese frontman Cameron Winter. Mubi has now also acquired global rights outside of North America to the film. Scroll down for the full list of LFF additions. Officially titled [ ]", "date_str": "2026-09-07T14:00:00+00:00", "hash": "8924c6ddef99d6eb85498c04acd37351b390b5cbb11e5825bbb5700aa450beee", "title_fa": "فیلم کنسرت زمستانی کامرون به کارگردانی پل توماس اندرسون به صفوف جشنواره فیلم لندن پیوست و موبی حقوق جهانی را به دست آورد.", "summary_fa": "جشنواره فیلم لندن چندین افزوده به ترکیب امسال ایجاد کرده است، از جمله فیلم کنسرتی پل توماس اندرسون که سال گذشته در سالن کارنگی به همراه کامرون وینتر، خواننده گروه Geese فیلمبرداری شد. موبی اکنون حقوق جهانی فیلم را در خارج از آمریکای شمالی نیز به دست آورده است. برای لیست کامل موارد اضافه شده LFF به پایین بروید. با عنوان رسمی [ ]"}, {"source": "Deadline", "title": "Piers Morgan Launches ‘Football Uncensored’ On YouTube After World Cup Series Scored 60M Views", "link": "https://deadline.com/2026/09/piers-morgan-launches-football-uncensored-youtube-1237070180/", "summary": "EXCLUSIVE: Piers Morgan is turning his FIFA World Cup show into a permanent series. The British journalist is launching the weekly series Football Uncensored, expanding a roster of YouTube shows that includes Piers Morgan Uncensored and The Royals Uncensored. Morgan will co-host Football Uncensored with Simon Jordan, the former owner of Premier League club Crystal [ ]", "date_str": "2026-09-07T13:59:16+00:00", "hash": "4d81e0dcab8eb2dfaa897b2b36672aa7acfd4ce9ff995adf34a1f543c4658d9d", "title_fa": "پیرز مورگان «فوتبال بدون سانسور» را پس از 60 میلیون بازدید از سری جام جهانی در یوتیوب عرضه کرد", "summary_fa": "اختصاصی: پیرز مورگان در حال تبدیل نمایش جام جهانی فوتبال خود به یک سریال دائمی است. این روزنامه‌نگار بریتانیایی در حال راه‌اندازی مجموعه هفتگی فوتبال بدون سانسور است و فهرستی از نمایش‌های یوتیوب را که شامل پیرز مورگان بدون سانسور و رویالز بدون سانسور می‌شود، گسترش می‌دهد. مورگان به همراه سیمون جردن، مالک سابق باشگاه لیگ برتر کریستال [ ] میزبان مسابقات Football Uncensored خواهند بود."}, {"source": "Deadline", "title": "Colin Morgan & Katie Leung To Narrate BBC Studios Gothic Horror Podcast Drama ‘The Haunted Library’", "link": "https://deadline.com/2026/09/bbc-podcast-haunted-library-colin-morgan-katie-leung-1237070142/", "summary": "EXCLUSIVE: Colin Morgan (Merlin) and Katie Leung (Harry Potter) will narrate The Haunted Library, a podcast about based around classic horror stories. The concept is for the pair to read titles from a fictional Gothic library, the doors to which open on September 21, with BBC Studios Audio producing and funding the series, which will [ ]", "date_str": "2026-09-07T13:45:34+00:00", "hash": "07c0f02c7566bd5b1127fc360c2d453ac98c79d609c5a53d16460b40540956c9", "title_fa": "کالین مورگان و کیتی لیونگ برای روایت درام پادکست ترسناک گوتیک استودیو بی‌بی‌سی «کتابخانه خالی از سکنه»", "summary_fa": "اختصاصی: کالین مورگان (مرلین) و کیتی لیونگ (هری پاتر) پادکستی The Haunted Library را روایت می‌کنند که بر اساس داستان‌های ترسناک کلاسیک است. مفهوم این است که این زوج عناوین را از یک کتابخانه گوتیک تخیلی بخوانند، درهای آن در 21 سپتامبر باز می شود، با استودیوی بی بی سی که سازنده و تامین مالی سریال است، که [ ]"}, {"source": "Netflix NL", "title": "Oppas zet leven gezin op zijn kop in nieuwe dramaserie", "link": "https://www.netflix-nederland.nl/oppas-zet-leven-gezin-op-zijn-kop-in-nieuwe-dramaserie/", "summary": "Heb jij (jonge) kinderen? Dan weet je maar al te goed hoe belangrijk het is om een goede oppas te hebben. Het kan namelijk óók goed misgaan, zoals in Not a Stranger op Netflix. En dan zijn de rapen écht gaar! Oppas from hell Not a Stranger is een Turkse psychologische dramaserie waarin de komst [ ] The post Oppas zet leven gezin op zijn kop in nieuwe dramaserie appeared first on Netflix Nederland ", "date_str": "2026-09-07T14:19:05+00:00", "hash": "000107cb4aeee58e94f4b9f1f48f185dcb07f27f203c8f6e51b149256680d051", "title_fa": "بچه نگهدار در سریال های درام جدید زندگی خانوادگی را زیر و رو می کند", "summary_fa": "آیا شما فرزندان (کوچک) دارید؟ آن وقت شما به خوبی می دانید که داشتن یک پرستار بچه خوب چقدر مهم است. همه چیز همچنین ممکن است اشتباه پیش برود، مانند فیلم Not a Stranger در نتفلیکس. و بعد شلغم واقعاً تمام شد! Oppas from hell Not a Stranger یک سریال درام روانشناختی ترکی است که در آن ورود [ ] The post Oppas زندگی خانوادگی را در سریال های درام جدید زیر و رو می کند اولین بار در نتفلیکس هلند ظاهر شد."}, {"source": "Rolling Stone", "title": "The 30 Best Songs About Cats", "link": "https://www.rollingstone.com/music/music-lists/best-cat-songs-1235618296/", "summary": "Saluting the coolest member of the animal kingdom with feline favorites from Beyoncé, Taylor Swift, Elton John, Prince, and more", "date_str": "2026-09-07T14:17:20+00:00", "hash": "3810fecef752f3b8788dbd8d5c1409161f4d4331515ce889e32643fc9d5db5eb", "title_fa": "30 بهترین آهنگ درباره گربه ها", "summary_fa": "ادای احترام به باحال ترین عضو قلمرو حیوانات با گربه های مورد علاقه بیانسه، تیلور سویفت، التون جان، پرینس و غیره"}, {"source": "Rolling Stone", "title": "Did Jay-Z Really Get Outrapped by Eminem on ‘Renegade’?", "link": "https://www.rollingstone.com/music/music-features/jay-z-eminem-renegade-25-years-later-1235621292/", "summary": "A quarter-century after the historic collab dropped, it's still an ongoing debate", "date_str": "2026-09-07T14:00:00+00:00", "hash": "def1774697a7990f8587d4b995096e60fdfb494d0c318201d8124d89b9c34231", "title_fa": "آیا واقعاً جی زی در سریال Renegade مورد تجاوز امینم قرار گرفت؟", "summary_fa": "یک ربع قرن پس از پایان همکاری تاریخی، این بحث همچنان ادامه دارد."}, {"source": "Rolling Stone", "title": "Donald Trump Spent the Weekend Cosplaying as a Supervillain on Truth Social", "link": "https://www.rollingstone.com/politics/politics-news/donald-trump-weekend-cosplaying-supervillain-truth-social-1235622402/", "summary": "Over the holiday weekend the president claimed the moon, proposed renaming New Mexico and debuted Space Force’s galactic empire uniforms. This absurd theater is embarrassing and debasing", "date_str": "2026-09-07T13:41:43+00:00", "hash": "811005f9c933fbaddb60a256cf547d8707f9b16d3db06284cc7e7edd6cf2c78c", "title_fa": "دونالد ترامپ آخر هفته را به عنوان یک ابرشرور در شبکه Truth Social گذراند", "summary_fa": "در تعطیلات آخر هفته، رئیس جمهور ادعای ماه را کرد، پیشنهاد تغییر نام نیومکزیکو را داد و اولین لباس امپراتوری کهکشانی نیروی فضایی را معرفی کرد. این تئاتر پوچ شرم آور و تحقیرکننده است"}, {"source": "Rolling Stone", "title": "Watch Carrie Underwood Cover Limp Bizkit, Papa Roach, Linkin Park at Velocity Festival", "link": "https://www.rollingstone.com/music/music-news/carrie-underwood-limp-bizkit-papa-roach-covers-live-1235622371/", "summary": "The country singer performed a series of nu-metal covers at the Iowa music festival on Saturday", "date_str": "2026-09-07T07:37:04+00:00", "hash": "77f529d1dd47c7321131a401f3e7af831a699b6d68d7eb342e5eb0df8240690c", "title_fa": "Carrie Underwood Cover Limp Bizkit، Papa Roach، Linkin Park را در فستیوال Velocity تماشا کنید", "summary_fa": "این خواننده کانتری روز شنبه در جشنواره موسیقی آیووا مجموعه ای از کاورهای نو متال اجرا کرد"}, {"source": "Hollywood Reporter", "title": "‘Primetime,’ Chris Rock’s ‘Misty Green’ and Latest Paul Thomas Anderson Movie Join London Film Festival Lineup", "link": "https://www.hollywoodreporter.com/movies/movie-news/primetime-paul-thomas-anderson-london-film-festival-tickets-1236693221/", "summary": "'Bunker' star Javier Bardem and 'Werwulf' director Robert Eggers will sit down for in-depth career conversations as part of LFF's Screen Talks program.", "date_str": "2026-09-07T14:00:00+00:00", "hash": "5de36cf54505664369862c5ee326d1a376f75eeba44f6ab0f5450f3f1c77f3cb", "title_fa": "«پریمتایم»، «مستی گرین» کریس راک و جدیدترین فیلم پل توماس اندرسون به ترکیب جشنواره فیلم لندن می‌پیوندند.", "summary_fa": "خاویر باردم، ستاره فیلم \"Bunker\" و کارگردان \"Werwulf\" رابرت اگرز به عنوان بخشی از برنامه Screen Talks LFF برای گفتگوهای حرفه ای عمیق می نشینند."}, {"source": "Variety", "title": "Ellen Burstyn Cries as She Gets Venice Golden Lion for Lifetime Achievement: ‘It’s One Thing to Win an Oscar, Tony or Emmy — All of Which I’ve Won. But This Is a Lot’", "link": "https://variety.com/2026/film/festivals/ellen-burstyn-cries-venice-golden-lion-1236853817/", "summary": "Maggie Gyllenhaal delivered a message on behalf of Ellen Burstyn before the 93-year-old acting legend took the stage at the Venice Film Festival to receive the prestigious Golden Lion for Lifetime Achievement. “Ellen asked me to let you know that she recently took a fall,” Gyllenhaal said from the podium. “She’s OK, but she is [ ]", "date_str": "2026-09-07T13:50:11+00:00", "hash": "e4b6f591eec21d289aaf8cdfe8bd8ef430e08b68992b0ab45c70a81345ad644c", "title_fa": "الن برستین در حالی که شیر طلایی ونیز را برای یک عمر دستاورد هنری دریافت می کند گریه می کند: «برنده شدن یک اسکار، تونی یا امی یکی از چیزهایی است که من همه آنها را برده ام. اما این خیلی است", "summary_fa": "مگی جیلنهال از طرف الن برستین پیامی را قبل از اینکه اسطوره بازیگری 93 ساله در جشنواره فیلم ونیز برای دریافت جایزه شیر طلایی یک عمر دستاورد به روی صحنه برود، ارائه کرد. جیلنهال از پشت تریبون گفت: «الن از من خواست که به شما اطلاع دهم که او اخیراً سقوط کرده است. او خوب است، اما او [ ]"}],
-      persian: [{"source": "IranWire", "title": "واکنش تهمینه میلانی به پیام‌های تهدیدآمیز روی دیوار: هدیه تولدم بود", "link": "https://iranwire.com/fa/news-1/157277-%D9%88%D8%A7%DA%A9%D9%86%D8%B4-%D8%AA%D9%87%D9%85%DB%8C%D9%86%D9%87-%D9%85%DB%8C%D9%84%D8%A7%D9%86%DB%8C-%D8%A8%D9%87-%D9%BE%DB%8C%D8%A7%D9%85%D9%87%D8%A7%DB%8C-%D8%AA%D9%87%D8%AF%DB%8C%D8%AF%D8%A2%D9%85%DB%8C%D8%B2-%D8%B1%D9%88%DB%8C-%D8%AF%DB%8C%D9%88%D8%A7%D8%B1-%D9%87%D8%AF%DB%8C%D9%87-%D8%AA%D9%88%D9%84%D8%AF%D9%85-%D8%A8%D9%88%D8%AF/", "summary": "«تهمینه میلانی»، کارگردان و فیلم‌نامه‌نویس شناخته‌شده ایرانی، از نوشته‌شدن پیام‌های تهدیدآمیز و توهین‌آمیز روی دیوارهای اطراف محل زندگی ...", "date_str": "2026-09-07T13:27:31+00:00", "hash": "0644f747bb278965d3e4a2fc31ec0ab9a745958eb5e3087b9cfb13c4b5c25e4b"}, {"source": "IranWire", "title": "فایننشال‌تایمز: تاسیسات آرامکو عربستان، هدف حمله قرار گرفت", "link": "https://iranwire.com/fa/news-1/157278-%D9%81%D8%A7%DB%8C%D9%86%D9%86%D8%B4%D8%A7%D9%84%D8%AA%D8%A7%DB%8C%D9%85%D8%B2-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%D8%A7%D8%AA-%D8%A2%D8%B1%D8%A7%D9%85%DA%A9%D9%88-%D8%B9%D8%B1%D8%A8%D8%B3%D8%AA%D8%A7%D9%86-%D9%87%D8%AF%D9%81-%D8%AD%D9%85%D9%84%D9%87-%D9%82%D8%B1%D8%A7%D8%B1-%DA%AF%D8%B1%D9%81%D8%AA/", "summary": "وب‌سایت روزنامه «فایننشال‌تایمز» به نقل از دو فرد مطلع گزارش داده که تاسیسات نفتی شرکت آرامکو در جیزان عربستان سعودی روز دوشنبه ۱۶شهریور ...", "date_str": "2026-09-07T13:48:23+00:00", "hash": "4bae3963afb5ae3b15ebc758ea96d849a066b0943332ee7438b43f95cbf6d050"}, {"source": "IranWire", "title": "پیام وریشه مرادی از اوین به مردم داغدار سنندج", "link": "https://iranwire.com/fa/news-1/157280-%D9%BE%DB%8C%D8%A7%D9%85-%D9%88%D8%B1%DB%8C%D8%B4%D9%87-%D9%85%D8%B1%D8%A7%D8%AF%DB%8C-%D8%A7%D8%B2-%D8%A7%D9%88%DB%8C%D9%86-%D8%A8%D9%87-%D9%85%D8%B1%D8%AF%D9%85-%D8%AF%D8%A7%D8%BA%D8%AF%D8%A7%D8%B1-%D8%B3%D9%86%D9%86%D8%AF%D8%AC/", "summary": "«وریشه مرادی»، زندانی سیاسی کُرد محبوس در زندان اوین، در پیامی با خانواده‌های جان‌باختگان سانحه جاده‌ای سنندج و مردم این شهر ابراز همدرد ...", "date_str": "2026-09-07T14:04:00+00:00", "hash": "18ebb08e0e37eae13f6aadc39a2f993e3d1f6919b9f577fa84a279ab57ff85e0"}, {"source": "BBC Persian", "title": "معاون نیروی دریایی سپاه: مرز مصونیت در تنگه هرمز بندر خصب عمان است", "link": "https://www.bbc.com/persian/articles/c1e50dx8qq6o?at_medium=RSS&at_campaign=rss", "summary": "معاون سیاسی نیروی دریایی سپاه گفت بندر خصب عمان مرز مصونیت در تنگه هرمز است. خصب شمالی‌ترین نقطه کشور عمان در تنگه هرمز است و در شمال امارات قرار دارد.", "date_str": "2026-09-07T13:53:00+00:00", "hash": "6cbeb11ff83498d3fae819c727d5d2babf6f26b632a96bdf967b6542581dd675"}, {"source": "BBC Persian", "title": "خروج هواپیمای باری آمازون از باند فرودگاه میامی آمریکا ۵ کشته و ۵ مجروح به‌ جا‌گذاشت", "link": "https://www.bbc.com/persian/articles/c93v9g3w6veo?at_medium=RSS&at_campaign=rss", "summary": "در پی خروج یک هواپیمای باری شرکت آمازون ایر از باند هنگام فرود در فرودگاه بین‌المللی میامی فلوریدا، دست‌کم پنج نفر کشته و پنج نفر دیگر به شدت زخمی شدند.", "date_str": "2026-09-07T01:14:31+00:00", "hash": "1630714606fdc2a1afd75126284529783b6b1d04a1132aec51ab5ff11f641ecc"}, {"source": "Radio Farda", "title": "گروسی: آژانس بیش از یک سال است که از برنامه هسته‌ای ایران کاملاً بی‌خبر است", "link": "https://www.radiofarda.com/a/grossi-iran-agency-inspectors-stockpile-report/33849278.html", "summary": "رافائل گروسی با تأکید بر بی‌خبری آژانس بین‌المللی انرژی اتمی از وضعیت برنامۀ هسته‌ای ایران، بر لزوم بازدید از تأسیسات کشور پافشاری کرد. تهران می‌گوید مسیرها در جنگ مسدود شده است.", "date_str": "2026-09-07T13:43:16+00:00", "hash": "4bff2c9883f150bf7fc14958236f8126ab428277af9e4e77bd6ca708fb1f9fa9"}]
+      persian: [{"source": "IranWire", "title": "سپاه پاسداران: نقطه پایان مصونیت در تنگه هرمز «خصب عمان» است", "link": "https://iranwire.com/fa/news-1/157285-%D8%B3%D9%BE%D8%A7%D9%87-%D9%BE%D8%A7%D8%B3%D8%AF%D8%A7%D8%B1%D8%A7%D9%86-%D9%86%D9%82%D8%B7%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%85%D8%B5%D9%88%D9%86%DB%8C%D8%AA-%D8%AF%D8%B1-%D8%AA%D9%86%DA%AF%D9%87-%D9%87%D8%B1%D9%85%D8%B2-%D8%AE%D8%B5%D8%A8-%D8%B9%D9%85%D8%A7%D9%86-%D8%A7%D8%B3%D8%AA/", "summary": "معاون سیاسی نیروی دریایی سپاه پاسداران، روز دوشنبه ۱۶ شهریور ۱۴۰۵، اعلام کرد «خصب عمان» مرز مصونیت شناورها در تنگه هرمز است و عبور از کر ...", "date_str": "2026-09-07T14:29:51+00:00", "hash": "c67d1215cd121eee73691681b9bd9b12829ae577b1784af9636fb463a6f71926"}, {"source": "Euronews Persian", "title": "یافته علمی نگران‌کننده؛ ریزپلاستیک‌ها می‌توانند خطر ابتلا به سرطان ریه را افزایش دهند", "link": "http://parsi.euronews.com/health/2026/09/07/the-link-between-microplastics-and-lung-cancer", "summary": "پژوهشی تازه نشان داده است که میزان ریزپلاستیک‌ها در ریه افراد مبتلا به سرطان ریه بیشتر از افراد عادی است. ریزپلاستیک‌ها چه هستند و چطور وارد بدن می‌شوند؟", "date_str": "2026-09-07T14:01:13+00:00", "hash": "13dfd0d41833e9216d3223e9a672259a7094cc89f97656274bc91870f15e0d1b"}, {"source": "Euronews Persian", "title": "موزه دانشگاه آکسفورد بقایای ۳۹ نفر را به جامعه ناگا در هند بازمی‌گرداند", "link": "http://parsi.euronews.com/culture/2026/09/07/oxford-university-museum-to-return-remains-of-39-people-to-indias-naga-community", "summary": "موزه پیت ریورز اعلام کرده‌است که «به طور نزدیک» با مردم ناگا برای تعیین تاریخ مراسم تحویل همکاری می‌کند؛ پس از آن قرار است هیاتی از ناگا بقایا را به زادگاهشان همراهی کند.", "date_str": "2026-09-07T13:44:24+00:00", "hash": "3df6cebbdbd773b7d70846904269e716f490fbabab2fb4213d7459a6445b33da"}, {"source": "Euronews Persian", "title": "اعتصاب سراسری در راه‌آهن ایتالیا؛ همه‌ آنچه باید در مورد تردد قطارها بدانید", "link": "http://parsi.euronews.com/my-europe/2026/09/07/italy-rail-strike-heres-what-passengers-need-to-know", "summary": "از امشب اعتصاب ۲۴ ساعته کارکنان گروه راه‌آهن دولتی در سراسر ایتالیا آغاز می‌شود و ممکن است سفرهای ریلی دوشنبه شب و سه‌شنبه صبح دچار اختلال شود.", "date_str": "2026-09-07T13:34:34+00:00", "hash": "45c9f1f928af0229f3dd414e296d084febb058bbf0ea37dc9e778b6aa77fc962"}, {"source": "Euronews Persian", "title": "از نقشه صندلی تا بیشینه کردن مایل‌های پرواز: وب‌سایت‌های مفید برای مسافران دائم‌السفر", "link": "http://parsi.euronews.com/travel/2026/09/07/from-seat-maps-to-maximising-airline-miles-useful-websites-frequent-flyers-need-to-know-ab", "summary": "اگر می‌خواهید مطمئن شوید صندلی کنار پنجره شما واقعا پنجره دارد یا می‌خواهید با جمع کردن مایل‌ها در هزینه‌ها صرفه‌جویی کنید، این سایت‌ها را باید نشان‌گذاری کنید.", "date_str": "2026-09-07T13:30:08+00:00", "hash": "42b58733aef1faa49fec85014ccaddc1034396e6e72aa3a778bc5528427f059f"}, {"source": "Euronews Persian", "title": "لتونی وورد چندین کالا از جمله کتاب و روزنامه‌ از روسیه و بلاروس را ممنوع کرد", "link": "http://parsi.euronews.com/my-europe/2026/09/07/latvia-bans-russian-and-belarusian-books-citing-propaganda-concerns", "summary": "لتونی به‌عنوان اولین کشور اروپایی، واردات کتاب، مطبوعات و کالاهای مصرفی از روسیه و بلاروس را ممنوع کرد. دولت لتونی این اقدام را گامی حیاتی برای مقابله با «جنگ ترکیبی، تبلیغات جنگی و اطلاعات نادرست کرملین» و کاهش آسیب‌پذیری در فضای اطلاعاتی اعلام کرده است.", "date_str": "2026-09-07T13:29:58+00:00", "hash": "ef8d59b374df7b1e7fcac6bb602892e11fc2b4739ae11aa1e723609f5078ff0e"}, {"source": "Euronews Persian", "title": "گروسی در نشست فصلی آژانس: بیش از یک سال است از برنامه هسته‌ای ایران اطلاعی نداریم", "link": "http://parsi.euronews.com/2026/09/07/grossi-warns-iaea-unaware-iran-nuclear-program-over-a-year", "summary": "رافائل گروسی، مدیرکل آژانس بین‌المللی انرژی اتمی، در سخنرانی خود در نشست فصلی شورای حکام این نهاد گفت نبود اطلاعات آژانس درباره برنامه هسته‌ای ایران، یک «نگرانی جدی از منظر اشاعه (تسلیحات هسته‌ای)» ایجاد کرده و «باید برطرف شود.»", "date_str": "2026-09-07T13:00:01+00:00", "hash": "fc6825b9b664f8200f22d0170a8bfe206c1591780b36c62d7073d1241f5f39db"}, {"source": "Euronews Persian", "title": "مسئول حقوق بشر سازمان ملل هشدار داد هوش مصنوعی ممکن است تهدیدی وجودی برای بشریت", "link": "http://parsi.euronews.com/next/2026/09/07/un-rights-chief-warns-how-ai-could-pose-existential-risk-to-humanity", "summary": "ولکر ترک خواستار ایجاد فوری سازوکارهای حفاظتی در سطح جهان، نظارت‌های مستقل و تعیین حدود مورد توافق برای هوش مصنوعی پیشرفته شده‌است.", "date_str": "2026-09-07T11:52:32+00:00", "hash": "61e61b07896aa6a8b96c42c9afde64736959d9905dbf129ee3763e7801e3e564"}],
+      tech: [{"source": "Zoomit", "title": "نتایج نظرسنجی «سنجاق»: ۹۹ درصد متخصصان بیمه می‌خواهند اما نیمی از آنها بیمه ندارند", "link": "https://www.zoomit.ir/tech-iran/466734-sanjagh-experts-social-security-insurance-survey/", "summary": "نتایج نظرسنجی سنجاق نشان می‌دهد ۵۴.۲ درصد متخصصان بیمه ندارند، در حالی که ۹۹.۸ درصد آنها خواهان برخورداری از بیمه تأمین اجتماعی هستند.", "date_str": "2026-09-07T14:17:25+00:00", "hash": "3711c6b71ed312e627d4d2be9faa315a647cc5fbc75de2d538ce235ddbf8f994", "title_fa": "نتایج نظرسنجی «سنجاق»: ۹۹ درصد متخصصان بیمه می‌خواهند اما نیمی از آنها بیمه ندارند", "summary_fa": "نتایج نظرسنجی سنجاق نشان می‌دهد ۵۴.۲ درصد متخصصان بیمه ندارند، در حالی که ۹۹.۸ درصد آنها خواهان برخورداری از بیمه تأمین اجتماعی هستند."}, {"source": "Zoomit", "title": "از اولین گوشی تاشو تا اولین آیفون «گیلاسی»؛ از مراسم چهارشنبه اپل چه انتظاراتی داریم؟", "link": "https://www.zoomit.ir/exhibition/466711-apple-event-iphone-18-pro-foldable-shine2026/", "summary": "۱۸ شهریور، اپل مهم‌ترین روزش در سال ۲۰۲۶ را پشت‌سر خواهد گذاشت؛ رونمایی از اولین آیفون تاشدنی تاریخ و نسل جدید پرچمداران گران‌قیمتش.", "date_str": "2026-09-07T10:30:04+00:00", "hash": "bbc2720a5295d4ce439df9c9af7abc7b54ec32c5e681ee924555da8db8ebca5b", "title_fa": "از اولین گوشی تاشو تا اولین آیفون «گیلاسی»؛ از مراسم چهارشنبه اپل چه انتظاراتی داریم؟", "summary_fa": "۱۸ شهریور، اپل مهم‌ترین روزش در سال ۲۰۲۶ را پشت‌سر خواهد گذاشت؛ رونمایی از اولین آیفون تاشدنی تاریخ و نسل جدید پرچمداران گران‌قیمتش."}, {"source": "Business Insider", "title": "Best TVs of 2026", "link": "https://www.businessinsider.com/guides/tech/best-tvs", "summary": "My team and I tested TVs for value, usability, design, and image performance to find the best models right now.", "date_str": "2026-09-07T14:30:01+00:00", "hash": "87ee2f9e0d87901607c146c7e229ffa791ddded427732431319e4c97bf6f1d60", "title_fa": "بهترین تلویزیون های سال 2026", "summary_fa": "من و تیمم تلویزیون‌ها را از نظر ارزش، قابلیت استفاده، طراحی و عملکرد تصویر آزمایش کردیم تا بهترین مدل‌ها را در حال حاضر پیدا کنیم."}, {"source": "Business Insider", "title": "9 startups helping homebuyers and sellers save money on traditional real estate agents", "link": "https://www.businessinsider.com/startups-save-home-sellers-money-on-commissions-avoid-traditional-agents-2025-5", "summary": "New platforms are disrupting real estate by providing homebuyers and sellers options, sometimes helping them avoid real estate agents entirely.", "date_str": "2026-09-07T14:27:01+00:00", "hash": "b89ff8e570ff77be4669d0db0b1a9fb9a537ba0039af88a0a90c2450ff7785eb", "title_fa": "9 استارتاپ که به خریداران و فروشندگان خانه کمک می کنند تا در هزینه های خود با واسطه های سنتی املاک صرفه جویی کنند", "summary_fa": "پلتفرم‌های جدید با ارائه گزینه‌های خریداران و فروشندگان مسکن، املاک و مستغلات را مختل می‌کنند و گاهی به آنها کمک می‌کنند به طور کامل از آژانس‌های املاک دوری کنند."}, {"source": "Business Insider", "title": "Vintage photos show how the role of women in the workforce has evolved in the last 100 years", "link": "https://www.businessinsider.com/vintage-photos-of-women-working-factories", "summary": "In the 1920s, women entered the workforce in astonishing numbers as a result of the industrial revolution.", "date_str": "2026-09-07T14:10:01+00:00", "hash": "5fece804a72effb3bb28ede5cb215f604f508173dc1bddb40ff8c4fce90fb8cb", "title_fa": "عکس های قدیمی نشان می دهد که چگونه نقش زنان در نیروی کار در 100 سال گذشته تکامل یافته است", "summary_fa": "در دهه 1920، در نتیجه انقلاب صنعتی، زنان به تعداد شگفت انگیزی وارد نیروی کار شدند."}, {"source": "Business Insider", "title": "Your one-stop shop for the best Labor Day sales - chosen by deal experts", "link": "https://www.businessinsider.com/guides/deals/labor-day-sales-2026-final", "summary": "Labor Day sales mark the last hot deals event of the summer and we've seen some of the best retails and brands get involved.", "date_str": "2026-09-07T13:48:20+00:00", "hash": "46db744ef73dc1b7a4444f735fe4c82435eee4dec3e137a6bcdd80849f687ff0", "title_fa": "فروشگاه تکی شما برای بهترین فروش روز کارگر - انتخاب شده توسط کارشناسان معامله", "summary_fa": "فروش روز کارگر آخرین رویداد معاملات داغ تابستان را نشان می دهد و ما شاهد مشارکت برخی از بهترین خرده فروشی ها و برندها بوده ایم."}, {"source": "Business Insider", "title": "Ukrainian and US teams are building AI tools for wounded troops with no medic nearby", "link": "https://www.businessinsider.com/ai-tools-aim-to-help-troops-treat-wounds-2026-9", "summary": "A Ukrainian app and a US chatbot aim to help troops treat battlefield wounds when medics and evacuation aren't available.", "date_str": "2026-09-07T13:30:01+00:00", "hash": "d228fce0f906f52276fb680429c36dcc4c78973e5337f2fce283e1549e317b95", "title_fa": "تیم‌های اوکراینی و ایالات متحده در حال ساخت ابزارهای هوش مصنوعی برای سربازان مجروح بدون هیچ پزشکی هستند", "summary_fa": "هدف یک برنامه اوکراینی و یک ربات چت آمریکایی کمک به سربازان برای درمان زخم‌های میدان نبرد زمانی که پزشک و تخلیه در دسترس نیستند، هستند."}, {"source": "Business Insider", "title": "Read the pitch decks of 18 startups looking to disrupt dating apps and social networking that have raised millions", "link": "https://www.businessinsider.com/dating-app-social-network-startup-read-pitch-decks-used-2024-10", "summary": "Social networking and dating startups used these pitch decks and memos to raise capital and ink deals.", "date_str": "2026-09-07T13:18:24+00:00", "hash": "77d64635e81cd8576de8b51320af4a0e8e14142dbe167b141681cdd22c9947bf", "title_fa": "فهرست 18 استارت‌آپ را بخوانید که به دنبال ایجاد اختلال در برنامه‌های دوستیابی و شبکه‌های اجتماعی هستند که میلیون‌ها نفر را جمع‌آوری کرده است.", "summary_fa": "شبکه‌های اجتماعی و استارت‌آپ‌های دوستیابی از این یادداشت‌ها و یادداشت‌ها برای افزایش سرمایه و معاملات جوهر استفاده کردند."}, {"source": "Business Insider", "title": "Inside Jackie Kennedy Onassis' luxurious homes, from sprawling estates to full-floor apartments", "link": "https://www.businessinsider.com/jackie-kennedy-onassis-properties-mansions-apartments-photos", "summary": "Jacqueline Kennedy Onassis lived in luxurious homes across the East Coast, including Florida, Massachusetts, New Jersey, and Virginia.", "date_str": "2026-09-07T13:18:01+00:00", "hash": "96b168def85d0410d3b2e0458e9f13440bed360a27fc1d6bf04524845a52eb22", "title_fa": "داخل خانه های مجلل جکی کندی اوناسیس، از املاک وسیع تا آپارتمان های تمام طبقه", "summary_fa": "ژاکلین کندی اوناسیس در خانه های مجلل در سراسر ساحل شرقی از جمله فلوریدا، ماساچوست، نیوجرسی و ویرجینیا زندگی می کرد."}, {"source": "Business Insider", "title": "The US airports with the longest and shortest security wait times — ranked", "link": "https://www.businessinsider.com/us-airports-longest-shortest-security-wait-times-tsa-ranked-2026-9", "summary": "At the top 50 busiest airports in the US, the average TSA wait time is 9.9 minutes. Passengers at some airports can wait almost three times as long.", "date_str": "2026-09-07T12:53:01+00:00", "hash": "953cfaab4337ec67660a1f5f1ff5f42ef2a7dd995ad0fc552dbaa1c1f603bab0", "title_fa": "رتبه بندی فرودگاه های ایالات متحده با طولانی ترین و کوتاه ترین زمان انتظار امنیتی", "summary_fa": "در 50 فرودگاه پرتردد ایالات متحده، میانگین زمان انتظار TSA 9.9 دقیقه است. مسافران برخی از فرودگاه ها می توانند تقریباً سه برابر بیشتر منتظر بمانند."}, {"source": "Business Insider", "title": "I'm a dietitian, and these are the 10 Costco groceries I'd stock up on if I were on a GLP-1", "link": "https://www.businessinsider.com/best-things-costco-on-weight-loss-medication-glp1-dietitian-list-2026-9", "summary": "If I were taking a GLP-1 or weight-loss medication, as a dietitian, I'd buy these easy meals and snacks at Costco to still hit my nutrition goals.", "date_str": "2026-09-07T12:48:01+00:00", "hash": "c0b51c62e7b6741d36ab88a9dfbf2022886b79f65569dcb5497e559b48b49f1e", "title_fa": "من یک متخصص تغذیه هستم و اینها 10 خواربار کوستکو هستند که اگر از GLP-1 استفاده می کردم آنها را تهیه می کردم.", "summary_fa": "اگر من به عنوان یک متخصص تغذیه از GLP-1 یا داروهای کاهش وزن استفاده می کردم، این وعده های غذایی و میان وعده های آسان را در Costco می خریدم تا همچنان به اهداف تغذیه ام برسم."}, {"source": "Business Insider", "title": "Marine F-35 pilots who switched over from the Harrier jump jet have had to unlearn almost everything they know", "link": "https://www.businessinsider.com/marine-pilots-leaving-harrier-must-relearn-to-fly-f-35-2026-9", "summary": "The F-35 automates much of the flying, but former Harrier pilots say that creates a new challenge: breaking old muscle memory.", "date_str": "2026-09-07T12:30:01+00:00", "hash": "f116d940be896e99d6419eb1be5b7c6c22780e7571496bdb7d44e397c9b9e2ab", "title_fa": "خلبانان تفنگداران دریایی F-35 که از جت پرشی هاریر جابجا شده اند مجبور شده اند تقریباً هر چیزی را که می دانند بیاموزند.", "summary_fa": "F-35 بسیاری از پروازها را خودکار می کند، اما خلبانان سابق هریر می گویند که این یک چالش جدید ایجاد می کند: شکستن حافظه عضلانی قدیمی."}, {"source": "Business Insider", "title": "The Amazon cargo plane that crashed in Miami nearly hit a parking lot full of Tesla Cybercabs", "link": "https://www.businessinsider.com/amazon-cargo-plane-nearly-crashed-into-tesla-cybercabs-2026-9", "summary": "\"Weird,\" Elon Musk responded to an X post noting that the plane almost crashed into a fleet of his new Cybercabs.", "date_str": "2026-09-07T12:24:24+00:00", "hash": "8408afdcd1034f5b07999b3c89c2a3459615f60d90f55223df788fd28b7830e5", "title_fa": "هواپیمای باری آمازون که در میامی سقوط کرد نزدیک بود به پارکینگ پر از تسلا سایبرکابی برخورد کند.", "summary_fa": "ایلان ماسک در پاسخ به یک پست ایکس گفت: «عجیب است."}],
+      media: [{"source": "Billboard", "title": "Geese, Pulp & CMAT Smash End of The Road’s 20th Birthday Celebrations: 7 Best Moments", "link": "https://www.billboard.com/lists/end-of-the-road-festival-2026-best-moments-geese-pulp-cmat/", "summary": "Held in the southwest of England, the indie festival brought the party for its anniversary celebrations.", "date_str": "2026-09-07T14:35:11+00:00", "hash": "8c37406679ab3d0766cd449b4b9cb37c767e0dab08d343803aaf3a9ed0641d18", "title_fa": "جشن تولد بیستمین سالگرد تولد غازها، پالپ و CMAT: 7 بهترین لحظه", "summary_fa": "جشنواره مستقلی که در جنوب غربی انگلستان برگزار شد، جشن سالگرد آن را به ارمغان آورد."}, {"source": "Hollywood Reporter", "title": "Tokyo Film Festival Adds New Initiatives, Kashiko Kawakita Award to Honor Women in Cinema", "link": "https://www.hollywoodreporter.com/movies/movie-news/tokyo-film-festival-2026-new-initiatives-1236693260/", "summary": "Famed critic Sahoko Hata will be the inaugural honoree of the Kashiko Kawakita Award.", "date_str": "2026-09-07T14:39:44+00:00", "hash": "d9a74251baa91c7d51cc446f6092b134f9106a18d4397b8ec8bffa4c2b4fd0e6", "title_fa": "جشنواره فیلم توکیو ابتکارات جدیدی، جایزه کاشیکو کاواکیتا را به افتخار زنان در سینما اضافه کرد.", "summary_fa": "منتقد مشهور ساهوکو هاتا برنده افتتاحیه جایزه کاشیکو کاواکیتا خواهد بود."}, {"source": "Hollywood Reporter", "title": "‘You Can See Everything’ Review: Elizabeth Holmes Doc From Nathan Fielder and Lance Oppenheim Is Fascinatingly Slippery, Dizzyingly Clever", "link": "https://www.hollywoodreporter.com/movies/movie-reviews/you-can-see-everything-review-elizabeth-holmes-a24-1236692981/", "summary": "The film — a surprise world premiere at Telluride — picks up the story of the disgraced Theranos founder in the weeks leading up to her prison sentence, and then again two years into her incarceration.", "date_str": "2026-09-07T14:36:14+00:00", "hash": "55d051498fbb8ddbabe90235efa44ba525f88db0ac1175d45aa49b0e1170d6f3", "title_fa": "نقد \"شما می توانید همه چیز را ببینید\": الیزابت هولمز دکتر از ناتان فیلدر و لنس اوپنهایم بسیار لغزنده، سرگیجه آور باهوش است", "summary_fa": "این فیلم - یک نمایش جهانی غافلگیرکننده در تلوراید - داستان بنیانگذار بدنام Theranos را در هفته‌های منتهی به محکومیتش به زندان و سپس دوباره دو سال پس از حبس او را روایت می‌کند."}]
     };
 
-    let currentTab = 'tech';
+    let currentTab = 'persian';
     let searchQuery = '';
 
     function toFaDigits(n) {
@@ -255,7 +324,7 @@
       });
 
       if (filtered.length === 0) {
-        container.innerHTML = '<div style="text-align:center; padding: 40px; color: var(--text-muted);">هیچ خبر جدیدی در این بخش در ۲۴ ساعت گذشته ثبت نشده است.</div>';
+        container.innerHTML = '<div style="text-align:center; padding: 40px; color: var(--text-muted);">هیچ خبری در این بخش در ۲۴ ساعت گذشته ثبت نشده است.</div>';
         return;
       }
 
@@ -282,12 +351,37 @@
       }).join('');
     }
 
-    function switchTab(tab) {
+    function switchTab(tab, el) {
       currentTab = tab;
       document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-      event.currentTarget.classList.add('active');
+      if (el) el.classList.add('active');
       renderNews();
     }
+
+    function toggleTheme() {
+      const html = document.documentElement;
+      const current = html.getAttribute('data-theme') || 'dark';
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      updateThemeButton(next);
+    }
+
+    function updateThemeButton(theme) {
+      const icon = document.getElementById('themeIcon');
+      const text = document.getElementById('themeText');
+      if (theme === 'dark') {
+        icon.textContent = '☀️';
+        text.textContent = 'حالت روشن';
+      } else {
+        icon.textContent = '🌙';
+        text.textContent = 'حالت تاریک';
+      }
+    }
+
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    updateThemeButton(savedTheme);
 
     document.getElementById('searchInput').addEventListener('input', (e) => {
       searchQuery = e.target.value.trim();
