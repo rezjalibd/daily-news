@@ -3,8 +3,348 @@
   "home_page_url": "https://rezjalibd.github.io/daily-news/",
   "feed_url": "https://rezjalibd.github.io/daily-news/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-10-29T06:01:10.047476+00:00",
+  "last_updated": "2026-10-29T07:01:18.008470+00:00",
   "items": [
+    {
+      "hash": "26ed822cb080e7bd",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "«یا مقنعه بپوشید یا نیایید»؛ روایت کارکنان پاسارگاد از تهدید به اخراج",
+      "summary": "پانزده کارمند شرکت «پاد» سه‌شنبه پنجم آبان در جریان بازدید مجید قاسمی، مدیرعامل بانک پاسارگاد، شغل‌شان را از دست دادند؛ چهارده زن به‌دلی ... برای کارکنانی که تا روز قبل بدون مانتو و حجاب اجباری در محل کار حاضر می‌شدند، این پیام به معنای تغییر ناگهانی شرایط کار بود. حالا باید مقنعه و لباس اداری تهیه می‌کردند، کفش‌هایشان را تغییر می‌دادند و خود را با دستور تازه تطبیق می‌دادند؛ یا صبح پشت در شرکت می‌ماندند. ایران‌وایر همچنین مطلع شده است که به کارکنان برخی شرکت‌های مجموعه، از جمله پاد، ده میلیون تومان برای خرید لباس مورد نظر هلدینگ پرداخت شده است. وعده کمک‌هزینه‌ای که در تصویر دستورالعمل دیده می‌شود، در برخی شرکت‌ها به پرداخت رسیده؛ همراه با الزامی که ورود به محل کار را به پوشش کارکنان گره می‌زند. روایت پاسارگاد، نشانه‌ای از گسترش فشار برای تحمیل پوشش حکومتی به محل تامین معاش است. در این سازوکار، مدیریت و حراست شرکت‌ها می‌توانند با جلوگیری از ورود، اجبار به گرفتن مرخصی و تهدید به اخراج، هزینه انتخاب پوشش را به درآمد و امنیت شغلی پیوند بزنند. پاسارگاد فقط یک بانک با تعدادی شعبه نیست. گروه مالی پاسارگاد ، شبکه‌ای از شرکت‌ها و هلدینگ‌های فعال در بانکداری، بیمه، فناوری اطلاعات، معدن، انرژی و ساختمان است. فناپ، میدکو و گسترش انرژی پاسارگاد از اعضای این گروه‌اند و خود نیز شرکت‌های زیرمجموعه دارند. آمار تجمیعی و به‌روز کارکنان تمام گروه در منابع بررسی‌شده روشن نیست؛ اما در اسفند۱۴۰۱، تفاهم‌نامه‌ای برای بیمه تکمیلی بازنشستگی چهل هزار نفر از کارکنان گروه مالی پاسارگاد امضا شده است. این عدد، شمار کارکنان امروز مجموعه نیست، اما مقیاس چندده‌هزارنفری اشتغال در آن را نشان می‌دهد. فناپ، بازوی فناوری پاسارگاد، به‌تنهایی بیش از شش هزار شاغل مستقیم دارد. داتین نیز، بر اساس معرفی منتشر شده برای بازدید دانشگاه صنعتی شریف در اردیبهشت۱۴۰۴، بیش از هزار و هشتصد همکار در هشت",
+      "source": "IranWire",
+      "source_datetime_fa": "۷ آبان • ۰۹:۲۹",
+      "source_date_raw": "2026-10-29T05:59:50+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "امنیت سایبری"
+      ],
+      "link": "https://iranwire.com/fa/features/159501-%DB%8C%D8%A7-%D9%85%D9%82%D9%86%D8%B9%D9%87-%D8%A8%D9%BE%D9%88%D8%B4%DB%8C%D8%AF-%DB%8C%D8%A7-%D9%86%DB%8C%D8%A7%DB%8C%DB%8C%D8%AF-%D8%B1%D9%88%D8%A7%DB%8C%D8%AA-%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86-%D9%BE%D8%A7%D8%B3%D8%A7%D8%B1%DA%AF%D8%A7%D8%AF-%D8%A7%D8%B2-%D8%AA%D9%87%D8%AF%DB%8C%D8%AF-%D8%A8%D9%87-%D8%A7%D8%AE%D8%B1%D8%A7%D8%AC/"
+    },
+    {
+      "hash": "36ec3a605cc6a2cd",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "تورم صفر؛ رویاهای زاکانی برای احمدی‌نژاد شدن",
+      "summary": "«علیرضا زاکانی» شهردار پایتخت پس از رایگان نگاه داشتن مترو و اتوبوس در تهران به سراغ سفره مردم آمده. او با اجرای طرح «تورم صفر» می‌خواهد ... مطرح شدن شعار «زاکانی قهرمان، تشکر! تشکر!» حتی سبب شد «مهدی اقراریان» عضو شورای شهر تهران در وصف آن بگوید : «اقلیت پرصدا در میدان می‌خواهد از زاکانی قهرمان‌سازی کند و به نظر من آقای زاکانی علاقه‌مند است احمدی‌نژاد ثانی لقب بگیرد و دیده شود.» زاکانی در حالی سکان مدیریت شهر تهران را همچنان در دست دارد که طبق روال عادی در ۱۱ اردیبهشت ۱۴۰۵ باید دوره هفتم انتخابات شوراهای شهر و روستا برگزار می‌شد اما وقوع جنگ از ۹ اسفند ۱۴۰۴ موجب به وجود آمدن شرایط غیرعادی، به تعویق افتادن انتخابات و استمرار دوره مدیریت او و سایر شهرداران شد. این در حالی است که غالبا شهروندان تهرانی از هیچ یک از عملکردهای او از جمله جمع‌آوری زباله در تهران رضایت نداشته‌اند. زاکانی چگونه از خیابان و ایستگاه مترو به سفره مردم رسید؟ در واقع طرح «تورم صفر» نخستین تلاش او برای گسترش دامنه مداخله شهرداری تهران به حوزه‌هایی فراتر از خدمات متعارف شهری نیست. ایران‌وایر پیشتر در گزارشی با عنوان « شیفتگان تاسیس قرارگاه و ستاد » به این موضوع پرداخته بود که چگونه او از ابتدای ورودش به شهرداری تهران در سال ۱۴۰۰ اقدام به راه‌اندازی مراکزی تحت عنوان قرارگاه اجتماعی، قرارگاه مسکن، قرارگاه جمعیت و فرزندآوری، قرارگاه ایمنی یا قرارگاه سلامت کرد. شرایط بحرانی معیشت مردم و گرانی روزافزون بهانه او و تیم اجرایی‌اش شده تا این ادعا را مطرح کند که با طرح تورم صفر بهای دستکم ۱۲ قلم کالای اساسی در مدت اجرای آن دستخوش تورم نشود و تغییری نکند. اعضای شورای شهر از این که این طرح بدون مجوز آنها و بدون داشتن ردیف بودجه مشخص به اجرا درآمده گله‌مندند. زاکانی اخیرا در جلسه‌ای غیر‌علنی در",
+      "source": "IranWire",
+      "source_datetime_fa": "۷ آبان • ۰۹:۵۹",
+      "source_date_raw": "2026-10-29T06:29:04+00:00",
+      "category": "موسیقی و هنر",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://iranwire.com/fa/features/159502-%D8%AA%D9%88%D8%B1%D9%85-%D8%B5%D9%81%D8%B1-%D8%B1%D9%88%DB%8C%D8%A7%D9%87%D8%A7%DB%8C-%D8%B2%D8%A7%DA%A9%D8%A7%D9%86%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%AD%D9%85%D8%AF%DB%8C%D9%86%DA%98%D8%A7%D8%AF-%D8%B4%D8%AF%D9%86/"
+    },
+    {
+      "hash": "583bcdb41867d5d3",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "ترامپ: هدف نامه ونس به محسن رضایی ارسال کمک‌های پزشکی بود",
+      "summary": "«دونالد ترامپ»، رییس‌جمهوری آمریکا، در واکنش به گزارش وال‌استریت ژورنال درباره نامه «جی‌دی ونس» به «محسن رضایی»، گفت موضوع این تماس، کمک ... ترامپ عصر چهارشنبه ۶ آبان ۱۴۰۵، در پاسخ به پرسش خبرنگاری درباره ماموریت ونس برای از سرگیری مذاکرات گفت: «نه، موضوع این است که آن‌ها به کمک‌هایی از جمله تجهیزات پزشکی و اقلام مختلف دیگر نیاز دارند.» او افزود ونس نظرش را پرسیده و پاسخ داده است: «اگر می‌خواهی این کار را انجام بدهی، اشکالی ندارد.» به گفته ترامپ، هدف اصلی رساندن اقلام مورد نیاز برای کمک به افراد بیمار است. این اظهارات پس از آن مطرح شد که وال‌استریت ژورنال، به نقل از مقام‌های آمریکایی و منابع مطلع، گزارش داد معاون رییس‌جمهوری با هماهنگی ترامپ به دبیر شورای عالی امنیت ملی جمهوری اسلامی نامه نوشته تا زمینه احیای مذاکرات صلح را بررسی کند. به نوشته این روزنامه، ونس در تلاش است روشن کند آیا دو طرف می‌توانند به زمینه مشترکی برای مذاکره برسند که ترامپ را از صدور دستور حمله‌ای کوتاه‌مدت و شدید در هفته‌های آینده منصرف کند. «عباس عراقچی»، وزیر خارجه جمهوری اسلامی، نیز روز چهارشنبه اعلام کرد تهران همچنان به دیپلماسی فرصت می‌دهد و با میانجی‌ها درباره ایده‌هایی برای اجرای «طرح هفت‌روزه» در زمانی کوتاه‌تر در تماس است. در این بخش ایران وایر می‌توانید با مسوولان تماس بگیرید و کارزار خود را برای مشکلات مختلف راه‌اندازی کنید با ایران‌وایر همکاری کنید ویدیوها و مطالب خود را برای ما بفرستید",
+      "source": "IranWire",
+      "source_datetime_fa": "۷ آبان • ۱۰:۰۸",
+      "source_date_raw": "2026-10-29T06:38:42+00:00",
+      "category": "امنیت سایبری و شبکه",
+      "tags": [
+        "امنیت سایبری",
+        "روابط بین‌الملل"
+      ],
+      "link": "https://iranwire.com/fa/news-1/159503-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D9%87%D8%AF%D9%81-%D9%86%D8%A7%D9%85%D9%87-%D9%88%D9%86%D8%B3-%D8%A8%D9%87-%D9%85%D8%AD%D8%B3%D9%86-%D8%B1%D8%B6%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B1%D8%B3%D8%A7%D9%84-%DA%A9%D9%85%DA%A9%D9%87%D8%A7%DB%8C-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C-%D8%A8%D9%88%D8%AF/"
+    },
+    {
+      "hash": "7c48db2216fdfc50",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "تاخیر پرواز؛ بهترین و بدترین ایرلاین‌های اروپایی برای دریافت غرامت",
+      "summary": "طبق داده‌های AirAdvisor، TAP Air Portugal، LOT Polish Airlines و Wizz Air به عنوان صادق‌ترین شرکت‌های هواپیمایی اروپا رتبه‌بندی شدند.",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۷ آبان • ۱۰:۲۸",
+      "source_date_raw": "2026-10-29T06:58:45+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/2026/10/29/flight-delay-these-are-the-best-and-worst-european-airlines-for-making-a-compensation-clai"
+    },
+    {
+      "hash": "1ad56f546b2a2570",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "۶۰ هزار دونده، دو میلیون تماشاگر؛ نیویورک آماده ماراتن می‌شود",
+      "summary": "روز یکشنبه اول نوامبر، نزدیک به ۶۰ هزار نفر در خط شروع ماراتن نیویورک قرار می‌گیرند؛ یکی از نمادین‌ترین رقابت‌های دوی ماراتن جهان که امسال انتظار می‌رود رکورد تعداد شرکت‌کنندگان آن شکسته شود. اما چه چیزی باعث شده است که دویدن، به‌ویژه در میان نسل جوان، بیش از گذشته محبوب شود؟",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۷ آبان • ۱۰:۱۳",
+      "source_date_raw": "2026-10-29T06:43:17+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/2026/10/29/60k-runners-2m-spectators-new-york-prepares-for-marathon"
+    },
+    {
+      "hash": "b2e8639526910052",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "کارنامه اقلیمی کانادا در تلاش برای روابط هرچه نزدیک‌تر با اروپا چیست؟",
+      "summary": "منتقدان می‌گویند بین اعتبار بین‌المللی مارک کارنی، نخست وزیر، به عنوان پیشگام اقلیم و تلاش داخلی او برای گسترش تولید نفت و گاز تضاد آشکاری وجود دارد.",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۷ آبان • ۱۰:۰۲",
+      "source_date_raw": "2026-10-29T06:32:14+00:00",
+      "category": "سیاست و دیپلماسی",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/2026/10/29/what-is-canadas-climate-track-record-as-it-seeks-to-become-an-eu-associate-member"
+    },
+    {
+      "hash": "c0ac7c7bb6682323",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "انتخابات اسرائیل؛ چرا جمهوری اسلامی سیاست کشوری را دنبال می‌کند که موجودیتش را به رسمیت نمی‌شناسد؟",
+      "summary": "جمهوری اسلامی موجودیت اسرائیل را به رسمیت نمی‌شناسد، اما رسانه‌های نزدیک به حکومت، انتخابات این کشور و رقابت احزاب آن را دنبال می‌کنند. این دوگانگی چه چیزی درباره فاصله میان ایدئولوژی رسمی جمهوری اسلامی و واقعیت‌های سیاسی و امنیتی منطقه آشکار می‌کند؟",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۷ آبان • ۰۹:۵۳",
+      "source_date_raw": "2026-10-29T06:23:50+00:00",
+      "category": "امنیت سایبری و شبکه",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/2026/10/29/iran-israel-election-regime-recognition-contradiction"
+    },
+    {
+      "hash": "8d1bfef0e2cee9ad",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "«فقط سرد و ساکت است»: رگنار یوناسون و یرسا سیگورداردوتیر درباره اوج نوآر ایسلندی",
+      "summary": "داستان‌های جنایی صدر جدول کتاب‌های ایسلند را گرفته‌اند. دو نویسنده پرفروش این سبک، رگنار یوناسون و یرسا سیگورداردوتیر، در گفت‌وگو با «فرهنگ یورونیوز» از چرایی جذب یکی از امن‌ترین کشورهای جهان به تاریکی ادبی می‌گویند.",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۷ آبان • ۰۹:۴۶",
+      "source_date_raw": "2026-10-29T06:16:52+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/2026/10/29/its-just-cold-and-silent-ragnar-jonasson-and-yrsa-sigurdardottir-discuss-the-rise-of-icela"
+    },
+    {
+      "hash": "b6ce263de076db3b",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "قرار گرفتن در معرض دود آتش‌سوزی جنگل در بارداری خطر اوتیسم کودکان را افزایش می‌دهد",
+      "summary": "قرار گرفتن در معرض دود آتش‌سوزی جنگل در دوران بارداری، به‌ویژه در سه‌ماهه دوم و سوم، با افزایش خطر تشخیص اوتیسم در کودکان همراه است.",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۷ آبان • ۰۹:۴۲",
+      "source_date_raw": "2026-10-29T06:12:45+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/2026/10/29/exposure-to-wildfire-smoke-during-pregnancy-is-linked-to-an-increased-risk-of-autism-in-ch"
+    },
+    {
+      "hash": "2c51d10276c12fa2",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "فلاویو بولسونارو پس از فرار به آمریکا خود را «رهبر برحق» برزیل خواند",
+      "summary": "دولت دونالد ترامپ، رئیس‌جمهوری آمریکا، روابط نزدیکی با بولسونارو و پدرش ژائیر بولسونارو دارد؛ ژائیر پس از تلاش برای بی‌اعتبار کردن شکست انتخاباتی خود در برابر لولا در سال ۲۰۲۲ میلادی، اکنون در برزیل در حبس خانگی است.",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۷ آبان • ۰۹:۴۰",
+      "source_date_raw": "2026-10-29T06:10:48+00:00",
+      "category": "سیاست و دیپلماسی",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/2026/10/29/flavio-bolsonaro-calls-himself-brazils-rightful-leader-after-fleeing-us"
+    },
+    {
+      "hash": "be16f6644234b776",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "چگونه یکی از آلوده‌ترین شهرهای اروپا الگوی احیای طبیعت شد",
+      "summary": "تا کنون معادل مساحت ۳۵۰ زمین فوتبال از مناطق شهری تخریب‌شده بازسازی شده است.",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۷ آبان • ۰۹:۳۲",
+      "source_date_raw": "2026-10-29T06:02:42+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/2026/10/29/how-one-of-europes-most-polluted-cities-became-a-blueprint-for-nature-restoration"
+    },
+    {
+      "hash": "c98db97cb9f5360e",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "مقاصد محبوب سفر زمستانی در اروپا؛ معرفی برترین‌ها از سوی تریپ‌ادوایزر",
+      "summary": "از اقامتگاه‌های برفی تا تعطیلات جشن‌محور، اینها محبوب‌ترین مقاصد و تجربه‌های زمستانی اروپا برای یک سفر سرد و خاطره‌انگیز هستند.",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۷ آبان • ۰۹:۳۰",
+      "source_date_raw": "2026-10-29T06:00:06+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/2026/10/29/whats-trending-for-winter-travel-tripadvisor-reveals-its-top-european-destinations-and-exp"
+    },
+    {
+      "hash": "07fa6e83d70d4af9",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "«فیلین»، موشک جدید روسیه؛ چرا برای اوکراین خطرناک است؟",
+      "summary": "روسیه از اواخر تابستان ۲۰۲۶ حملات خود به اوکراین را با موشک کروز جدیدی به نام «فیلین» انجام می‌دهد؛ موشکی نسبتا کوچک و احتمالا کم‌هزینه که به گفته کارشناسان، در صورت تولید انبوه می‌تواند فشار بیشتری بر سامانه‌های پدافند هوایی اوکراین وارد کند. از اواخر تابستان ۲۰۲۶، روسیه برای حمله به اوکراین از موشک کروز «فیلین» استفاده می‌کند؛ موشکی نسبتا کوچک و احتمالا کم‌هزینه، اما با مشخصات اعلام‌شده‌ای قابل توجه. هنوز اطلاعات کاملی درباره این موشک در دست نیست. تاکنون تصویری از بخشی آسیب‌دیده از یک موشک «فیلین» که ظاهرا سرنگون شده، در اینترنت منتشر شده است. همچنین اطلاعاتی کلی درباره ساختار، قطعات الکترونیکی و موتور آن نیز در ۲۲ اکتبر از سوی وزارت دفاع اوکراین منتشر شد. کارشناسان نظامی اتفاق‌نظر دارند که موشک‌های «فیلین» در صورتی که روسیه بتواند تولید انبوه آن‌ها را راه‌اندازی کند، قادر خواهند بود فشار بر سامانه پدافند هوایی اوکراین را به طور قابل توجهی افزایش دهند. درباره این محصول جدید صنایع نظامی روسیه چه می‌دانیم و این موشک چه خطری برای اوکراین ایجاد می‌کند؟ بر اساس داده‌های اداره اصلی اطلاعات وزارت دفاع اوکراین، موشک «فیلین» در سازمان علمی - تولیدی «مولنیا» در مسکو، که بخشی از شرکت «تسلیحات موشکی تاکتیکی» است، توسعه یافته است. «فیلین» یک موشک کروز کوچک با موتور توربوجت است که با استفاده از یک بوستر پرتاب اولیه از سکوی زمینی شلیک می‌شود. این موشک با حداکثر سرعتی تا ۸۰۰ کیلومتر در ساعت، بردی حدود ۱۲۰۰ کیلومتر دارد و می‌تواند در ارتفاعی از سطوح بسیار پایین (کمتر از ۲۰۰ متر) تا ۶ کیلومتر پرواز کند. البته این ارقام، مشخصات حداکثری اعلام‌شده هستند و نه نتایج آزمایش‌های مستقل از عملکرد آن در شرایط پروازی. خبرنامه بی‌بی‌سی فارسی گزیده‌ای از مهم‌ترین خبرها، گزارش‌های میدانی و گفت‌وگوهای اختصاصی را هر هفته در ایمیل خود دریافت کنید.",
+      "source": "BBC Persian",
+      "source_datetime_fa": "۷ آبان • ۰۹:۳۲",
+      "source_date_raw": "2026-10-29T06:02:45+00:00",
+      "category": "اقتصاد و بازرگانی",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://www.bbc.com/persian/articles/cqm2614p64k0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "hash": "24a5a07393060b21",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "فناوری و هوش مصنوعی",
+      "title": "30% Off Tempur-Pedic Promo Codes | November 2026",
+      "summary": "Whether you’re looking to upgrade your mattress or swap out your bedding, browse our Tempur-Pedic coupons for up to $300 off and the best sleep of your life. Save this story Save Story Save this story If you’re looking for somewhere soft to land at the end of each day, a Tempur-Pedic mattress is a safe bet. Tempur-Pedic is known for its super-soft memory foam mattresses, and has a huge range of products for you to end your day on. I’ve slept on everything from a Tempur-Pedic mattress to sheet sets and even pillows from the brand—truly, if there’s new bedding you need, particularly anything with a soft, sinking sensation to cradle you as you sleep, you can find it from Tempur-Pedic. You can get the ultra-soft goods for a little cheaper thanks to WIRED’s Tempur-Pedic coupon codes, no matter what kind of super-soft bedding you’re hoping to find with Tempur-Pedic’s famous feel. Explore our Tempur-Pedic discount codes to get deals on mattresses , toppers , pillows , and more. Photograph: Kat Merck Save to wishlist Save to wishlist Tempur-Pedic Photograph: Eric Ravenscraft Save to wishlist Save to wishlist Tempur-Pedic If you’re looking to stay cool and comfortable, Tempur-Pedic has got your back (literally). Right now, you get $300 off when you bundle a qualifying mattress with Tempur-Ergo power bases and ProSmart bases. هر یک از این خطوط تشک به همان اندازه که به نظر می رسند، بر خنک شدن تأکید دارند و هدفشان کاهش دما است - و از تجربه آزمایش قبلی من، در لمس بسیار خنک هستند. در این مورد، شما همچنین می توانید 50٪ تخفیف برای ست ورق TEMPUR-ProAir دریافت کنید که دارای طراحی ضد رطوبت است تا شما را هنگام خواب خنک و راحت نگه دارد. On top of that, be sure to take advantage of",
+      "source": "Wired",
+      "source_datetime_fa": "۷ آبان • ۰۸:۳۰",
+      "source_date_raw": "2026-10-29T05:00:00+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "فناوری",
+        "نوآوری"
+      ],
+      "link": "https://www.wired.com/story/tempur-pedic-promo-code/"
+    },
+    {
+      "hash": "d0f1f443a69d8889",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "فناوری و هوش مصنوعی",
+      "title": "بازی GTA 6 Online کی عرضه می‌شود؟",
+      "summary": "تحلیلگران وال‌استریت با وجود افت ارزش سهام تیک‌تو، پتانسیل درآمدزایی نسخه‌ی آنلاین GTA 6 را عامل جهش قیمت می‌دانند. تبلیغات ارزش سهام تیک‌تو اینتراکتیو با وجود نزدیک‌شدن به موعد انتشار بازی GTA 6 در ۲۸ آبان بیش از ۲۱ درصد طی سال جاری کاهش یافته و به زیر ۲۰۰ دلار رسیده است. کارشناسان وال‌استریت برخلاف این افت مقطعی، دورنمای بسیار روشنی را برای شرکت مادر راک‌استار متصور هستند و روی پتانسیل سودآوری بلندمدت آن شرط بسته‌اند. به گزارش بیزنس اینسایدر ، بنک آو آمریکا با بررسی وضعیت مالی ناشر بازی اعلام کرد که سرمایه‌گذاران اهمیت و بزرگی نسخه بعدی بخش آنلاین را دست‌کم گرفته‌اند. تحلیلگران این نهاد مالی معتقدند راک‌استار احتمالا در سه‌ماهه‌ی نخست سال ۲۰۲۷ نسخه‌ی جدید GTA Online را در دسترس کاربران قرار می‌دهد و جهش مالی بزرگی را رقم خواهد زد. تحلیلگران بنک آو آمریکا، کارشناسان ارشد وال‌استریت، می‌گویند: «ما خرید و نگهداری بلندمدت سهام تیک‌تو را در طول دوره عرضه Grand Theft Auto VI توصیه می‌کنیم.» این نهاد مالی همچنین ارزش هر سهم این شرکت را «ارزان» توصیف کرده است. تیک‌تو هم‌اکنون هدف قیمتی ۳۳۰ دلاری را از سوی این بانک دریافت کرده که پتانسیل رشد بیش از ۶۰ درصدی را نشان می‌دهد. با توجه به عرضه‌ی احتمالی نسخه‌ی پی‌سی در اوایل سال ۲۰۲۷ و سابقه‌ی بازی‌هایی مانند GTA 5 و Red Dead Redemption 2، راه‌اندازی بخش چندنفره مدتی پس از انتشار بازی داستانی، روندی معمول در سیاست‌های توسعه راک‌استار به شمار می‌رود. لایک نظرت چیه؟ ارسال نظر بوکمارک اشتراک‌گذاری امیر عبدالملکی دنبال کردن به محتوای این مطلب چه امتیازی میدی؟ نظر شما برامون مهمه و به بهتر شدن کیفیت مطالب کمک می‌کنه.",
+      "source": "Zoomit",
+      "source_datetime_fa": "۷ آبان • ۰۹:۴۰",
+      "source_date_raw": "2026-10-29T06:10:00+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "بورس و طلا"
+      ],
+      "link": "https://www.zoomit.ir/gaming/470065-gta-6-online-take-two-stock/"
+    },
+    {
+      "hash": "3e59379d58f14080",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "فناوری و هوش مصنوعی",
+      "title": "رکوردشکنی سامسونگ؛ غول کره‌ای ۸۰٫۵ میلیارد دلار سود به جیب زد",
+      "summary": "سامسونگ با ثبت سود عملیاتی حدود ۸۰ میلیارد دلار در سه‌ماهه‌ی سوم ۲۰۲۶ رکورد سودآوری فصلی جهان را شکست. تبلیغات سامسونگ در سه‌ماهه‌ی سوم سال ۲۰۲۶ با دستیابی به سود عملیاتی ۱۰۷٫۴ تریلیون وون (حدود ۸۰٫۴۷ میلیارد دلار) رکورد تاریخی سودآوری را جابه‌جا کرد . درآمد کل در همین بازه‌ی زمانی به ۱۹۵٫۳ تریلیون وون (نزدیک به ۱۴۶٫۳۳ میلیارد دلار) رسید که نشان‌دهنده رشد درآمدی ۱۲۶ درصدی و جهش سود ۷۸۰ درصدی نسبت به مدت مشابه سال گذشته است. سامسونگ با عبور از مرز ۷۵ میلیارد دلار سود فصلی توانست از بازیگرانی چون اپل، گوگل، مایکروسافت، متا و انویدیا پیشی بگیرد. بخش Device Solutions اصلی‌ترین عامل ثبت چنین آماری بود و به‌تنهایی درآمدی ۱۴۷٫۱ تریلیون وونی (حدود ۱۱۰٫۲۱ میلیارد دلار) و سود عملیاتی ۱۰۶٫۵ تریلیون وون (نزدیک به ۷۹٫۷۹ میلیارد دلار) ثبت کرد. تامین تراشه‌های حافظه، رم‌های پیشرفته‌ی HBM4 و SSD سرور برای مشتریان حوزه‌ی هوش مصنوعی نظیر AMD و انویدیا ستون فقرات عملکرد مالی سامسونگ را تشکیل دادند. زیرمجموعه‌های بخش تراشه نیز تحولات مهمی را تجربه کردند. سامسونگ فاندری رشد درآمدی دورقمی را برای سه‌ماهه‌ی پایانی ۲۰۲۶ پیش‌بینی می‌کند و کارخانه‌ی جدید شهر تیلور ایالت تگزاس نیز از سال ۲۰۲۷ فرایند تولید تراشه را آغاز خواهد کرد. واحد System LSI با فروش بیشتر حسگرهای دوربین ۲۰۰ مگاپیکسلی و تراشه‌های اگزینوس که در گوشی‌های سری گلکسی به کار می‌روند، به اعداد بهتری دست یافت. در سوی دیگر ماجرا، بخش موبایل موسوم به سامسونگ MX با وجود استقبال بازار از دستگاه‌های پرچم‌دار، با ثبت درآمد ۳۷٫۷ تریلیون وون متحمل زیان عملیاتی ۰٫۶ تریلیون وونی (حدود ۴۵۰ میلیون دلار) شد؛ رخدادی که افزایش چشمگیر هزینه‌ی تراشه‌های حافظه عامل اصلی آن قلمداد می‌شود. سامسونگ انتظار دارد که عرضه نسل جدید محصولات از جمله خانواده گلکسی S26 و تاشدنی‌های گلکسی فولد در ماه‌های آتی وضعیت مالی موبایل را بهبود ببخشد.",
+      "source": "Zoomit",
+      "source_datetime_fa": "۷ آبان • ۰۹:۳۰",
+      "source_date_raw": "2026-10-29T06:00:00+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "هوش مصنوعی",
+        "Google",
+        "Nvidia",
+        "Meta"
+      ],
+      "link": "https://www.zoomit.ir/business/470070-samsung-q3-2026-record-profit-revenue/"
+    },
+    {
+      "hash": "7808f52cd50a9bf7",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "فناوری و هوش مصنوعی",
+      "title": "NATO's drone-predicting AI gives Ukrainian commanders a glimpse into Russia's next moves on the front line",
+      "summary": "Ukrainian troops use computers, phones, and tablets to see Delta s battlefield management system. Diego Herrera Carcedo/Anadolu via Getty Images NATO has provided new details about its AI model for predicting Russian drone strikes on the front lines. Called Initiative 13 or Model 13, it works for about 31 miles behind the line of contact. The AI gives commanders a map showing the next day's expected Russian drone activity. یک مدل هوش مصنوعی جدید ناتو به نیروهای اوکراین نقشه خط مقدمی از جایی که روز بعد انتظار می رود فعالیت هواپیماهای بدون سرنشین روسیه در روز بعد، براساس مرکز نوآوری اتحاد، ارائه شود. سخنگوی مرکز تحلیل، آموزش و آموزش مشترک ناتو یا JATEC به Business Insider گفت: این سیستم که ابتکار 13 یا مدل 13 نام دارد، \"مجموعه ای از داده های متفاوت را به نقشه واضحی از فعالیت های مورد انتظار\" برای فرماندهان تبدیل می کند تا روز بعدی عملیات خود را برنامه ریزی کنند. Business Insider در مورد اعلام اوکراین در مورد این برنامه در اوایل ماه جاری گزارش داد، اما JATEC اکنون جزئیات جدیدی در مورد نحوه عملکرد آن ارائه می دهد. ابتکار 13 مناطق 5 تا 50 کیلومتری یا تقریباً 3 تا 31 مایلی از قلمرو اوکراین را در پشت خط تماس پوشش می دهد و آن فضا را به سلول های جغرافیایی به ازای هر JATEC تقسیم می کند. \"For each cell, the system determines the expected intensity of strike and reconnaissance activity of UAVs, the level of threat, the trend of its change, and the range of possible values,\" its spokesperson said. The map shows a forecast for the next day, helping commanders to highlight risk areas so they can better deploy their forces and equipment, they said. They added that the AI model is trained on battlefield data and considers previous Russian drone",
+      "source": "Business Insider",
+      "source_datetime_fa": "۷ آبان • ۱۰:۱۶",
+      "source_date_raw": "2026-10-29T06:46:12+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "هوش مصنوعی"
+      ],
+      "link": "https://www.businessinsider.com/nato-drone-predicting-ai-give-ukraine-commanders-glimpse-russia-strikes-2026-10"
+    },
+    {
+      "hash": "5a66410b813a9a1c",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "مدیا و هنر",
+      "title": "KATSEYE Expands Wildworld Tour With 2027 Dates In Asia, Australia",
+      "summary": "EYEKONS، KATSEYE بیشتری در راه است. تور دنیای وحشی گروه بین المللی دخترانه با اضافه شدن 11 نمایش جدید در سراسر آسیا، استرالیا و نیوزیلند در اوایل سال آینده گسترش می یابد. بازی جدید که توسط Live Nation تبلیغ می شود، در 27 ژانویه در Yokohama Arena در یوکوهاما، ژاپن آغاز می شود و سپس به مانیل، هنگ کنگ، سئول، سبو، سنگاپور، بانکوک و تایپه می رود. پس از یک وقفه 10 روزه، گروه برای کنسرت در سیدنی و ملبورن قبل از پایان کار در 5 مارس در اسپارک آرنا اوکلند به استرالیا بازگشت. KATSEYE به قول خود مبنی بر بازگشت سریع به استرالیا عمل می کند. بازیگر پاپ که دو بار نامزد جایزه گرمی شده بود، در اوایل سال سفری به این بخش ها داشت، جایی که خوانندگان در یک تجربه انحصاری طرفداران Q A و یک نمایشگاه صنعتی در سیدنی شرکت کردند، سپس برای سوپر طرفداران در ملبورن اجرا کردند. Bandmate Lara Raj went on to tell Australia s Nova network we love it here, and it would make us very happy to come back and spend a lot of time here.” There’s no confirmation, however, on what the lineup will look like for those new shows. Specifically, if Sophia Laforteza would be back with the band. Earlier this month, the group’s label, HYBE x Geffen, stated that Laforteza would return to the stage in January , which would be sweet timing for the Asia run. Then, at the 2026 Victoria’s Secret Fashion Show, Lara Raj, Megan Skiendiel, Yoonchae Jeong and Daniela Avanzini gave the first timeline for Laforteza’s return from a temporary hiatus . The label announced Laforteza’s break in April to allow the singer to focus on her mental health and wellness. KATSEYE are in the midst of their first-ever arena tour of North America. Those",
+      "source": "Billboard",
+      "source_datetime_fa": "۷ آبان • ۱۰:۱۳",
+      "source_date_raw": "2026-10-29T06:43:29+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "رسانه",
+        "هنر"
+      ],
+      "link": "https://www.billboard.com/music/pop/katseye-expands-wildworld-tour-asia-australia-dates-1236370138/"
+    },
+    {
+      "hash": "4fa2fbc97ef425b9",
+      "webpage_persian_date": "۷ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۹ October ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "مدیا و هنر",
+      "title": "«South Park» مجموعه‌ای از طنزهای گوشت گاو را ارائه می‌کند - و یک نگاه یواشکی «GTA VI»",
+      "summary": "The Comedy Central staple takes on inflation, tariffs and elite food trends, while previewing what it says is “coming in November.” South Park returned to Comedy Central on Wednesday with a fresh episode t hat was full of shit, quite literally, as the cost of inflation, elite food trends, and President Trump s recent tariff pause on beef became the unexpected topics skewered by the Emmy-winning, long-running animated show. But maybe more importantly, the episode featured new footage from the year s most anticipated release, Grand Theft Auto VI . The reveal came as the boys from South America (n&#xE9;e South Park) visited a cattle ranch, where Ruth Chris, a character introduced here who is not an actual person but looks an awful lot like Ruth s Chris Steakhouse founder Ruth Fertel, gives them a preview of what s coming in November. (به یاد بیاورید که انتشار GTA VI در ماه آینده استعاره ای است که تری پارکر و مت استون برای انتخابات میان دوره ای آتی ترسیم می کنند.) این فیلم نشان می دهد که شخصیت اصلی جیسون دووال در حال مبارزه با مردی در ساحل Vice و شامل یک کیسه چرند سگ است که شاید در اینجا نشان دهنده سیاست حزبی باشد. داستان‌های مرتبط TV South Park در آخرین قسمت برای کسب و کار خود می‌جنگد. You see the world-building? Ruth Chris tells the boys. It s a dog taking a poop. And people can pick up the dog poop. You can throw things at the person with dog poop, and if they choose to fight back, you can pick up the dog poop and actually attack them with the dog poop. That is what s coming in November.",
+      "source": "Hollywood Reporter",
+      "source_datetime_fa": "۷ آبان • ۱۰:۱۰",
+      "source_date_raw": "2026-10-29T06:40:29+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "سینما"
+      ],
+      "link": "https://www.hollywoodreporter.com/tv/tv-features/south-park-recap-beef-gta-vi-sneak-peek-1236742371/"
+    },
     {
       "hash": "f0a33d133641f375",
       "webpage_persian_date": "۷ آبان ۱۴۰۵",
@@ -26366,344 +26706,6 @@
         "گزارش"
       ],
       "link": "https://www.iranintl.com/202610279459"
-    },
-    {
-      "hash": "3a1a5125cb4927f5",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "عمومی و ایران",
-      "title": "با ادامه رشد اقتصادی منفی، یک میلیون و ۴۰۰ هزار فرصت شغلی در ایران تا آخر سال حذف می‌شوند",
-      "summary": "معاون اشتغال وزارت تعاون، کار و رفاه اجتماعی، هشدار داد در صورت ادامه رشد منفی اقتصاد و ثبت رشد منفی هفت تا هشت درصدی در سال جاری، تا یک میلیون و ۴۰۰ هزار فرصت شغلی در ایران حذف خواهند شد. او شمار بیکاران کشور را حدود دو میلیون و ۵۰۰ هزار نفر برآورد کرد.",
-      "source": "Iran International",
-      "source_datetime_fa": "۵ آبان • ۱۲:۳۹",
-      "source_date_raw": "2026-10-27T09:09:00+00:00",
-      "category": "اقتصاد و بازرگانی",
-      "tags": [
-        "رویداد",
-        "گزارش"
-      ],
-      "link": "https://www.iranintl.com/202610278106"
-    },
-    {
-      "hash": "0309b2ac9345c75c",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "عمومی و ایران",
-      "title": "عمار حکیم بر حفظ منافع عراق تاکید کرد؛ تندروهای ایرانی خواستار اقدام تلافی‌جویانه شدند",
-      "summary": "هشدار عمار حکیم درباره مسئولیت بغداد در محافظت از مردم عراق در برابر پیامدهای تحریم‌های آمریکا، با وجود همبستگی این کشور با جمهوری اسلامی، واکنش تند کاربران طرفدار حکومت ایران را برانگیخت و شماری از تندروها، خواستار اقدام تلافی‌جویانه علیه عراق شدند.",
-      "source": "Iran International",
-      "source_datetime_fa": "۵ آبان • ۱۲:۳۰",
-      "source_date_raw": "2026-10-27T09:00:24+00:00",
-      "category": "سیاست و دیپلماسی",
-      "tags": [
-        "روابط بین‌الملل"
-      ],
-      "link": "https://www.iranintl.com/202610270938"
-    },
-    {
-      "hash": "dac0bbbf477935f1",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "عمومی و ایران",
-      "title": "معاون وزارت کار ایران در مورد خطر حذف یک میلیون و ۴۰۰ هزار شغل تا پایان سال هشدار داد",
-      "summary": "مالک حسینی همچنین اعلام کرد که تنها حدود ۳۰۰ هزار نفر از افرادی که از فهرست بیمهٔ اجباری خارج شده‌اند، به جمع دریافت‌کنندگان مقرری بیمهٔ بیکاری پیوسته‌اند. معاون توسعهٔ کارآفرینی و اشتغال وزارت تعاون، کار و رفاه اجتماعی ایران از خروج یک میلیون و ۱۵۰ هزار نفر از فهرست بیمه‌شدگان اجباری در فاصلهٔ اسفند پارسال تا پایان مرداد امسال خبر داد و هشدار داد که در صورت ادامهٔ رکود اقتصادی، ممکن است تا پایان سال جاری یک میلیون و ۴۰۰ هزار شغل در کشور از بین برود. مالک حسینی در مصاحبه با خبرگزاری ایلنا که روز سه‌شنبه پنجم آبان منتشر شد، همچنین اعلام کرد که تنها حدود ۳۰۰ هزار نفر از افرادی که از فهرست بیمهٔ اجباری خارج شده‌اند، به جمع دریافت‌کنندگان مقرری بیمهٔ بیکاری پیوسته‌اند. این مقام دولتی وضعیت بازار کار ایران را نتیجهٔ مجموعه‌ای از بحران‌های اقتصادی، سیاسی و نظامی توصیف کرد و گفت جنگ‌های اخیر، اعتراضات دی‌ماه، قطع اینترنت، تحریم‌ها، تورم مزمن و کمبود انرژی، توان ادامهٔ فعالیت بنگاه‌های اقتصادی را به‌شدت کاهش داده‌ است. معاون وزارت کار همچنین گفت در فاصلهٔ اسفند پارسال تا پایان اردیبهشت، حدود ۹۰۰ هزار نفر از فهرست بیمه خارج شدند، اما ورود بیش از ۲۰۰ هزار بیمه‌شدهٔ جدید، خالص کاهش بیمه‌شدگان را در پایان بهار به حدود ۷۰۰ هزار نفر رساند. از دست رفتن پوشش بیمه‌ای به معنای محرومیت بخشی از نیروی کار از حمایت‌هایی مانند بیمهٔ درمانی مرتبط با اشتغال، بیمهٔ بیکاری و سابقهٔ بازنشستگی است. به‌گفتهٔ این مقام دولتی، برخی کارگران بیکار، به دلیل محدودیت مدت دریافت مقرری، ترجیح می‌دهند فعلاً از این حق بیمهٔ بیکاری استفاده نکنند و آن را برای شرایط دشوارتر نگه دارند. معاون وزیر کار در این مصاحبه به‌صراحت از اعتراضات دی‌ماه و قطع اینترنت نیز به‌عنوان عوامل تشدید بحران اشتغال یاد کرد و گفت پس از ریزش گستردهٔ نیروی کار در سال ۱۴۰۴، اعتراضات",
-      "source": "Radio Farda",
-      "source_datetime_fa": "۵ آبان • ۱۲:۵۹",
-      "source_date_raw": "2026-10-27T09:29:31+00:00",
-      "category": "اقتصاد و بازرگانی",
-      "tags": [
-        "روابط بین‌الملل"
-      ],
-      "link": "https://www.radiofarda.com/a/iran-job-losses-unemployment-economic-crisis/33885106.html"
-    },
-    {
-      "hash": "a20c34da4f832cc4",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "تحت تعقیب: ربات-سگ واکر. 20 دلار در ساعت",
-      "summary": "No pooper scooper required.",
-      "source": "NYT Tech",
-      "source_datetime_fa": "۵ آبان • ۱۲:۳۳",
-      "source_date_raw": "2026-10-27T09:03:03+00:00",
-      "category": "اقتصاد و بازرگانی",
-      "tags": [
-        "فناوری",
-        "نوآوری"
-      ],
-      "link": "https://www.nytimes.com/2026/10/27/technology/robot-dog-walkers.html"
-    },
-    {
-      "hash": "6b03d74b4688f5b0",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "در A.I. «Robogym»، ماشین‌ها برای شبیه‌تر شدن به انسان‌ها آموزش می‌دهند",
-      "summary": "Neura آلمان یکی از شرکت‌هایی است که در خط مقدم تلاش‌ها برای استفاده از هوش مصنوعی در رباتیک قرار دارد و برای اینکه اروپا بتواند شکاف خود را با چین کم کند بسیار مهم است.",
-      "source": "NYT Tech",
-      "source_datetime_fa": "۵ آبان • ۱۲:۳۲",
-      "source_date_raw": "2026-10-27T09:02:36+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "هوش مصنوعی"
-      ],
-      "link": "https://www.nytimes.com/2026/10/27/business/neura-robotics-germany-china-ai.html"
-    },
-    {
-      "hash": "2a5941cd69900199",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "کارشناسان هشدار می دهند که اطلاعات نادرست مبتنی بر هوش مصنوعی قبل از انتخابات میان دوره ای ایالات متحده در رسانه های اجتماعی بیداد می کند",
-      "summary": "شرکت‌های رسانه‌های اجتماعی از جمله متا از تلاش‌های خود برای محافظت از رأی‌دهندگان در برابر دروغ‌های مداخله‌گر در انتخابات عقب‌نشینی کرده‌اند، به گفته کارشناسان، به گفته کارشناسان، که هشدار می‌دهند بسیاری از پست‌ها احتمالاً «از شکاف‌ها خارج می‌شوند»، فیدهای رسانه‌های اجتماعی مملو از سیل بی‌سابقه اطلاعات نادرست مبتنی بر هوش مصنوعی در آستانه انتخابات میان‌دوره‌ای نوامبر است. در حالی که ده ها میلیون آمریکایی آماده می شوند تا رای خود را به صندوق بیندازند، شرکت های رسانه های اجتماعی تلاش های خود را برای محافظت از رای دهندگان در برابر دروغ هایی که به منظور دستکاری در انتخابات انجام می شود، کاهش داده اند. به خواندن ادامه دهید... در حالی که واکنش شدید علیه فیس بوک پس از رسوایی کمبریج آنالیتیکا، غول های رسانه های اجتماعی را بر آن داشت تا اعتماد و فعالیت های ایمنی خود را تقویت کنند، واکنش متقابل جناح راست به دلیل ترس از محدودیت های گفتاری - که پس از تسلط ایلان ماسک بر X، سابقا توییتر، و انتخاب دونالد ترامپ در سال 2024 تشدید شد - منجر به تعلیق تیم های مرتبط با این موضوع شد. هوش مصنوعی راه اندازی یک کمپین اطلاعات نادرست را آسان تر از همیشه کرده است. و پلتفرم‌ها به‌طور فزاینده‌ای برای پاسخ‌گویی به جای مداخله انسانی، به هوش مصنوعی متکی هستند. فرانسیس هاگن، مهندس سابق داده فیس بوک که به افشاگر و مدافع شفافیت و مسئولیت پذیری در فناوری بزرگ تبدیل شد، گفت: «اکنون می توانید یک عملیات اطلاعاتی را با کیفیتی اجرا کنید که در سال 2016 با قیمت فوق العاده و بسیار ارزان غیرممکن بود. او گفت: «اپراتورهایی که حقه‌های کثیف را انجام می‌دهند می‌توانند قوانین تعدیل محتوا را دور بزنند، «زیرا شما فقط می‌توانید هر بار که پست را ایجاد می‌کنید کمی آن‌ها را اصلاح کنید و برخی از آن‌ها به نتیجه می‌رسند. کمپین هایی از",
-      "source": "The Guardian AI",
-      "source_datetime_fa": "۵ آبان • ۱۳:۳۰",
-      "source_date_raw": "2026-10-27T10:00:10+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "هوش مصنوعی",
-        "Meta"
-      ],
-      "link": "https://www.theguardian.com/us-news/2026/oct/27/ai-disinformation-social-media-midterm-elections"
-    },
-    {
-      "hash": "a61b290f2f89f286",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "واکنش شدید مرکز داده آمریکا را متحد می کند",
-      "summary": "اگر مشکلی وجود داشته باشد که به نظر می رسد همه نوع رأی دهندگان را در سال 2026 فعال می کند، آن مراکز داده است. ساخت سریع این امکانات ذخیره سازی سرور عظیم - و ساخت زیرساخت ها و هزینه های ناشی از آنها - باعث مخالفت محلی در جوامع سراسر کشور شده و به یک موضوع اصلی در بسیاری از کمپین های کنگره و فرمانداری تبدیل شده است. در همان زمان، پول فناوری به بسیاری از این مسابقات سرازیر شده است. Leading the Future، یک ابر PAC با حمایت سرمایه‌گذار ریسک‌پذیر مارک اندرسن و رئیس OpenAI، گرگ براکمن، در یک سال 45 میلیون دلار هزینه کرده است. و Public First Action، یک گروه تحت حمایت Anthropic که ... داستان کامل را در The Verge بخوانید. واکنش متقابل مرکز داده علم هوش مصنوعی سیاست، آمریکا را متحد می‌کند برخی از رقابت‌های میان‌ترم به «افرادی که از مراکز داده متنفرند» در مقابل «افرادی که از آن‌ها حتی بیشتر متنفرند.» کاهش می‌یابد. Lauren Feiner، 27 اکتبر 2026، ساعت 10:00 صبح UTC پیوند اشتراک‌گذاری تصویر هدیه: Cath Virginia / The Verge, Getty Sciences Center «افرادی که از مراکز داده متنفرند» در مقابل «افرادی که از آن‌ها حتی بیشتر متنفرند». اینکه آنها تا چه حد مایل به رفتن هستند - از جمله با حمایت از توقف کامل توسعه - متفاوت است. در حالی که به نظر می رسد بسیاری از نامزدهای دموکرات از یک مکث حمایت کنند، همیشه اینطور نیست. و اگرچه برخی از جمهوری‌خواهان به جای حمایت از ممنوعیت، به پیام‌های حزبی در مورد قرار دادن توسعه در کنترل محلی تکیه کرده‌اند، برخی دیگر می‌گویند که مکث دقیقاً همان چیزی است که آن لحظه به آن نیاز دارد.",
-      "source": "The Verge",
-      "source_datetime_fa": "۵ آبان • ۱۳:۳۰",
-      "source_date_raw": "2026-10-27T10:00:00+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "هوش مصنوعی",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "link": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections"
-    },
-    {
-      "hash": "95bee9ca3b0a42ab",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "ایسر برای اولین بار یک بازی دستی Predator را به ایالات متحده می آورد",
-      "summary": "چندین ماه از رونمایی ایسر از بازی دستی Predator Atlas 8 می گذرد، اما اکنون بالاخره می دانیم که این گوشی به ایالات متحده می آید و هزینه آن چقدر است. نسخه Intel Arc G3 Extreme - قدرتمندتر از دو مدل معرفی شده در ماه می - به طور انحصاری در Best Buy در تاریخ 1 نوامبر با قیمت 1299.99 دلار در دسترس خواهد بود. برای این منظور، Atlas 8 گرافیک Arc B390 را با 12 هسته گرافیکی Xe3، همراه با 24 گیگابایت رم LPDDR5x ارائه می‌کند. صفحه نمایش 8 اینچی با فرکانس 120 هرتز کار می کند و دستگاه مجهز به تریگرهای دو حالته، جوی استیک های TMR و قابلیت استفاده برای هر دو تنظیمات دستی یا داک شده است. این ویندوز 11 را اجرا می کند و می تواند با Xbox G استفاده شود ... داستان کامل را در The Verge بخوانید. گجت های بازی اخبار ایسر برای اولین بار یک بازی دستی Predator را به ایالات متحده می آورد. Predator Atlas 8 با قیمت 1300 دلار در تاریخ 1 نوامبر در دسترس خواهد بود. Jess Weatherbed 27 اکتبر 2026، ساعت 9:54 صبح UTC پیوند اشتراک گذاری هدیه اگر چیزی را از یک پیوند خریداری کنید، Verge ممکن است کمیسیون دریافت کند. بیانیه اخلاقی ما را ببینید. Jess Weatherbed یک نویسنده خبری است که بر صنایع خلاق، محاسبات و فرهنگ اینترنت تمرکز دارد. جس کار خود را در TechRadar با پوشش اخبار و بررسی های سخت افزاری آغاز کرد. چندین ماه از رونمایی ایسر از بازی دستی Predator Atlas 8 می گذرد، اما اکنون ما در نهایت می دانیم که این دستگاه به ایالات متحده می آید و هزینه آن چقدر است. نسخه Intel Arc G3 Extreme - قدرتمندتر از دو مدل معرفی شده در ماه می - به طور انحصاری در Best Buy در تاریخ 1 نوامبر",
-      "source": "The Verge",
-      "source_datetime_fa": "۵ آبان • ۱۳:۲۴",
-      "source_date_raw": "2026-10-27T09:54:22+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "فناوری",
-        "نوآوری"
-      ],
-      "link": "https://www.theverge.com/games/1019245/acer-predator-atlas-8-launch-price"
-    },
-    {
-      "hash": "69a80f8d51eaf3a2",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "آیا سیستم اسمز معکوس زیر سینک ارزش آن را دارد؟ مزایا، هزینه ها و معایب",
-      "summary": "Waterdrop X12 طعم آب لوله کشی من را بهبود بخشید، اما اسمز معکوس با هزینه هایی فراتر از قیمت خرید همراه است. Loader Save Story ذخیره این داستان Comment Loader Save Story ذخیره این داستان این طعم خنده دار در آب لوله کشی شما ممکن است مزاحم بی ضرری باشد — یا ممکن است باعث نگرانی جدی شود. در هر صورت، می توانید با نصب یک سیستم تصفیه آب اسمز معکوس (RO) در خانه خود کاری در مورد آن انجام دهید. سیستم‌ها و پارچ‌های RO مستقل روی میز شما قرار دارند و معمولاً نیاز به پر کردن دستی از شیر آب دارند. با نصب یک مدل زیر سینک یا زیر پیشخوان که مستقیماً به خطوط لوله کشی شما وصل می شود، در فضا صرفه جویی کرده و از دردسر پر کردن مداوم واحد جلوگیری می کنید. در هر صورت، سیستم های RO ارزان نیستند. اما برای برخی از صاحبان خانه، آنها ممکن است سرمایه گذاری ارزشمندی باشند. اسمز حرکت مولکول‌ها (معمولا آب) از طریق یک غشای نیمه تراوا است که مانع از عبور ذرات بزرگ‌تر مانند نمک‌ها و قندها می‌شود. پس از اسمز، غلظت ذرات در دو طرف غشا به تعادل می رسد. این است که گیاهان چگونه آب را از خاک می گیرند و کلیه های شما مواد زائد را از خون شما فیلتر می کنند. در حالی که اسمز یک پدیده خود به خودی است که به طور طبیعی اتفاق می افتد، اسمز معکوس نیاز به فشار دارد تا آب را از طریق غشاء در جهت دیگر وارد کند، و به طور موثر تمام آن ترکیبات را از آب حذف می کند تا آن را خالص کند. این نحوه حذف نمک از آب دریا برای قابل شرب کردن است و یکی از راه هایی است که می توان آب لوله کشی را در خانه شما تصفیه کرد. RO",
-      "source": "Wired",
-      "source_datetime_fa": "۵ آبان • ۱۳:۰۵",
-      "source_date_raw": "2026-10-27T09:35:00+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "فناوری",
-        "نوآوری"
-      ],
-      "link": "https://www.wired.com/story/is-an-under-sink-reverse-osmosis-system-worth-it/"
-    },
-    {
-      "hash": "3afcac9ebf9a87cb",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "من هر عامل اصلی هوش مصنوعی را برای یک روز آزمایش کردم. در اینجا بهترین است",
-      "summary": "من شش عامل هوش مصنوعی - از Meta’s Muse گرفته تا Claude Duet از Anthropic را در مورد اینکه چقدر وظایف اصلی را به خوبی انجام دادند، رتبه‌بندی کردم. Loader Save Story ذخیره این داستان Comment Loader Save Story این داستان را ذخیره کنید سال گذشته، یادم می‌آید که در دفتر WIRED نشسته بودم و بی‌وقفه به همکارانم درباره اینکه عوامل هوش مصنوعی چقدر مکنده هستند، شکایت می‌کردم. آنها فقط در همه چیز بد بودند. به‌عنوان یک خبرنگار نرم‌افزار، بعد از جلسه‌ای که در آن برادران فن‌آوری - عمدتاً مردها- بودند، نشستم و نشان دادند که چگونه نماینده جدیدشان زندگی روزمره من را متحول می‌کند و خسته‌کننده‌ها را خودکار می‌کند. نکته این بود که هیچ یک از این به اصطلاح \"عامل\" عملاً کار نکردند. به سرعت به امروز، و عوامل هوش مصنوعی همیشه فعال در حال رونق هستند، با بازیکنان بزرگی که برای انتشار نسخه های خود برای جذب کاربران اولیه رقابت می کنند. دلیل کلیدی که این عوامل شخصی در حال ضربه زدن به مزیت بزرگتر، فراتر از قلدرهای سیلیکون ولی هستند، این است که آنها کار می کنند. خوب، حداقل قابل اطمینان تر از سال گذشته. عوامل هوش مصنوعی همچنان اشتباه می کنند، اما من همچنین شاهد پیشرفت های قابل توجهی در انجام وظایف و کنترل مرورگر هستم. این بچه های کوچک درخشش خود را به دست آوردند. دشوار است بدانید که از کجا باید با عوامل هوش مصنوعی شروع کرد و کدام یک به بهترین وجه با نیازهای اتوماسیون شما مطابقت دارد. بنابراین من یک روز را صرف آزمایش با هر عامل اصلی هوش مصنوعی کردم تا نقاط قوت و ضعف آنها را درک کنم. قبل از اینکه چهارشنبه هفته گذشته به رختخواب بروم، شش نماینده همیشه روشن در آیفون خود راه اندازی کردم: Meta’s Muse، OpenAI’s Dots، Instinct، Anthropic’s Claude Duet، Google’s Gemini Spark و xAI’s",
-      "source": "Wired",
-      "source_datetime_fa": "۵ آبان • ۱۳:۰۰",
-      "source_date_raw": "2026-10-27T09:30:00+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "هوش مصنوعی",
-        "OpenAI",
-        "Anthropic",
-        "Google"
-      ],
-      "link": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/"
-    },
-    {
-      "hash": "62a18fa56ff3fb0d",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "چگونه ترانسفورماتورهای حالت جامد می توانند به تقویت رونق هوش مصنوعی کمک کنند",
-      "summary": "ترانسفورماتورها بخش مهمی اما تقریباً نامرئی از شبکه ما هستند. این دستگاه‌ها به انتقال موثر نیرو در فواصل طولانی کمک می‌کنند، اما آنها پیچیده و کمبود هستند. و با توجه به اینکه طراحی اولیه آنها برای حدود یک قرن تغییر زیادی نکرده است، آنها می توانند از یک ارتقاء استفاده کنند. در حالی که جهان برای پاسخگویی به تقاضای فزاینده برق از خودروهای برقی، مراکز داده و غیره رقابت می کند، محققان و شرکت ها به دنبال مدرن سازی ترانسفورماتورها هستند. نسخه‌های جدید حالت جامد می‌توانند برخی از نگرانی‌های عرضه را برطرف کرده و اطمینان حاصل کنند که شبکه می‌تواند فشار رو به رشد را تحمل کند. ترانسفورماتورهای معمولی معمولاً برای انجام کار خود در انتقال الکتریسیته بین مدارها به مقادیر زیادی از آلیاژهای فولادی تخصصی و مایل ها سیم مسی متکی هستند. در مقایسه، مدل‌های حالت جامد، اجزای مغناطیسی را با نیمه‌هادی‌های پرقدرت ترکیب می‌کنند، که آنها را فشرده‌تر می‌کند و امکان کنترل بیشتر بر جریان الکتریسیته را فراهم می‌کند. این دستگاه ها هنوز در حال توسعه هستند و امروزه نمی توانند جایگزین همه ترانسفورماتورهای سنتی شوند، به ویژه بزرگ ترین ترانسفورماتورهایی که در ولتاژهای بالا برای انتقال از راه دور کار می کنند. اما نسل جدیدی از فناوری ترانسفورماتور می تواند بخش مهمی از شبکه آینده ما باشد. ستون فقرات شبکه انتقال برق از طریق شبکه کاملاً کارآمد نیست: همانطور که الکتریسیته از طریق خطوط برق جریان می یابد، مقداری از آن به عنوان گرما از بین می رود. چقدر تغییر می کند - هر چه ولتاژ بیشتر باشد، جریان کمتر است و الکتریسیته کمتری از دست می رود. بنابراین یک عملکرد کلیدی برای شبکه بالا و پایین کردن ولتاژ است. به عنوان مثال، نیروگاه خورشیدی محلی خود را در نظر بگیرید. برای اینکه آن الکتریسیته به طور موثر به خانه شما صدها مایل دورتر برسد، باید به",
-      "source": "MIT Tech Review",
-      "source_datetime_fa": "۵ آبان • ۱۲:۳۰",
-      "source_date_raw": "2026-10-27T09:00:00+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "هوش مصنوعی"
-      ],
-      "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
-    },
-    {
-      "hash": "c19ccf52c9a94af4",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "مشخصات آیفون 18e لو رفت؛ نمایشگر ۶۰ هرتز و یک دوربین در پنل پشتی",
-      "summary": "اطلاعات فاش‌شده نشان می‌دهد اپل در گوشی آیفون 18e همچنان از نمایشگر ۶۰ هرتز و دوربین تکی استفاده خواهد کرد. تبلیغات مشخصات احتمالی گوشی آیفون 18e پیش از رونمایی فاش شد و گزارش‌ها حاکی از حفظ نمایشگر ۶۰ هرتز و یک دوربین تکی در پشت دستگاه هستند. اپل ظاهرا ارزان‌ترین مدل آیفون را همچنان بدون بهره‌مندی از نرخ نوسازی بالا روانه‌ی بازار خواهند کرد. به ادعای دیجیتال چت استیشن ، آیفون 18e به نمایشگر ۶٫۱۲ اینچی با پنل اولد مجهز خواهد بود. با وجود بهره‌مندی مدل‌های آیفون ۱۸ و آیفون ایر ۲ به پنل‌های ۱۲۰ هرتزی اولد، نسخه‌ی اقتصادی همچنان به پنل سنتی ۶۰ هرتزی وفادار می‌ماند. اپل تجهیز دستگاه به تراشه‌ی دو نانومتری A20 را برنامه‌ریزی کرده است که ارتقای مهمی نسبت‌به پردازنده‌ی سه نانومتری A19 در آیفون 17e محسوب می‌شود. در بخش تصویربرداری، دوربین اصلی پشتی بدون تغییر و به‌صورت تکی با وضوح ۴۸ مگاپیکسل باقی می‌ماند؛ اما دوربین سلفی احتمالا به حسگری ۲۴ مگاپیکسلی مجهز خواهد شد. عرضه‌ی دستگاه برای بهار سال ۲۰۲۷ پیش‌بینی می‌شود. قیمت گوشی هنوز مشخص نیست. لایک نظرت چیه؟ ارسال نظر بوکمارک اشتراک‌گذاری امیر عبدالملکی دنبال کردن به محتوای این مطلب چه امتیازی میدی؟ نظر شما برامون مهمه و به بهتر شدن کیفیت مطالب کمک می‌کنه.",
-      "source": "Zoomit",
-      "source_datetime_fa": "۵ آبان • ۱۳:۱۶",
-      "source_date_raw": "2026-10-27T09:46:16+00:00",
-      "category": "تراشه و سخت‌افزار",
-      "tags": [
-        "Apple",
-        "تراشه"
-      ],
-      "link": "https://www.zoomit.ir/mobile/469954-iphone-18e-specs-leak/"
-    },
-    {
-      "hash": "614182cc293a8bc1",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "آخرین قضیه فِرما؛ یادداشتی در حاشیه‌ یک کتاب که ۳۵۸ سال ریاضی‌دانان را بیدار نگه داشت",
-      "summary": "آخرین قضیه‌ی فرما با وجود صورت ساده‌اش، ۳۵۸ سال بی‌پاسخ ماند تا اینکه اندرو وایلز با ابزارهای نوین ریاضی موفق به اثبات آن شد. تبلیغات در تاریخ علم، هیچ جمله‌ای به اندازه یادداشت یک‌خطی پیر دو فرما در سال ۱۶۳۷، نوابغ جهان را به مرز جنون نکشاند: «من اثبات واقعاً شگفت‌انگیزی برای این موضوع پیدا کرده‌ام، اما حاشیه این صفحه برای نوشتن آن بیش‌ازحد باریک است.» فرما در آن روزگار گمان نمی‌کرد این یادداشت کوتاه به معمایی ۳۵۸ ساله تبدیل شود؛ تله‌ای که لئونارد اویلر بزرگ را متوقف کرد، جایزه‌های صدهزار مارکی را بی‌نتیجه گذاشت، یک ریاضی‌دان درخشان ژاپنی را تا لبه پرتگاه تراژدی برد و در نهایت اندرو وایلز را مجبور کرد هفت سال مخفیانه و دور از چشم جهان روی آن کار کند. پیچیدگی اثبات به قدری فراتر از تصور بود که حتی تا سپتامبر ۲۰۲۶، تأیید ماشینی و بی‌نقص تمام جزئیات آن توسط هوش مصنوعی آنتروپیک در زبان Lean، به خلق نزدیک به ۳۰ هزار قضیه میانی نیاز داشت. سه عدد ۳، ۴ و ۵ را در نظر بگیرید. شما به‌راحتی می‌توانید نشان دهید جمع مربع عدد اول و مربع عدد دوم، مربع سومی را تحویلتان می‌دهد؛ نُه به‌اضافه‌ی شانزده، می‌شود بیست‌وپنج. ساده و تمیز، مثل شعبده‌ای که رازش را از قبل می‌دانیم. حالا فقط تغییر کوچکی می‌دهیم، به‌جای مربع، مکعب اعداد را حساب می‌کنیم. می‌توانید سه عدد طبیعی پیدا کنید که مکعب دوتایشان روی هم، مکعب سومی را بسازد؟ اگر کاغذ و ماشین‌حساب بردارید و تا صبح عددهای مختلف را امتحان کنید؛ امروز با اطمینان می‌دانیم دست خالی برمی‌گردید. برای توان چهار، پنج و حتی صد هم همین داستان تکرار می‌شود. صورت مسئله را هر دانش‌آموزی به‌راحتی درک می‌کند؛ ولی حل‌کردنش ۳۵۸ سال زمان می‌خواست، نسل‌به‌نسل، نابغه‌ها را به چالش کشید و در پایان به ابزارهایی نیاز داشت که در روزگار طرح مسئله فراتر از خیال",
-      "source": "Zoomit",
-      "source_datetime_fa": "۵ آبان • ۱۳:۰۰",
-      "source_date_raw": "2026-10-27T09:30:00+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "هوش مصنوعی"
-      ],
-      "link": "https://www.zoomit.ir/fundamental-science/469911-fermat-last-theorem-featured/"
-    },
-    {
-      "hash": "4f47f6a783d985c0",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "خالق خودرو «اچ ۳۰ کراس» از شاسی‌بلند «ایکس ۷۰۰» با تکنولوژی‌های پیشرفته رونمایی کرد",
-      "summary": "دانگ‌فنگ از شاسی‌بلند هیبریدی M-Hero X700 مجهز به سامانه‌های هوشمند هواوی با قیمت منطقی پرده برداشت. تبلیغات دانگ‌فنگ (خالق خودرو اچ ۳۰ کراس) خودرو M-Hero X700 را معرفی کرد . خودروی یادشده حاصل همکاری مشترک برند M-Hero و بخش خودرویی هواوی است و با تمرکز بر رانندگی خارج از جاده و طبیعت‌گردی سبک توسعه می‌یابد. شاسی‌بلند ایکس ۷۰۰ با اتکا به سازه‌ی یکپارچه و پیشرانه‌ی پلاگین هیبرید، سامانه‌های رانندگی خودران هواوی و رابط هوشمند HarmonyOS را در اختیار خریداران قرار می‌دهد. فروش محصول در چهار تیپ قیمتی آغاز شده است و قیمت‌ها از ۱۴۷٬۵۰۰ یوان (۲۲٬۰۰۰ دلار) تا ۱۸۷٬۷۰۰ یوان (۲۸٬۰۰۰ دلار) متغیر خواهد بود. طراحی جعبه‌ای و خشن همراه با نوار نوری سرتاسری و لوگوی نورانی در نمای جلو جلب توجه می‌کند. ابعاد بدنه شامل ۵٬۰۳۵ میلی‌متر طول، ۱٬۹۹۹ میلی‌متر عرض و ۱٬۸۹۰ یا ۱٬۹۱۰ میلی‌متر ارتفاع است و فاصله‌ی محوری به ۲٬۹۲۰ میلی‌متر می‌رسد. زاویه‌ی ورود ۳۷٫۵ درجه، زاویه‌ی خروج ۳۸٫۳ درجه، حداکثر ارتفاع از سطح زمین ۳۲۸٫۸ میلی‌متر و عمق غوطه‌وری در آب ۸۰۰ میلی‌متر، مشخصات آفرودی خودرو را تکمیل می‌کنند. کابین هوشمند HarmonySpace 6 برای نخستین‌بار در مدل X700 استفاده شده است که دو نمایشگر ۱۵٫۶ اینچی با وضوح 2.5K و سامانه‌ی نمایش اطلاعات روی شیشه‌ی جلوی ۷۴ اینچی واقعیت‌افزوده دارد. هدایت هوشمند خودرو بر عهده‌ی سامانه‌ی ADS 5 هواوی همراه ۲۷ حسگر پیشرفته نظیر لایدار با دقت بالا قرار گرفته و دستیار کروز ناوبری آفرود، دستیار کروز گشت‌زنی و نمایشگرهای خارجی با قابلیت شخصی‌سازی را دربرمی‌گیرد. پیشرانه‌ی پلاگین هیبرید ۱٫۵ لیتری توربوشارژ در کنار سامانه‌ی چهارچرخ محرک دو موتوره وظیفه‌ی تامین نیرو را انجام می‌دهد. موتور بنزینی توان ۱۱۳ کیلووات و موتورهای الکتریکی جلو و عقب به‌ترتیب قدرت ۲۵۵ اسب بخار و ۲۸۸ اسب بخار تولید می‌کنند که شتاب صفر تا ۱۰۰ کیلومتر بر ساعت را به ۴٫۹۳ ثانیه می‌رساند.",
-      "source": "Zoomit",
-      "source_datetime_fa": "۵ آبان • ۱۳:۰۰",
-      "source_date_raw": "2026-10-27T09:30:00+00:00",
-      "category": "اقتصاد و بازرگانی",
-      "tags": [
-        "فناوری",
-        "نوآوری"
-      ],
-      "link": "https://www.zoomit.ir/car/469868-dongfeng-m-hero-x700-suv-launch/"
-    },
-    {
-      "hash": "67788b413e73a6a7",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "رجیستری مسافری و تجاری ۲۴ مدل گوشی ممنوع شد",
-      "summary": "با ابلاغیه جدید به گمرکات، امکان فعال‌سازی و ثبت مسافری و تجاری ۲۴ مدل گوشی از برندهایی مانند آیفون و سامسونگ مسدود شد. تبلیغات به گزارش تسنیم، پس از محدودیت ثبت سفارش تجاری گوشی‌های بالای ۴۰۰ یورو، فهرستی شامل ۲۴ مدل تلفن همراه از برندهای مختلف به گمرکات اجرایی ابلاغ شده است که رجیستری آن‌ها را در هر دو رویه مسافری و تجاری ممنوع می‌کند. کپی لینک محدودیت رجیستری پس از سقف ۴۰۰ یورویی ثبت سفارش بر اساس گزارش تسنیم، ثبت سفارش واردات موبایل پس از حدود پنج ماه توقف، از شهریور امسال از سر گرفته شد؛ اما در مرحله نخست، تنها گوشی‌های با ارزش کمتر از ۴۰۰ یورو امکان ثبت سفارش داشتند. این محدودیت، مسیر واردات تجاری بسیاری از گوشی‌های پرچمدار و گران‌قیمت را مسدود کرد. اکنون ابلاغ فهرست ۲۴ مدل ممنوع‌‌شده برای رجیستری، علاوه بر رویه تجاری، مسیر مسافری را نیز دربر می‌گیرد. محدودیت ثبت سفارش به فرایند واردات تجاری مربوط است، در حالی‌ که ممنوعیت رجیستری، امکان ثبت و فعال‌سازی دستگاه در شبکه تلفن همراه کشور را محدود می‌کند. کپی لینک توقف رجیستری مسافری آیفون ۱۸ پس از حدود یک هفته تسنیم همچنین گزارش داده است که امکان رجیستری مسافری آیفون ۱۸ برای مدت کوتاهی در سامانه مربوط فعال شد اما پس از حدود یک هفته متوقف شد. پیش‌تر نیز ارزش گمرکی برخی گوشی‌های جدید، از جمله سری آیفون ۱۸، در سامانه گمرک ثبت شده بود. با این‌ حال تعیین ارزش گمرکی یک مدل به‌تنهایی به معنای صدور مجوز ثبت سفارش، ترخیص یا رجیستری آن نیست. لایک نظرت چیه؟ ارسال نظر بوکمارک اشتراک‌گذاری دلارام سلطانیان دنبال کردن به محتوای این مطلب چه امتیازی میدی؟ نظر شما برامون مهمه و به بهتر شدن کیفیت مطالب کمک می‌کنه.",
-      "source": "Zoomit",
-      "source_datetime_fa": "۵ آبان • ۱۲:۵۰",
-      "source_date_raw": "2026-10-27T09:20:18+00:00",
-      "category": "موبایل و گجت‌ها",
-      "tags": [
-        "Apple"
-      ],
-      "link": "https://www.zoomit.ir/iran-news/469951-iran-mobile-registry-ban-24-models/"
-    },
-    {
-      "hash": "bd0c11d36bb25b77",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "دبیر شورای اجرایی فناوری اطلاعات: خدمات الکترونیکی بهتر شده، اما هنوز مطلوب نیست",
-      "summary": "مسعود همدانلو از بهبود خدمات الکترونیکی، نقص شناسنامه خدمات و تدوین پیش‌نویسی برای تداوم خدمات با گواهی‌های امنیتی داخلی خبر داد. تبلیغات دبیر شورای اجرایی فناوری اطلاعات،دبیر شورای اجرایی فناوری اطلاعات، در نشست اعلام نتایج دوره سیزدهم پایش کیفیت خدمات الکترونیکی و پرتال‌های دستگاه‌های اجرایی کشور، گفت وضعیت خدمات نسبت به دوره گذشته بهبود یافته، اما همچنان با شرایط مطلوب فاصله دارد. او همچنین ناقص‌بودن شناسنامه خدمات و دشواری وزن‌دهی دقیق به آن‌ها را از چالش‌های ارزیابی دولت الکترونیکی دانست. او درباره نتیجه کلی این دوره گفت: «بهبود داریم، اما مطلوب نیست؛ قطعا باید شرایطمان خیلی بهتر از این باشد.» کپی لینک ارزیابی ۴۵۳۲ خدمت با ۴۱ شاخص به گفته همدانلو، در دوره سیزدهم، ۱۶۸ دستگاه مشمول ارزیابی بوده‌اند و تعداد خدمات بررسی‌شده از ۴۴۱۳ خدمت در دوره قبل به ۴۵۳۲ خدمت رسیده است. مدل ارزیابی نیز از ۴ محور به ۶ خوشه تغییر کرده و تعداد شاخص‌ها از ۳۷ به ۴۱ افزایش یافته است. از میان شاخص‌های دوره گذشته، ۲۴ شاخص حفظ شده، ۱۰ شاخص تغییر کرده و ۷ شاخص جدید اضافه شده‌اند. ۶ محور ارزیابی شامل بلوغ خدمات دیجیتال؛ کیفیت، پایداری و تجربه خدمت؛ تعامل‌پذیری و سکوهای ملی؛ داده، پایش و شفافیت عملکرد؛ زیرساخت، پایداری و بهینه‌سازی و حکمرانی، سرمایه انسانی و هوشمندی است. همدانلو تاکید کرد به‌دلیل تغییر مدل و سخت‌گیرانه‌تر شدن شاخص‌ها، مقایسه مستقیم امتیازهای این دوره با دوره قبل، تصویر کاملی از میزان پیشرفت ارائه نمی‌کند. به گفته او پایین‌ترین میانگین امتیاز در میان محورهای ارزیابی، به تعامل‌پذیری و سکوهای ملی اختصاص داشته است. کپی لینک شناسنامه خدمات دولت هنوز دقیق نیست دبیر شورای اجرایی فناوری اطلاعات یکی از موانع اصلی ارزیابی را نبود فهرست و شناسنامه دقیق خدمات دانست. به گفته او هنوز مشخصات همه خدمات، از جمله فرایندها، استعلام‌های موردنیاز، اسناد و اقلام اطلاعاتی مبادله‌شده و سامانه‌های مرتبط، به‌طور کامل مستند نشده است.",
-      "source": "Zoomit",
-      "source_datetime_fa": "۵ آبان • ۱۲:۳۳",
-      "source_date_raw": "2026-10-27T09:03:54+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "فناوری",
-        "نوآوری"
-      ],
-      "link": "https://www.zoomit.ir/report/469949-iran-egovernment-services-evaluation-results/"
-    },
-    {
-      "hash": "20a497d1d14ecdc6",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "مهاجرانی: عذرخواهی من به‌خاطر اطلاع‌رسانی درباره گرانی اینترنت بود؛ بابت افزایش قیمت عذرخواهی نمی‌کنم",
-      "summary": "سخنگوی دولت با دفاع از سازوکار افزایش قیمت اینترنت اعلام کرد عذرخواهی او تنها به‌ دلیل نقص در اطلاع‌رسانی به مردم بوده است. تبلیغات فاطمه مهاجرانی، سخنگوی دولت، در نشست خبری امروز با تاکید بر ضرورت توضیح تصمیم‌های قیمتی برای مردم گفت افزایش قیمت باید به تصویب ستاد تنظیم بازار برسد و درباره آن با مردم گفت‌وگو شود. او با اشاره به مسئولیت معاونان وزیر در اطلاع‌رسانی اظهار کرد: «اگر واقعا معاونین وزیر این کار را انجام ندادند، حتما باید عذرخواهی کنند. من همین‌جا عذرخواهی می‌کنم. هیچ لکنتی در عذرخواهی کردن از مردم نداریم، اگر هر جا خطایی صورت گرفته است.» مهاجرانی درباره نحوه اطلاع‌رسانی افزایش قیمت اینترنت گفت مسئولان مربوط اعلام کرده‌اند نشست خبری برگزار شده است، اما اگر توضیحات به‌درستی به مردم منتقل نشده، باید اطلاع‌رسانی بیشتری انجام شود. او تاکید کرد: حق با مردم است در این زمینه. عرض من این‌گونه منتقل نشود که مهاجرانی از افزایش قیمت عذرخواهی کرد؛ من از عدم اطلاع‌رسانی عذرخواهی کردم. - فاطمه مهاجرانی ، سخنگوی دولت او افزود: «افزایش، تصمیمی بود که در یک ساختار گرفته شد. من از عدم اطلاع‌رسانی، اگر مردم را ناراحت کرده، عذرخواهی کردم.» کپی لینک اپراتورها افزایش ۱۰۰ درصدی تعرفه اینترنت خواستند؛ با ۴۰ درصد موافقت شد سخنگوی دولت، در پاسخ به پرسشی درباره تضمین بهبود کیفیت اینترنت پس از افزایش تعرفه‌ها گفت: «درخواست اپراتورها افزایش ۱۰۰ درصدی بود که پس از چندین بار رفت ‌و برگشت در ستاد تنظیم بازار، افزایش ۴۰ درصدی تصویب شد.» به گفته او، هزینه تجهیزات با افزایش نرخ ارز بالا رفته و حفظ پایداری شبکه به سرمایه‌گذاری مداوم نیاز دارد. به‌ دلیل سرکوب قیمت‌ها در سال‌های گذشته، شاهد افت کیفیت بودیم. او در پایان نیز اظهار کرد: «امیدواریم اپراتورها با استفاده از این افزایش تعرفه، خدماتی ارائه کنند که رضایت مردم را به همراه داشته باشد. وزیر ارتباطات تاکید کرده",
-      "source": "Zoomit",
-      "source_datetime_fa": "۵ آبان • ۱۱:۴۲",
-      "source_date_raw": "2026-10-27T08:12:15+00:00",
-      "category": "استارتاپ و سرمایه‌گذاری",
-      "tags": [
-        "سرمایه‌گذاری",
-        "بورس و طلا"
-      ],
-      "link": "https://www.zoomit.ir/iran-news/469946-mohajerani-apology-internet-price-hike/"
-    },
-    {
-      "hash": "b51fe63103a80a34",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "مدیا و هنر",
-      "title": "The Voice: Mower Cade Turn Four-Cair Turn Cade Mower بعد از دور نبرد فعال می شود",
-      "summary": "Cade Mower به اجرای خود در The Voice دوشنبه شب (26 اکتبر) ادامه داد و پس از اینکه در مسابقه Red Clay Strays با \"Wondering Why\" با همکار تیم رایلی، Brayden Howell، در دور نبرد پیش رفت. خواننده 35 ساله اهل بلوفدیل، یوتا، برای اولین بار با اجرای آهنگ \"چیزی در نارنجی\" زک برایان، هر چهار صندلی را در طول تست کور کرد و آخرین حضور او دوباره مورد تحسین مربیان قرار گرفت. موور و هاول 19 ساله توسط مربی رایلی گرین برای نبرد جفت شدند و کارلی پیرس به عنوان مشاور مهمان به تیم رایلی پیوست. موور قبل از اجرا از سختی دوری همسرش لیندزی و دو فرزندشان در حین فیلمبرداری مسابقه صحبت کرد. او گفت: «این یک فداکاری عظیم بود، اما اگر بتوانم بروم و در این نبرد پیروز شوم، یک قدم نزدیک‌تر به ارزش این فداکاری عظیم است.» او درباره همسرش افزود: \"او فقط برای سوار شدن همراه نیست، او بزرگترین طرفدار من است.\" این زوج سپس «Wondering Why» را اجرا کردند، آهنگی از گروه راک آلاباما Red Clay Strays. کلی کلارکسون، که در طول تست موور از اینکه متوجه شد او به‌عنوان مشاور ثروت تمام وقت کار می‌کند، شگفت‌زده شده بود، پس از اجرا دوباره صدای خود را مشخص کرد. کلارکسون به او گفت: \"آواز تو دیوانه کننده است.\" ملکه لطیفه نیز به همین ترتیب مشتاق بود و به موور گفت که آزمایش کور او به او چسبیده است. مربی اولین بار گفت: \"کید، تو از زمانی که به این مرحله آمدی روی مغز من بودی\" و اضافه کرد که ای کاش او در تیمش می آمد. اما لطیفه نیز به قدرت حریف خود اذعان داشت. او به این زوج گفت: «احساس می‌کردم صدای شما بسیار منحصربه‌فرد است، اما باید به شما بگویم، برایدن امروز به شما پول داد. موور پاسخ داد: آمین. گرین در نهایت",
-      "source": "Billboard",
-      "source_datetime_fa": "۵ آبان • ۱۲:۴۸",
-      "source_date_raw": "2026-10-27T09:18:09+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "موسیقی"
-      ],
-      "link": "https://www.billboard.com/culture/tv-film/the-voice-cade-mower-moves-on-after-battle-round-1236368596/"
-    },
-    {
-      "hash": "4125ee4cad52782c",
-      "webpage_persian_date": "۵ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ October ۲۰۲۶",
-      "webpage_publish_time": "۱۳:۳۰",
-      "topic": "مدیا و هنر",
-      "title": "تهیه‌کننده «Tokyo Vice» و رئیس امور تولید APAC Netflix تغییراتی را به سیستم پشتیبانی ژاپن پیشنهاد می‌کند: «مشوق‌ها تا زمانی که مطمئن باشند می‌توانند کمتر باشند»",
-      "summary": "الکس بودن، تهیه‌کننده معاون توکیو و دبرا ریچاردز، مدیر امور تولید استودیوی محتوای APAC در نتفلیکس، در طی سمینار MPA در جشنواره بین‌المللی فیلم توکیو، نظراتی در مورد اینکه چگونه طرح مشوق‌های جدید IP360 ژاپن می‌تواند برای ارائه حمایت بهتر از تولیدات بین‌المللی بهبود یابد، ارائه کردند. که سال گذشته برای جایگزینی JLOX موجود معرفی شد [ ] ضمن ستایش از اهداف دولت، سخنرانان رویداد MPA همچنین مشاهده کردند که تغییر حداقل آستانه هزینه به 5 میلیون دلار (800 میلیون JPY) فیلمبرداری بسیاری از تولیدات مشترک و سایر پروژه های بین المللی را در اینجا دشوار می کند. بودن در یک ارائه مقدماتی گفت: «من از توجه به پیشرفت‌هایی که قبلاً در برنامه تشویقی ژاپن انجام شده است، هیجان زده هستم، از جمله افزایش بودجه در دسترس و حمایت از پروژه‌های بیشتر، و تغییر به یک پنجره دو ساله برای برنامه‌ها، که از حذف بسیاری از تولیدات جلوگیری می‌کند.» اما او اضافه کرد که بهبودهای بیشتری لازم است تا اطمینان حاصل شود که کشور در فیلم‌های مستقل کوچک‌تر و همچنین تولیدات بین‌المللی بزرگ‌تر ژاپنی، مانند شوگان و پاچینکو که هر دو در ژاپن پیش‌بینی می‌کردند، بازنده نمی‌شود، از دست نمی‌دهد. پیشنهادهای بودن شامل کاهش حداقل آستانه هزینه بود که طرح را به روی طیف وسیع تری از فیلم‌برداری باز می‌کرد: «حداقل سطح هزینه بر اساس هزینه در ژاپن به حدود 5 میلیون دلار افزایش یافت، اما اکثر فیلم‌های ژاپنی بودجه‌های بسیار پایین‌تری دارند، در حدود 1.5 تا 3 میلیون دلار، بنابراین سقف حداقل هزینه جدید پروژه‌های مستقل و با بودجه کمتر را در نظر نمی‌گیرد.»",
-      "source": "Deadline",
-      "source_datetime_fa": "۵ آبان • ۱۳:۰۹",
-      "source_date_raw": "2026-10-27T09:39:28+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "سینما",
-        "نتفلیکس"
-      ],
-      "link": "https://deadline.com/2026/10/japan-incentives-scheme-netflix-tokyo-vice-toho-tombo-1237205993/"
     }
   ]
 }
