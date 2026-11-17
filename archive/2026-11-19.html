@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مجله خبری روزانه — ۲۸ آبان ۱۴۰۵</title>
+  <style>
+    @font-face {
+      font-family: 'Dastkhat';
+      src: url('../fonts/DastkhatFaNum-Variable.woff2') format('woff2-variations');
+      font-weight: 100 900;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Dastkhat';
+      src: url('../fonts/DastkhatFaNum-Regular.woff2') format('woff2');
+      font-weight: 400;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Dastkhat';
+      src: url('../fonts/DastkhatFaNum-Bold.woff2') format('woff2');
+      font-weight: 700;
+      font-display: swap;
+    }
+  </style>
+  <style>
+    :root[data-theme="dark"] {
+      --bg: #0b0f19;
+      --header-bg: linear-gradient(135deg, #1e293b, #0f172a);
+      --card-bg: #151d30;
+      --card-border: #232f48;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --primary: #38bdf8;
+      --primary-hover: #0284c7;
+      --badge-bg: rgba(56, 189, 248, 0.15);
+      --tab-bg: #151d30;
+      --tab-border: #232f48;
+      --tab-text: #94a3b8;
+      --tab-active-bg: #38bdf8;
+      --tab-active-text: #0f172a;
+      --search-bg: #151d30;
+      --search-border: #232f48;
+      --toggle-bg: #1e293b;
+      --toggle-border: #334155;
+      --modal-bg: #151d30;
+      --modal-border: #334155;
+      --read-bg: #0d1322;
+      --read-border: #1e293b;
+      --success: #10b981;
+    }
+    :root[data-theme="light"] {
+      --bg: #f8fafc;
+      --header-bg: linear-gradient(135deg, #ffffff, #f1f5f9);
+      --card-bg: #ffffff;
+      --card-border: #e2e8f0;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --primary: #0284c7;
+      --primary-hover: #0369a1;
+      --badge-bg: rgba(2, 132, 199, 0.1);
+      --tab-bg: #ffffff;
+      --tab-border: #e2e8f0;
+      --tab-text: #64748b;
+      --tab-active-bg: #0284c7;
+      --tab-active-text: #ffffff;
+      --search-bg: #ffffff;
+      --search-border: #cbd5e1;
+      --toggle-bg: #f1f5f9;
+      --toggle-border: #cbd5e1;
+      --modal-bg: #ffffff;
+      --modal-border: #cbd5e1;
+      --read-bg: #f1f5f9;
+      --read-border: #e2e8f0;
+      --success: #059669;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Dastkhat', -apple-system, BlinkMacSystemFont, Tahoma, sans-serif;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      padding: 20px 12px;
+      direction: rtl;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+    }
+    header {
+      background: var(--header-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 22px 20px;
+      margin-bottom: 20px;
+      position: relative;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+    }
+    .header-actions {
+      position: absolute;
+      top: 18px;
+      left: 18px;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .btn-action {
+      background: var(--toggle-bg);
+      border: 1px solid var(--toggle-border);
+      color: var(--text);
+      padding: 7px 12px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    .btn-action:hover {
+      border-color: var(--primary);
+    }
+    h1 {
+      font-size: 1.7rem;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 12px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .meta-tag {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 4px 12px;
+      border-radius: 9999px;
+    }
+    .search-box {
+      margin-bottom: 18px;
+    }
+    .search-input {
+      width: 100%;
+      padding: 13px 18px;
+      border-radius: 12px;
+      background: var(--search-bg);
+      border: 1px solid var(--search-border);
+      color: var(--text);
+      font-size: 0.95rem;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+    }
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      padding-bottom: 4px;
+    }
+    .tabs::-webkit-scrollbar {
+      display: none;
+    }
+    .tab-btn {
+      flex: 1;
+      white-space: nowrap;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: var(--tab-bg);
+      border: 1px solid var(--tab-border);
+      color: var(--tab-text);
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+      flex-shrink: 0;
+    }
+    .tab-btn.active {
+      background: var(--tab-active-bg);
+      color: var(--tab-active-text);
+      border-color: var(--tab-active-bg);
+    }
+    .badge {
+      background: rgba(0, 0, 0, 0.15);
+      padding: 2px 7px;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+    }
+    .news-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .news-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 20px;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+      position: relative;
+    }
+    .news-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+    .news-card.is-read {
+      background: var(--read-bg);
+      border-color: var(--read-border);
+      opacity: 0.7;
+    }
+    .news-card.is-read:hover {
+      opacity: 0.95;
+    }
+    .news-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .news-num {
+      background: var(--badge-bg);
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 0.85rem;
+      min-width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+    .news-card.is-read .news-num {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--success);
+    }
+    .news-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      line-height: 1.6;
+      flex: 1;
+    }
+    .news-summary {
+      font-size: 0.94rem;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      text-align: justify;
+      line-height: 1.75;
+    }
+    .news-footer {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border-top: 1px solid rgba(128, 128, 128, 0.12);
+      padding-top: 12px;
+      font-size: 0.85rem;
+    }
+    .footer-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .meta-group {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 0.82rem;
+    }
+    .news-source {
+      color: var(--text-muted);
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .news-datetime {
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      background: rgba(148, 163, 184, 0.08);
+      padding: 2px 7px;
+      border-radius: 6px;
+      border: 1px solid rgba(148, 163, 184, 0.15);
+    }
+    .news-category-badge {
+      display: inline-flex;
+      align-items: center;
+      background: var(--badge-bg);
+      color: var(--primary);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      border-radius: 6px;
+      padding: 2px 8px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .news-category-badge:hover {
+      background: var(--primary);
+      color: #0f172a;
+      transform: translateY(-1px);
+    }
+    .footer-tags-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .news-tag-chip {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--card-border);
+      padding: 1px 7px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-weight: 500;
+    }
+    .news-tag-chip:hover {
+      color: var(--primary);
+      border-color: var(--primary);
+      background: var(--badge-bg);
+      transform: translateY(-1px);
+    }
+    .footer-bottom-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      border-top: 1px dashed rgba(128, 128, 128, 0.12);
+      padding-top: 10px;
+      margin-top: 4px;
+    }
+    .footer-actions-right {
+      display: flex;
+      align-items: center;
+    }
+    .footer-actions-left {
+      display: flex;
+      align-items: center;
+      margin-right: auto;
+    }
+    .btn-mark-read {
+      background: transparent;
+      border: 1px solid var(--toggle-border);
+      color: var(--text-muted);
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    .btn-mark-read:hover {
+      border-color: var(--success);
+      color: var(--success);
+    }
+    .news-card.is-read .btn-mark-read {
+      background: rgba(16, 185, 129, 0.15);
+      border-color: var(--success);
+      color: var(--success);
+    }
+    .news-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+    .news-link:hover {
+      text-decoration: underline;
+    }
+
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(4px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 16px;
+    }
+    .modal-overlay.active {
+      display: flex;
+    }
+    .modal-card {
+      background: var(--modal-bg);
+      border: 1px solid var(--modal-border);
+      border-radius: 18px;
+      width: 100%;
+      max-width: 520px;
+      max-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      animation: modalFadeIn 0.2s ease;
+    }
+    @keyframes modalFadeIn {
+      from { transform: scale(0.95); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    .modal-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .modal-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+    .btn-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.4rem;
+      cursor: pointer;
+      line-height: 1;
+      padding: 4px;
+    }
+    .btn-close:hover {
+      color: var(--text);
+    }
+    .modal-body {
+      padding: 16px 20px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .archive-item {
+      background: var(--bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.2s ease;
+    }
+    .archive-item:hover {
+      border-color: var(--primary);
+      transform: translateX(-4px);
+    }
+    .archive-date-fa {
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    .archive-date-g {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    .archive-arrow {
+      color: var(--primary);
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 640px) {
+      header { padding: 18px 14px; padding-top: 56px; }
+      .header-actions { top: 12px; left: 12px; width: calc(100% - 24px); justify-content: space-between; }
+      .btn-action { font-size: 0.78rem; padding: 6px 9px; }
+      h1 { font-size: 1.35rem; }
+      .tabs { gap: 6px; }
+      .tab-btn { padding: 10px 10px; font-size: 0.84rem; gap: 6px; }
+      .badge { padding: 1px 5px; font-size: 0.75rem; }
+      .news-card { padding: 16px; }
+      .news-title { font-size: 0.98rem; }
+      .news-summary { font-size: 0.88rem; }
+      .news-footer { flex-direction: column; align-items: stretch; gap: 10px; }
+      .footer-bottom-row { width: 100%; display: flex; justify-content: space-between; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-actions">
+        <button class="btn-action" id="themeBtn" onclick="toggleTheme()">
+          <span id="themeIcon">☀️</span>
+          <span id="themeText">حالت روشن</span>
+        </button>
+        <button class="btn-action" onclick="toggleArchiveModal(true)">
+          <span>📚</span>
+          <span>آرشیو شماره‌ها</span>
+        </button>
+      </div>
+
+      <h1>📰 مجله خبری روزانه</h1>
+      <div class="meta-bar">
+        <span class="meta-tag">📅 ۲۸ آبان ۱۴۰۵</span>
+        <span class="meta-tag">🌍 ۱۹ November ۲۰۲۶</span>
+        <span class="meta-tag">⏰ ساعت انتشار: ۱۸:۰۰</span>
+      </div>
+    </header>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" class="search-input" placeholder="🔍 جست‌وجو در تمام اخبار امروز...">
+    </div>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('persian', this)">
+        🇮🇷 عمومی
+        <span class="badge" id="badge-persian">۰</span>
+      </button>
+      <button class="tab-btn" onclick="switchTab('tech', this)">
+        🤖 تکنولوژی
+        <span class="badge" id="badge-tech">۰</span>
+      </button>
+      <button class="tab-btn" onclick="switchTab('media', this)">
+        🎬 مدیا
+        <span class="badge" id="badge-media">۰</span>
+      </button>
+    </div>
+
+    <main id="newsContainer" class="news-grid"></main>
+  </div>
+
+  <div class="modal-overlay" id="archiveModal" onclick="if(event.target===this) toggleArchiveModal(false)">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title">📚 آرشیو شماره‌های قبلی مجله</div>
+        <button class="btn-close" onclick="toggleArchiveModal(false)">&times;</button>
+      </div>
+      <div class="modal-body" id="archiveListContainer"></div>
+    </div>
+  </div>
+
+  <script>
+    const data = {
+      persian: [],
+      tech: [],
+      media: []
+    };
+
+    const archiveManifest = [{"date_key": "2026-11-19", "p_date": "۲۸ آبان ۱۴۰۵", "g_date": "۱۹ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-19.html"}, {"date_key": "2026-11-18", "p_date": "۲۷ آبان ۱۴۰۵", "g_date": "۱۸ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-18.html"}, {"date_key": "2026-11-17", "p_date": "۲۶ آبان ۱۴۰۵", "g_date": "۱۷ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-17.html"}, {"date_key": "2026-11-16", "p_date": "۲۵ آبان ۱۴۰۵", "g_date": "۱۶ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-16.html"}, {"date_key": "2026-11-15", "p_date": "۲۴ آبان ۱۴۰۵", "g_date": "۱۵ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-15.html"}, {"date_key": "2026-11-14", "p_date": "۲۳ آبان ۱۴۰۵", "g_date": "۱۴ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-14.html"}, {"date_key": "2026-11-13", "p_date": "۲۲ آبان ۱۴۰۵", "g_date": "۱۳ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-13.html"}, {"date_key": "2026-11-12", "p_date": "۲۱ آبان ۱۴۰۵", "g_date": "۱۲ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-12.html"}, {"date_key": "2026-11-11", "p_date": "۲۰ آبان ۱۴۰۵", "g_date": "۱۱ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-11.html"}, {"date_key": "2026-11-10", "p_date": "۱۹ آبان ۱۴۰۵", "g_date": "۱۰ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-10.html"}, {"date_key": "2026-11-09", "p_date": "۱۸ آبان ۱۴۰۵", "g_date": "۹ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-09.html"}, {"date_key": "2026-11-08", "p_date": "۱۷ آبان ۱۴۰۵", "g_date": "۸ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-08.html"}, {"date_key": "2026-11-07", "p_date": "۱۶ آبان ۱۴۰۵", "g_date": "۷ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-07.html"}, {"date_key": "2026-11-06", "p_date": "۱۵ آبان ۱۴۰۵", "g_date": "۶ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-06.html"}, {"date_key": "2026-11-05", "p_date": "۱۴ آبان ۱۴۰۵", "g_date": "۵ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-05.html"}, {"date_key": "2026-11-04", "p_date": "۱۳ آبان ۱۴۰۵", "g_date": "۴ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-04.html"}, {"date_key": "2026-11-03", "p_date": "۱۲ آبان ۱۴۰۵", "g_date": "۳ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-03.html"}, {"date_key": "2026-11-02", "p_date": "۱۱ آبان ۱۴۰۵", "g_date": "۲ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-02.html"}, {"date_key": "2026-11-01", "p_date": "۱۰ آبان ۱۴۰۵", "g_date": "۱ November ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-11-01.html"}, {"date_key": "2026-10-31", "p_date": "۹ آبان ۱۴۰۵", "g_date": "۳۱ October ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-31.html"}, {"date_key": "2026-10-30", "p_date": "۸ آبان ۱۴۰۵", "g_date": "۳۰ October ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-30.html"}, {"date_key": "2026-10-29", "p_date": "۷ آبان ۱۴۰۵", "g_date": "۲۹ October ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-29.html"}, {"date_key": "2026-10-28", "p_date": "۶ آبان ۱۴۰۵", "g_date": "۲۸ October ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-28.html"}, {"date_key": "2026-10-27", "p_date": "۵ آبان ۱۴۰۵", "g_date": "۲۷ October ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-27.html"}, {"date_key": "2026-10-26", "p_date": "۴ آبان ۱۴۰۵", "g_date": "۲۶ October ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-26.html"}, {"date_key": "2026-10-25", "p_date": "۳ آبان ۱۴۰۵", "g_date": "۲۵ October ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-25.html"}, {"date_key": "2026-10-24", "p_date": "۲ آبان ۱۴۰۵", "g_date": "۲۴ October ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-24.html"}, {"date_key": "2026-10-23", "p_date": "۱ آبان ۱۴۰۵", "g_date": "۲۳ October ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-23.html"}, {"date_key": "2026-10-22", "p_date": "۳۰ مهر ۱۴۰۵", "g_date": "۲۲ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-22.html"}, {"date_key": "2026-10-21", "p_date": "۲۹ مهر ۱۴۰۵", "g_date": "۲۱ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-21.html"}, {"date_key": "2026-10-20", "p_date": "۲۸ مهر ۱۴۰۵", "g_date": "۲۰ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-20.html"}, {"date_key": "2026-10-19", "p_date": "۲۷ مهر ۱۴۰۵", "g_date": "۱۹ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-19.html"}, {"date_key": "2026-10-18", "p_date": "۲۶ مهر ۱۴۰۵", "g_date": "۱۸ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-18.html"}, {"date_key": "2026-10-17", "p_date": "۲۵ مهر ۱۴۰۵", "g_date": "۱۷ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-17.html"}, {"date_key": "2026-10-16", "p_date": "۲۴ مهر ۱۴۰۵", "g_date": "۱۶ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-16.html"}, {"date_key": "2026-10-15", "p_date": "۲۳ مهر ۱۴۰۵", "g_date": "۱۵ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-15.html"}, {"date_key": "2026-10-14", "p_date": "۲۲ مهر ۱۴۰۵", "g_date": "۱۴ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-14.html"}, {"date_key": "2026-10-13", "p_date": "۲۱ مهر ۱۴۰۵", "g_date": "۱۳ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-13.html"}, {"date_key": "2026-10-12", "p_date": "۲۰ مهر ۱۴۰۵", "g_date": "۱۲ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-12.html"}, {"date_key": "2026-10-11", "p_date": "۱۹ مهر ۱۴۰۵", "g_date": "۱۱ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-11.html"}, {"date_key": "2026-10-10", "p_date": "۱۸ مهر ۱۴۰۵", "g_date": "۱۰ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-10.html"}, {"date_key": "2026-10-09", "p_date": "۱۷ مهر ۱۴۰۵", "g_date": "۹ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-09.html"}, {"date_key": "2026-10-08", "p_date": "۱۶ مهر ۱۴۰۵", "g_date": "۸ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-08.html"}, {"date_key": "2026-10-07", "p_date": "۱۵ مهر ۱۴۰۵", "g_date": "۷ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-07.html"}, {"date_key": "2026-10-06", "p_date": "۱۴ مهر ۱۴۰۵", "g_date": "۶ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-06.html"}, {"date_key": "2026-10-05", "p_date": "۱۳ مهر ۱۴۰۵", "g_date": "۵ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-05.html"}, {"date_key": "2026-10-04", "p_date": "۱۲ مهر ۱۴۰۵", "g_date": "۴ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-04.html"}, {"date_key": "2026-10-03", "p_date": "۱۱ مهر ۱۴۰۵", "g_date": "۳ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-03.html"}, {"date_key": "2026-10-02", "p_date": "۱۰ مهر ۱۴۰۵", "g_date": "۲ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-02.html"}, {"date_key": "2026-10-01", "p_date": "۹ مهر ۱۴۰۵", "g_date": "۱ اکتبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-10-01.html"}, {"date_key": "2026-09-30", "p_date": "۸ مهر ۱۴۰۵", "g_date": "۳۰ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-30.html"}, {"date_key": "2026-09-29", "p_date": "۷ مهر ۱۴۰۵", "g_date": "۲۹ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-29.html"}, {"date_key": "2026-09-28", "p_date": "۶ مهر ۱۴۰۵", "g_date": "۲۸ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-28.html"}, {"date_key": "2026-09-27", "p_date": "۵ مهر ۱۴۰۵", "g_date": "۲۷ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-27.html"}, {"date_key": "2026-09-26", "p_date": "۴ مهر ۱۴۰۵", "g_date": "۲۶ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-26.html"}, {"date_key": "2026-09-25", "p_date": "۳ مهر ۱۴۰۵", "g_date": "۲۵ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-25.html"}, {"date_key": "2026-09-24", "p_date": "۲ مهر ۱۴۰۵", "g_date": "۲۴ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-24.html"}, {"date_key": "2026-09-23", "p_date": "۱ مهر ۱۴۰۵", "g_date": "۲۳ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-23.html"}, {"date_key": "2026-09-22", "p_date": "۳۱ شهریور ۱۴۰۵", "g_date": "۲۲ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-22.html"}, {"date_key": "2026-09-21", "p_date": "۳۰ شهریور ۱۴۰۵", "g_date": "۲۱ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-21.html"}, {"date_key": "2026-09-20", "p_date": "۲۹ شهریور ۱۴۰۵", "g_date": "۲۰ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-20.html"}, {"date_key": "2026-09-19", "p_date": "۲۸ شهریور ۱۴۰۵", "g_date": "۱۹ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-19.html"}, {"date_key": "2026-09-18", "p_date": "۲۷ شهریور ۱۴۰۵", "g_date": "۱۸ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-18.html"}, {"date_key": "2026-09-17", "p_date": "۲۶ شهریور ۱۴۰۵", "g_date": "۱۷ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-17.html"}, {"date_key": "2026-09-16", "p_date": "۲۵ شهریور ۱۴۰۵", "g_date": "۱۶ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-16.html"}, {"date_key": "2026-09-15", "p_date": "۲۴ شهریور ۱۴۰۵", "g_date": "۱۵ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-15.html"}, {"date_key": "2026-09-14", "p_date": "۲۳ شهریور ۱۴۰۵", "g_date": "۱۴ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-14.html"}, {"date_key": "2026-09-13", "p_date": "۲۲ شهریور ۱۴۰۵", "g_date": "۱۳ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-13.html"}, {"date_key": "2026-09-12", "p_date": "۲۱ شهریور ۱۴۰۵", "g_date": "۱۲ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-12.html"}, {"date_key": "2026-09-11", "p_date": "۲۰ شهریور ۱۴۰۵", "g_date": "۱۱ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-11.html"}, {"date_key": "2026-09-10", "p_date": "۱۹ شهریور ۱۴۰۵", "g_date": "۱۰ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-10.html"}, {"date_key": "2026-09-09", "p_date": "۱۸ شهریور ۱۴۰۵", "g_date": "۹ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-09.html"}, {"date_key": "2026-09-07", "p_date": "۱۶ شهریور ۱۴۰۵", "g_date": "۷ سپتامبر ۲۰۲۶", "url": "https://rezjalibd.github.io/daily-news/archive/2026-09-07.html"}];
+
+    let currentTab = 'persian';
+    let searchQuery = '';
+    let readArticles = new Set(JSON.parse(localStorage.getItem('read_articles_registry') || '[]'));
+
+    function toFaDigits(n) {
+      const f = ['۰','۱','۲','۳','۴','۵','۶','۷','۸','۹'];
+      return n.toString().replace(/\d/g, d => f[d]);
+    }
+
+    function toggleRead(hash) {
+      if (readArticles.has(hash)) {
+        readArticles.delete(hash);
+      } else {
+        readArticles.add(hash);
+      }
+      localStorage.setItem('read_articles_registry', JSON.stringify(Array.from(readArticles)));
+      renderNews();
+    }
+
+    function renderNews() {
+      const container = document.getElementById('newsContainer');
+      const rawItems = data[currentTab] || [];
+      
+      const filtered = rawItems.filter(item => {
+        if (!searchQuery) return true;
+        const q = searchQuery.toLowerCase();
+        const title = (item.title_fa || item.title || '').toLowerCase();
+        const summary = (item.summary_fa || item.summary || '').toLowerCase();
+        const source = (item.source || '').toLowerCase();
+        const category = (item.category || '').toLowerCase();
+        const tags = (item.tags || []).join(' ').toLowerCase();
+        return title.includes(q) || summary.includes(q) || source.includes(q) || category.includes(q) || tags.includes(q);
+      });
+
+      const unreadList = [];
+      const readList = [];
+
+      filtered.forEach(item => {
+        if (readArticles.has(item.hash)) {
+          readList.push(item);
+        } else {
+          unreadList.push(item);
+        }
+      });
+
+      const sortedItems = [...unreadList, ...readList];
+
+      if (sortedItems.length === 0) {
+        container.innerHTML = '<div style="text-align:center; padding: 40px; color: var(--text-muted);">هیچ خبری در این بخش در ۲۴ ساعت گذشته ثبت نشده است.</div>';
+        return;
+      }
+
+      container.innerHTML = sortedItems.map((item, idx) => {
+        const title = item.title_fa || item.title || '';
+        const summary = item.summary_fa || item.summary || '';
+        const source = item.source || 'منبع خبر';
+        const link = item.link || '#';
+        const isRead = readArticles.has(item.hash);
+        const num = toFaDigits(idx + 1);
+        const category = item.category || '';
+        const tags = item.tags || [];
+        const datetimeFa = item.datetime_fa || '';
+
+        return `
+          <article class="news-card ${isRead ? 'is-read' : ''}" id="card-${item.hash}">
+            <div class="news-header">
+              <span class="news-num">${isRead ? '✓' : num}</span>
+              <h2 class="news-title">${title}</h2>
+            </div>
+            ${summary ? `<p class="news-summary">${summary}</p>` : ''}
+            <div class="news-footer">
+              <div class="footer-top-row">
+                <div class="meta-group">
+                  <span class="news-source">📌 ${source}</span>
+                  ${datetimeFa ? `<span class="news-datetime">🕒 ${datetimeFa}</span>` : ''}
+                  ${category ? `<span class="news-category-badge" onclick="filterByTag('${category}')">📂 ${category}</span>` : ''}
+                </div>
+              </div>
+              ${tags && tags.length > 0 ? `
+                <div class="footer-tags-row">
+                  ${tags.map(t => `<span class="news-tag-chip" onclick="filterByTag('${t}')">#${t}</span>`).join('')}
+                </div>
+              ` : ''}
+              <div class="footer-bottom-row">
+                <div class="footer-actions-right">
+                  <button class="btn-mark-read" onclick="toggleRead('${item.hash}')">
+                    ${isRead ? '✓ خوانده شد' : '○ علامت خوانده‌شده'}
+                  </button>
+                </div>
+                <div class="footer-actions-left">
+                  ${link && link.startsWith('http') ? `<a href="${link}" target="_blank" rel="noopener noreferrer" class="news-link">مطالعه اصل خبر ↗</a>` : ''}
+                </div>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    function filterByTag(val) {
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) {
+        searchInput.value = val;
+        searchQuery = val;
+        renderNews();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    function switchTab(tab, el) {
+      currentTab = tab;
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      if (el) el.classList.add('active');
+      renderNews();
+    }
+
+    function toggleTheme() {
+      const html = document.documentElement;
+      const current = html.getAttribute('data-theme') || 'dark';
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      updateThemeButton(next);
+    }
+
+    function updateThemeButton(theme) {
+      const icon = document.getElementById('themeIcon');
+      const text = document.getElementById('themeText');
+      if (theme === 'dark') {
+        icon.textContent = '☀️';
+        text.textContent = 'حالت روشن';
+      } else {
+        icon.textContent = '🌙';
+        text.textContent = 'حالت تاریک';
+      }
+    }
+
+    function toggleArchiveModal(show) {
+      const modal = document.getElementById('archiveModal');
+      if (show) {
+        renderArchiveList();
+        modal.classList.add('active');
+      } else {
+        modal.classList.remove('active');
+      }
+    }
+
+    function renderArchiveList() {
+      const listContainer = document.getElementById('archiveListContainer');
+      if (!archiveManifest || archiveManifest.length === 0) {
+        listContainer.innerHTML = '<div style="text-align:center; padding: 20px; color: var(--text-muted);">هنوز شماره قبلی ثبت نشده است.</div>';
+        return;
+      }
+
+      listContainer.innerHTML = archiveManifest.map(item => `
+        <a href="${item.url}" class="archive-item">
+          <div>
+            <div class="archive-date-fa">📰 شماره ${item.p_date}</div>
+            <div class="archive-date-g">🌍 ${item.g_date}</div>
+          </div>
+          <span class="archive-arrow">←</span>
+        </a>
+      `).join('');
+    }
+
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    updateThemeButton(savedTheme);
+
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim();
+      renderNews();
+    });
+
+    renderNews();
+  </script>
+</body>
+</html>
