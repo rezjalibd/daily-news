@@ -3,8 +3,26 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-21T04:00:46.170245+00:00",
+  "last_updated": "2026-11-21T04:10:42.535285+00:00",
   "items": [
+    {
+      "hash": "8cd6ac71090679c1",
+      "webpage_persian_date": "۳۰ آبان ۱۴۰۵",
+      "webpage_gregorian_date": "۲۱ November ۲۰۲۶",
+      "webpage_publish_time": "۰۷:۴۰",
+      "topic": "عمومی و ایران",
+      "title": "کالابرگ به صندوق رسید، اما بهای مرغ و تخم‌مرغ را نپرداخت",
+      "summary": "شماری از خریداران تهرانی به ایلنا گفتند با وجود داشتن اعتبار کالابرگ، در برخی بازارهای میوه و تره‌بار ناچار شده‌اند بهای مرغ و تخم‌مرغ را به قیمت آزاد بپردازند یا بخشی از پول گوشت را از جیب بدهند.",
+      "source": "Iran International",
+      "source_datetime_fa": "۳۰ آبان • ۰۷:۱۸",
+      "source_date_raw": "2026-11-21T03:48:47+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://www.iranintl.com/202611219315"
+    },
     {
       "hash": "0eb62f7c9b9e03dc",
       "webpage_persian_date": "۳۰ آبان ۱۴۰۵",
@@ -26779,24 +26797,6 @@
         "گزارش"
       ],
       "link": "https://parsi.euronews.com/2026/11/19/islam-forecast-to-soon-exceed-christianity-as-worlds-biggest-faith"
-    },
-    {
-      "hash": "4fde884e89e10398",
-      "webpage_persian_date": "۲۸ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۱۹ November ۲۰۲۶",
-      "webpage_publish_time": "۱۲:۳۰",
-      "topic": "عمومی و ایران",
-      "title": "حشره‌ای نادر کنار یک یخچال در حال ناپدید شدنِ پاتاگونیا شیلی کشف شد",
-      "summary": "یک تیم بین‌المللی از دانشمندان با مشارکت پژوهشگران دانشگاه بارسلونا، حشره‌ای نادر را در کنار بقایای یک یخچال طبیعی در پاتاگونیای شیلی کشف کرده است.",
-      "source": "Euronews Persian",
-      "source_datetime_fa": "۲۸ آبان • ۰۹:۳۵",
-      "source_date_raw": "2026-11-19T06:05:07+00:00",
-      "category": "سیاست و دیپلماسی",
-      "tags": [
-        "رویداد",
-        "گزارش"
-      ],
-      "link": "https://parsi.euronews.com/2026/11/19/a-rare-insect-found-near-a-melting-glacier-in-the-chilean-patagonia"
     }
   ]
 }
