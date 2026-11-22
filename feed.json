@@ -3,8 +3,26 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-22T01:40:35.181418+00:00",
+  "last_updated": "2026-11-22T02:20:34.473832+00:00",
   "items": [
+    {
+      "hash": "4703b3d5041a226e",
+      "webpage_persian_date": "۱ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۲ November ۲۰۲۶",
+      "webpage_publish_time": "۰۵:۵۰",
+      "topic": "عمومی و ایران",
+      "title": "از «دوست من پوتین» تا تداعی یالتا؛ ترامپ عکسش با رهبران چین و روسیه را کنار عکس کنفرانس تهران منتشر کرد",
+      "summary": "دونالد ترامپ روز شنبه با انتشار تصاویری از خود به همراه پوتین و شی، رهبران روسیه و چین را دوستان خود خواند. او همچنین تصویری سه‌نفره از خود به همراه شی و پوتین را در کنار تصویر مشهور چرچیل، روزولت و استالین در کنفرانس تهران منتشر کرد.",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۱ آذر • ۰۵:۲۸",
+      "source_date_raw": "2026-11-22T01:58:44+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/2026/11/22/trump-posts-photo-with-putin-and-xi-alongside-tehran-conference-yalta"
+    },
     {
       "hash": "9b1e9c23d6f558ea",
       "webpage_persian_date": "۱ آذر ۱۴۰۵",
@@ -26792,24 +26810,6 @@
         "امنیت سایبری"
       ],
       "link": "https://www.businessinsider.com/jpmorgan-vendor-cyberattack-customer-data-exposed-2026-11"
-    },
-    {
-      "hash": "1da81162c245d809",
-      "webpage_persian_date": "۲۹ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۰ November ۲۰۲۶",
-      "webpage_publish_time": "۲۲:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "قرارداد اوایل جمعه سیاه Dyson Airwrap: اکنون تا 150 دلار تخفیف دارد",
-      "summary": "وقتی از طریق پیوندهای ما خرید می کنید، Business Insider ممکن است کمیسیون وابسته را دریافت کند. بیشتر بدانید Jaclyn Turner/Business Insider من فکر نمی‌کنم اغراق آمیز باشد که بگوییم Dyson Airwrap بازی آرایش مو در خانه را تغییر داده است. این ابزار نه تنها به همراه ضمیمه‌هایی ارائه می‌شود که به شما فرهای مشخص یا براقی می‌دهد، بلکه این کار را با آسیب حرارتی کمی انجام می‌دهد. همه معاملات جمعه سیاه Airwrap را در Dyson ببینید. فروش جمعه سیاه آمازون فقط 150 دلار از Dyson Airwrap کم کرد، بنابراین اکنون به 499.99 دلار کاهش یافته است. آخرین باری که Airwrap i.d را دیدیم. برای این ارزان روز نخست بود. بیشتر Airwrap i.d. معاملات برای انواع موی مختلف زودتر به Dyson رسیده است، در حالی که Best Buy و Nordstrom نیز صرفه جویی زیادی در نسخه های جدیدتر Airwrap ارائه می دهند. Airwrap Origin کم هزینه ترین گزینه است که اکنون 399.99 دلار در مقایسه با 549.99 دلار معمولی آن قیمت دارد. ما دیده‌ایم که Airwraps در هر جمعه سیاه به سرعت فروخته می‌شود، بنابراین در اینجا جایی است که می‌توان قبل از این اتفاق یک Dyson Airwrap در فروش عالی به دست آورد. تخفیف های برتر روز جمعه سیاه Airwrap Dyson Airwrap Origin (549.99 دلار 399.99 دلار): ابتدایی ترین و مقرون به صرفه ترین Airwrap 150 دلار تخفیف در Dyson Dyson Airwrap Co-anda2x (699.99 دلار 549.99 دلار): جدیدترین Airwrap با تخفیف 105 دلاری Airwrap در Best Buy Dyd9.9.9 دلار است. 499.99 دلار): این معامله Airwrap دارای مجموعه هایی برای موهای صاف یا مجعد هر دو با تخفیف 150 دلاری بهترین معاملات جمعه سیاه Dyson Airwrap است. کدام معامله Dyson Airwrap را باید انتخاب کنم؟ اکنون سه مدل Airwrap در فروش وجود دارد: i.d.، Origin و Co-anda2x. در اینجا یک مرور سریع از تفاوت آنها وجود دارد: Dyson Airwrap Origin",
-      "source": "Business Insider",
-      "source_datetime_fa": "۲۸ آبان • ۲۲:۰۷",
-      "source_date_raw": "2026-11-19T18:37:36+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "فناوری",
-        "نوآوری"
-      ],
-      "link": "https://www.businessinsider.com/guides/deals/dyson-airwrap-black-friday-deals-2026-11-19"
     }
   ]
 }
