@@ -3,8 +3,25 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-22T00:30:53.141129+00:00",
+  "last_updated": "2026-11-22T00:40:36.047165+00:00",
   "items": [
+    {
+      "hash": "55ac0b9447c6bc7a",
+      "webpage_persian_date": "۱ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۲ November ۲۰۲۶",
+      "webpage_publish_time": "۰۴:۱۰",
+      "topic": "مدیا و هنر",
+      "title": "مارتین کورتیس بعد از اجرای «چپ دست»، پانیک را «افسانه‌ها» می‌نامد | جوایز MAMA 2026",
+      "summary": "کورتیس در مراسم جوایز MAMA 2026 با تتریس کلی بیلبورد روی فرش قرمز قرار گرفت. مارتین کورتیس بعد از اجرای \"چپ دست\"، وحشت را \"افسانه ها\" می نامد | جوایز MAMA 2026 اشتراک‌گذاری در فیس‌بوک اشتراک‌گذاری در X + گزینه‌های اشتراک‌گذاری اضافی اضافه شد اشتراک‌گذاری در Pinterest اشتراک‌گذاری در Tumblr اشتراک‌گذاری در Reddit اشتراک‌گذاری در LinkedIn اشتراک‌گذاری در Whats App ارسال یک ایمیل چاپ این مقاله ارسال یک نظر. یک گزارش روزانه در مورد آنچه در صنعت موسیقی مهم است",
+      "source": "Billboard",
+      "source_datetime_fa": "۱ آذر • ۰۴:۰۶",
+      "source_date_raw": "2026-11-22T00:36:18+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "موسیقی"
+      ],
+      "link": "https://www.billboard.com/video/cortis-martin-calls-panic-legends-after-left-handed-performance-mama-awards-2026/"
+    },
     {
       "hash": "7f41863f6eabe89f",
       "webpage_persian_date": "۱ آذر ۱۴۰۵",
@@ -26792,23 +26809,6 @@
         "موسیقی"
       ],
       "link": "https://deadline.com/2026/11/kennedy-center-honors-cbs-1237229052/"
-    },
-    {
-      "hash": "d694ac3f0d18aaf6",
-      "webpage_persian_date": "۲۹ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۰ November ۲۰۲۶",
-      "webpage_publish_time": "۲۲:۳۰",
-      "topic": "مدیا و هنر",
-      "title": "کریس کاتان شرکت تولید و توزیع Kattan Films را راه اندازی کرد",
-      "summary": "انحصاری: کریس کاتان درها را به روی Kattan Films باز می کند، یک شرکت تولید و توزیع مستقل که بر روی خرید فیلم هایی برای اکران در سینما تمرکز دارد و در عین حال مجموعه ای از تولیدات اصلی خود را توسعه می دهد. Kattan Films یک مدل پخش اول در تئاتر را دنبال خواهد کرد. عملیات تولید آن فیلم‌های داستانی و سریال‌های تلویزیونی اصلی را توسعه می‌دهد و برنامه‌هایی برای فیلم‌برداری پروژه‌ها دارد [ ] آلوم Groundlings یکی از بازیگران سریال Saturday Night Live از سال 1996 تا 2003 بود که به‌خاطر شخصیت‌های تکرارشونده‌اش از جمله آقای Peepers، Mango، Azrael Abyss، و Kyle DeMarco از برادران DeMarco در میان بسیاری دیگر شهرت داشت. از ویژگی‌های اصلی او می‌توان به House on Haunted Hill، Corky Romano، Night at the Roxbury، Undercover Brother، و یک بازیگر نقش مکمل طولانی‌مدت در سریال کمدی ABC The Middle اشاره کرد. در آخرین مهلت تماشا کنید هشدارهای اخبار فوری ما را دریافت کنید و صندوق ورودی خود را راضی نگه دارید. نظرات در مورد Deadline هالیوود نظارت می شود. بنابراین از موضوع خارج نشوید، جعل هویت کسی نباشید و حقایق خود را اشتباه نگیرید.",
-      "source": "Deadline",
-      "source_datetime_fa": "۲۸ آبان • ۲۱:۵۰",
-      "source_date_raw": "2026-11-19T18:20:28+00:00",
-      "category": "سینما و سریال",
-      "tags": [
-        "سینما"
-      ],
-      "link": "https://deadline.com/2026/11/chris-kattan-launches-kattan-films-1237229283/"
     }
   ]
 }
