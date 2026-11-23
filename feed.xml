@@ -5,8 +5,41 @@
     <link>https://news.recart.ir/</link>
     <description>فید یکپارچه تمام شماره‌های وب‌پیج مجله خبری روزانه پالس (فناوری، هوش مصنوعی، رسانه و رویدادها)</description>
     <language>fa</language>
-    <lastBuildDate>Mon, 23 Nov 2026 04:50:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 05:10:21 +0000</lastBuildDate>
     <atom:link href="https://news.recart.ir/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>گِوورگ تامامیان، جوان‌ترین نامزد برای ریاست سازمان جهانی بهداشت کیست؟</title>
+      <link>https://parsi.euronews.com/2026/11/23/who-is-gevorg-tamamyan-the-youngest-candidate-to-lead-the-who</link>
+      <guid isPermaLink="false">db08a955fc00c32a</guid>
+      <pubDate>Mon, 23 Nov 2026 05:00:19 +0000</pubDate>
+      <source url="https://parsi.euronews.com/2026/11/23/who-is-gevorg-tamamyan-the-youngest-candidate-to-lead-the-who">Euronews Persian</source>
+      <category>جامعه و رویدادها</category>
+      <category>رویداد</category>
+      <category>گزارش</category>
+      <description><![CDATA[<p>گِوورگ تامامیان، فوق‌تخصص سرطان کودکان از ارمنستان، به یورونیوز گفت برای ریاست سازمان جهانی بهداشت کمپین می‌کند، با تمرکز بر برابری، احیای اعتماد و ارائه نگاهی بیرونی به سازمان.</p><hr/><ul><li><strong>تاپیک:</strong> عمومی و ایران</li><li><strong>منبع:</strong> Euronews Persian</li><li><strong>تاریخ انتشار در سورس:</strong> ۲ آذر • ۰۸:۳۰</li><li><strong>دسته‌بندی:</strong> جامعه و رویدادها</li><li><strong>کلیدواژه‌ها:</strong> رویداد, گزارش</li><li><strong>شماره وب‌پیج:</strong> ۲ آذر ۱۴۰۵ (۲۳ November ۲۰۲۶) - ساعت ۰۸:۴۰</li></ul>]]></description>
+    </item>
+    <item>
+      <title>تکنیک مبتنی بر هوش مصنوعی می تواند به مهندسان کمک کند تا تراشه های آنالوگ را سریعتر و با هزینه کمتر طراحی کنند</title>
+      <link>https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123</link>
+      <guid isPermaLink="false">093f8f8eb5ebb420</guid>
+      <pubDate>Mon, 23 Nov 2026 05:00:00 +0000</pubDate>
+      <source url="https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123">MIT AI</source>
+      <category>هوش مصنوعی مولد</category>
+      <category>هوش مصنوعی</category>
+      <category>تراشه</category>
+      <description><![CDATA[<p>یک تکنیک جدید توسعه یافته توسط محققان MIT می تواند به مهندسان کمک کند تا از هوش مصنوعی برای ساده کردن طراحی و نوآوری مدارهای مجتمع آنالوگ، تراشه های نیمه هادی که عملکردهای حیاتی مانند ارتباطات و مدیریت توان در دستگاه های الکترونیکی را انجام می دهند، استفاده کنند. در آینده، این روش می‌تواند به مهندسان اجازه دهد تا سریع‌تر نمونه‌سازی کنند، طیف وسیع‌تری از طرح‌های تراشه را کشف کنند و طرح‌های طراحی جدیدی را کشف کنند که ممکن است عملکرد و کارایی انرژی روبات‌ها، مانیتورهای پزشکی یا حسگرهای صنعتی را بهبود بخشد. طراحی مدارهای مجتمع آنالوگ که الزامات خاصی را برآورده می کنند، معمولاً به دلیل تعداد زیاد امکانات، یک فرآیند دستی دست و پا گیر است. مدل‌های هوش مصنوعی مولد مرزی در خودکارسازی فرآیند موفقیت‌آمیز نشان داده‌اند، اما استفاده از این مدل‌های مبتنی بر منابع فشرده و میزبان ابری می‌تواند طراحی مدار اختصاصی و داده‌های ریخته‌گری نیمه‌رسانا را در معرض دید کاربران مخرب قرار دهد. روش MIT که Small LM Iterating on Circuits یا SLIC (تلفظ "صاف") نامیده می شود، مهندسان را قادر می سازد تا یک مدل زبان کوچک را برای انجام طراحی مدار آنالوگ و همچنین یا بهتر از یک مدل زبان مرزی بزرگ (LLM) آموزش دهند. این مدل کوچک به اندازه کافی ارزان و کارآمد است که می تواند روی لپ تاپ اجرا شود. از آنجایی که به صورت محلی آموزش دیده و مستقر شده است، می تواند از داده های طراحی مدار یک شرکت بدون افزایش خطرات حفظ حریم خصوصی استفاده کند. هنگامی که با خطوط پایه مکمل و LLM های مرزی با وزن باز مقایسه می شود، یک مدل کوچک آموزش داده شده توسط SLIC به طور موثرتری طرح هایی را ایجاد کرد که به اهداف مدار دست یافت. ما یک گزینه جایگزین برای خودکار کردن طراحی مدار آنالوگ ارائه کرده ایم. یان</p><hr/><ul><li><strong>تاپیک:</strong> فناوری و هوش مصنوعی</li><li><strong>منبع:</strong> MIT AI</li><li><strong>تاریخ انتشار در سورس:</strong> ۲ آذر • ۰۸:۳۰</li><li><strong>دسته‌بندی:</strong> هوش مصنوعی مولد</li><li><strong>کلیدواژه‌ها:</strong> هوش مصنوعی, تراشه</li><li><strong>شماره وب‌پیج:</strong> ۲ آذر ۱۴۰۵ (۲۳ November ۲۰۲۶) - ساعت ۰۸:۴۰</li></ul>]]></description>
+    </item>
+    <item>
+      <title>نیروستا استیل نسخه های جایگزین My Skyscraper Tracks را به اشتراک می گذارد</title>
+      <link>https://pitchfork.com/story/nirosta-steel-shares-alternate-versions-of-my-skyscraper-tracks/</link>
+      <guid isPermaLink="false">cce5cd1c8a97951a</guid>
+      <pubDate>Mon, 23 Nov 2026 05:03:35 +0000</pubDate>
+      <source url="https://pitchfork.com/story/nirosta-steel-shares-alternate-versions-of-my-skyscraper-tracks/">Pitchfork</source>
+      <category>هوش مصنوعی مولد</category>
+      <category>سینما</category>
+      <category>موسیقی</category>
+      <description><![CDATA[<p>Loader Save Story ذخیره این داستان نظر Loader Save Story ذخیره این داستان Steel نیروستا در آرشیو خود جستجو کرده و با نسخه های جایگزین دو آهنگ از My Skyscraper ظاهر شده است. نسخه‌های «Boss Mix» از «Grey Boy» و «Boss Trix» که به‌تازگی در استریم و به‌عنوان 7 تک‌آهنگ در دسترس است، در سال 2010 بین هنگ‌کنگ، تایپه و بانکوک ضبط شد و در برج رئیس تایلند (از این رو نام آن) میکس شد. هر دو را در زیر گوش دهید. این دومین انتشار در ماه استیون هال است، پس از کاور «پسر با لبخند» آرتور راسل، همکار قدیمی اش، که او در موسیقی متن فیلم «کلاب بچه» از شبکه A24 مشارکت داشت. از زمانی که در اوایل سال جاری My Skyscraper را به اشتراک گذاشت، هال با اولین تور مناسب خود، از جمله نمایش در Pitchfork پاریس و لندن، مشغول بوده است. او قرار است سال آینده اولین بازی خود در کواچلا را انجام دهد. نمایه Shaad D’Souza را دوباره ببینید.</p><hr/><ul><li><strong>تاپیک:</strong> مدیا و هنر</li><li><strong>منبع:</strong> Pitchfork</li><li><strong>تاریخ انتشار در سورس:</strong> ۲ آذر • ۰۸:۳۳</li><li><strong>دسته‌بندی:</strong> هوش مصنوعی مولد</li><li><strong>کلیدواژه‌ها:</strong> سینما, موسیقی</li><li><strong>شماره وب‌پیج:</strong> ۲ آذر ۱۴۰۵ (۲۳ November ۲۰۲۶) - ساعت ۰۸:۴۰</li></ul>]]></description>
+    </item>
     <item>
       <title>باکس آفیس کره: تریلر اسرارآمیز "White Blast" در رتبه اول اکران می شود و به سلطنت پنج هفته ای "Chiikawa" پایان می دهد.</title>
       <link>https://variety.com/2026/film/box-office/korea-box-office-mystery-thriller-white-blast-1236955658/</link>
@@ -16220,39 +16253,6 @@
       <category>رویداد</category>
       <category>گزارش</category>
       <description><![CDATA[<p>به‌عنوان بخشی از «بیانیه صلح» مذاکران شنژن، سه رهبر «اذعان کردند که اصل رضایت دولت و احترام به مصونیت‌های مقامات دولتی از اهمیتی بنیادین برخوردار است» و هم‌نظر بودند که دیوان کیفری بین‌المللی و سایر نهادهای مشابه نباید از صلاحیت قضایی خود سوءاستفاده کنند.</p><hr/><ul><li><strong>تاپیک:</strong> عمومی و ایران</li><li><strong>منبع:</strong> Euronews Persian</li><li><strong>تاریخ انتشار در سورس:</strong> ۲۹ آبان • ۱۳:۳۷</li><li><strong>دسته‌بندی:</strong> سیاست و دیپلماسی</li><li><strong>کلیدواژه‌ها:</strong> رویداد, گزارش</li><li><strong>شماره وب‌پیج:</strong> ۲۹ آبان ۱۴۰۵ (۲۰ November ۲۰۲۶) - ساعت ۱۵:۳۰</li></ul>]]></description>
-    </item>
-    <item>
-      <title>متهم پرونده فرفورد در دادگاه نیویورک: ما ارتش قاسم سلیمانی هستیم</title>
-      <link>https://www.iranintl.com/202611207027</link>
-      <guid isPermaLink="false">fff5fcc66c61400e</guid>
-      <pubDate>Fri, 20 Nov 2026 11:44:06 +0000</pubDate>
-      <source url="https://www.iranintl.com/202611207027">Iran International</source>
-      <category>جامعه و رویدادها</category>
-      <category>رویداد</category>
-      <category>گزارش</category>
-      <description><![CDATA[<p>محمدباقر سعد داوود السعدی، متهم به هدایت طرح حمله به پایگاه هوایی فرفورد بریتانیا، در جلسه دادگاهی در نیویورک بارها روند جلسه را مختل و اعلام کرد که «ما ارتش قاسم سلیمانی هستیم». او اتهام‌های مرتبط با اقدامات تروریستی را رد کرد.</p><hr/><ul><li><strong>تاپیک:</strong> عمومی و ایران</li><li><strong>منبع:</strong> Iran International</li><li><strong>تاریخ انتشار در سورس:</strong> ۲۹ آبان • ۱۵:۱۴</li><li><strong>دسته‌بندی:</strong> جامعه و رویدادها</li><li><strong>کلیدواژه‌ها:</strong> رویداد, گزارش</li><li><strong>شماره وب‌پیج:</strong> ۲۹ آبان ۱۴۰۵ (۲۰ November ۲۰۲۶) - ساعت ۱۵:۳۰</li></ul>]]></description>
-    </item>
-    <item>
-      <title>احمد علم‌الهدی: مساله اول مردم حجاب و نگرانی از گسترش بی‌حجابی است</title>
-      <link>https://www.iranintl.com/202611201135</link>
-      <guid isPermaLink="false">d6e27c742be16240</guid>
-      <pubDate>Fri, 20 Nov 2026 11:44:02 +0000</pubDate>
-      <source url="https://www.iranintl.com/202611201135">Iran International</source>
-      <category>جامعه و رویدادها</category>
-      <category>رویداد</category>
-      <category>گزارش</category>
-      <description><![CDATA[<p>احمد علم‌الهدی، نماینده رهبر جمهوری اسلامی در خراسان رضوی، گفت: «در اکثر تجمعاتی که حضور پیدا می‌کنم، مردم دو مساله و مطالبه اصلی را مطرح می‌کنند؛ مساله نخست، حجاب و نگرانی از گسترش بی‌حجابی است. آنان از توسعه بی‌حجابی گلایه دارند و معتقدند ناموسشان در خطر است.»</p><hr/><ul><li><strong>تاپیک:</strong> عمومی و ایران</li><li><strong>منبع:</strong> Iran International</li><li><strong>تاریخ انتشار در سورس:</strong> ۲۹ آبان • ۱۵:۱۴</li><li><strong>دسته‌بندی:</strong> جامعه و رویدادها</li><li><strong>کلیدواژه‌ها:</strong> رویداد, گزارش</li><li><strong>شماره وب‌پیج:</strong> ۲۹ آبان ۱۴۰۵ (۲۰ November ۲۰۲۶) - ساعت ۱۵:۳۰</li></ul>]]></description>
-    </item>
-    <item>
-      <title>بختیاری‌زاده به تمرین برگشت؛ استقلالی‌ها شنبه مستقیم راهی دبی می‌شوند</title>
-      <link>https://www.iranintl.com/202611206788</link>
-      <guid isPermaLink="false">cf434282e781b6c1</guid>
-      <pubDate>Fri, 20 Nov 2026 11:37:16 +0000</pubDate>
-      <source url="https://www.iranintl.com/202611206788">Iran International</source>
-      <category>جامعه و رویدادها</category>
-      <category>رویداد</category>
-      <category>گزارش</category>
-      <description><![CDATA[<p>سهراب بختیاری‌زاده، سرمربی استقلال، پس از دو روز غیبت و اعلام استعفا، روز جمعه به تمرینات این تیم بازگشت.</p><hr/><ul><li><strong>تاپیک:</strong> عمومی و ایران</li><li><strong>منبع:</strong> Iran International</li><li><strong>تاریخ انتشار در سورس:</strong> ۲۹ آبان • ۱۵:۰۷</li><li><strong>دسته‌بندی:</strong> جامعه و رویدادها</li><li><strong>کلیدواژه‌ها:</strong> رویداد, گزارش</li><li><strong>شماره وب‌پیج:</strong> ۲۹ آبان ۱۴۰۵ (۲۰ November ۲۰۲۶) - ساعت ۱۵:۳۰</li></ul>]]></description>
     </item>
   </channel>
 </rss>
