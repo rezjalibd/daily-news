@@ -5,8 +5,19 @@
     <link>https://news.recart.ir/</link>
     <description>فید یکپارچه تمام شماره‌های وب‌پیج مجله خبری روزانه پالس (فناوری، هوش مصنوعی، رسانه و رویدادها)</description>
     <language>fa</language>
-    <lastBuildDate>Mon, 23 Nov 2026 03:50:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 04:20:18 +0000</lastBuildDate>
     <atom:link href="https://news.recart.ir/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>تبدیل گوشی به مانیتور دوم کامپیوتر؛ قابلیت جذاب ویندوز ۱۱ در راه است</title>
+      <link>https://www.zoomit.ir/os/471573-windows-11-phone-second-monitor/</link>
+      <guid isPermaLink="false">b0e4640a5c839e80</guid>
+      <pubDate>Mon, 23 Nov 2026 04:15:00 +0000</pubDate>
+      <source url="https://www.zoomit.ir/os/471573-windows-11-phone-second-monitor/">Zoomit</source>
+      <category>هوش مصنوعی مولد</category>
+      <category>Apple</category>
+      <category>Microsoft</category>
+      <description><![CDATA[<p>مایکروسافت در حال توسعه‌ی قابلیتی برای استفاده از گوشی‌ها و تبلت‌های اندرویدی به‌عنوان مانیتور دوم در ویندوز ۱۱ است. تبلیغات مایکروسافت روی ویژگی جدیدی به نام Extend display در برنامه‌ی Link to Windows کار می‌کند که به کاربران اجازه می‌دهد از گوشی و احتمالا تبلت اندرویدی خود به‌عنوان نمایشگر دوم کامپیوتر ویندوزی استفاده کنند. کدهای اختصاصی سیستمی تحت عنوان Phone as Display، رشته‌های متنی رابط کاربری و آیکون‌های این قابلیت درون نسخه آزمایشی این اپلیکیشن شناسایی شده‌اند. به نوشته‌ی Windowslatest .، ویژگی مذکور به صفحه‌ی اختصاصی خود مجهز خواهد بود و کنترل‌های تنظیم تصویر، دکمه توقف و امکان خروج از طریق دو بار ضربه روی کلید بازگشت را در اختیار کاربر قرار می‌دهد. اپل قابلیتی مشابه به نام Sidecar را ارائه می‌دهد که منحصرا با آیپد کار می‌کند، در حالی که راهکار جدید مایکروسافت حتی با گوشی‌های هوشمند نیز سازگار خواهد بود و امکان تبدیل تبلت‌های قدیمی و خاک‌خورده را به نمایشگر دوم بدون نیاز به ابزارهای متفرقه فراهم می‌کند. بررسی ساختار فنی برنامه نشان می‌دهد که فرایند گسترش تصویر از بسته نرم‌افزاری phone_as_display.v1 قدرت می‌گیرد و امکان آغاز ارتباط از سمت کامپیوتر یا گوشی پیش‌بینی شده است. این سیستم از کدک‌های ویدیویی H.264 و HEVC (Main, 8-bit) بهره می‌برد تا تصویر دسکتاپ پس از انکود شدن در ویندوز، با وضوح و نرخ نوسازی توافق‌شده میان هر دو دستگاه به نمایشگر مقصد ارسال شود. جلسه اتصال نمایشگر در صورت قفل شدن کامپیوتر، بروز اختلال در دریافت‌کننده گوشی یا قطع پیوند متوقف خواهد شد و مایکروسافت یک مهلت ۶۰ ثانیه‌ای برای دریافت فریم ویدیویی اولیه در نظر گرفته است. مایکروسافت هنوز تاریخ انتشار رسمی، فهرست دستگاه‌های تحت پشتیبانی یا الزامات اتصال از طریق Wi-Fi یا کابل USB را اعلام نکرده است. لایک نظرت چیه؟ ارسال نظر بوکمارک اشتراک‌گذاری امیر عبدالملکی دنبال کردن به محتوای این مطلب چه امتیازی میدی؟</p><hr/><ul><li><strong>تاپیک:</strong> فناوری و هوش مصنوعی</li><li><strong>منبع:</strong> Zoomit</li><li><strong>تاریخ انتشار در سورس:</strong> ۲ آذر • ۰۷:۴۵</li><li><strong>دسته‌بندی:</strong> هوش مصنوعی مولد</li><li><strong>کلیدواژه‌ها:</strong> Apple, Microsoft</li><li><strong>شماره وب‌پیج:</strong> ۲ آذر ۱۴۰۵ (۲۳ November ۲۰۲۶) - ساعت ۰۷:۵۰</li></ul>]]></description>
+    </item>
     <item>
       <title>یک کرسی قرمز دیگر آبی شد؛ دموکرات‌ها بزرگترین اکثریت مجلس نمایندگان در ۳۵ سال گذشته را کسب کردند</title>
       <link>https://parsi.euronews.com/2026/11/23/another-red-seat-flips-blue-democrats-win-largest-house-majority-in-35-years</link>
@@ -16243,17 +16254,6 @@
       <category>رویداد</category>
       <category>گزارش</category>
       <description><![CDATA[<p>راب مگووان، فرمانده ستاد عملیات سایبری و تخصصی ارتش بریتانیا، از اجرای عملیات سایبری تهاجمی این کشور علیه جمهوری اسلامی، روسیه، چین و کره شمالی خبر داد و هشدار داد فعالیت‌های سایبری این کشورها برای آن‌ها هزینه خواهد داشت.</p><hr/><ul><li><strong>تاپیک:</strong> عمومی و ایران</li><li><strong>منبع:</strong> Iran International</li><li><strong>تاریخ انتشار در سورس:</strong> ۲۹ آبان • ۱۴:۴۱</li><li><strong>دسته‌بندی:</strong> جامعه و رویدادها</li><li><strong>کلیدواژه‌ها:</strong> رویداد, گزارش</li><li><strong>شماره وب‌پیج:</strong> ۲۹ آبان ۱۴۰۵ (۲۰ November ۲۰۲۶) - ساعت ۱۵:۳۰</li></ul>]]></description>
-    </item>
-    <item>
-      <title>نماینده خامنه‌ای در استان گلستان: مردم دمای وسایل گرمایشی خود را سه درجه کاهش دهند</title>
-      <link>https://www.iranintl.com/202611202194</link>
-      <guid isPermaLink="false">a805b19f9cc86592</guid>
-      <pubDate>Fri, 20 Nov 2026 10:58:10 +0000</pubDate>
-      <source url="https://www.iranintl.com/202611202194">Iran International</source>
-      <category>موسیقی و هنر</category>
-      <category>رویداد</category>
-      <category>گزارش</category>
-      <description><![CDATA[<p>کاظم نورمفیدی، نماینده رهبر جمهوری اسلامی در استان گلستان، از مردم خواست با «کاهش سه درجه‌ای» دمای وسایل گرمایشی در منازل، مراکز تجاری و صنایع کوچک، به «مدیریت مصرف انرژی و تامین پایدار گاز» کمک کنند.</p><hr/><ul><li><strong>تاپیک:</strong> عمومی و ایران</li><li><strong>منبع:</strong> Iran International</li><li><strong>تاریخ انتشار در سورس:</strong> ۲۹ آبان • ۱۴:۲۸</li><li><strong>دسته‌بندی:</strong> موسیقی و هنر</li><li><strong>کلیدواژه‌ها:</strong> رویداد, گزارش</li><li><strong>شماره وب‌پیج:</strong> ۲۹ آبان ۱۴۰۵ (۲۰ November ۲۰۲۶) - ساعت ۱۵:۳۰</li></ul>]]></description>
     </item>
   </channel>
 </rss>
