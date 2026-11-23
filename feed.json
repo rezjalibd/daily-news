@@ -3,8 +3,59 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-23T01:30:16.539809+00:00",
+  "last_updated": "2026-11-23T01:40:18.420001+00:00",
   "items": [
+    {
+      "hash": "102ae3bff5486266",
+      "webpage_persian_date": "۲ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۳ November ۲۰۲۶",
+      "webpage_publish_time": "۰۵:۱۰",
+      "topic": "عمومی و ایران",
+      "title": "ترامپ گفت حملات جمهوری اسلامی پس از پیروزی دموکرات‌ها تشدید شده است",
+      "summary": "دونالد ترامپ گفت [حکومت] ایران پس از پیروزی دموکرات‌ها در انتخابات میان‌دوره‌ای سوم نوامبر، حملات موشکی و پهپادی خود را تشدید کرده است. او گفت اگر مذاکرات به توافق نرسد، به ازسرگیری عملیات نظامی گسترده علیه ایران پس از آغاز سال ۲۰۲۷ تمایل دارد.",
+      "source": "Iran International",
+      "source_datetime_fa": "۲ آذر • ۰۴:۵۲",
+      "source_date_raw": "2026-11-23T01:22:59+00:00",
+      "category": "سیاست و دیپلماسی",
+      "tags": [
+        "روابط بین‌الملل"
+      ],
+      "link": "https://www.iranintl.com/202611238485"
+    },
+    {
+      "hash": "403e563fb1b8c830",
+      "webpage_persian_date": "۲ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۳ November ۲۰۲۶",
+      "webpage_publish_time": "۰۵:۱۰",
+      "topic": "فناوری و هوش مصنوعی",
+      "title": "در اینجا هزینه Starlink در سال 2020 در برابر 2026 چقدر است",
+      "summary": "با استفاده از تخفیف ها و نرخ های نوسان، دو مشتری ممکن است در نهایت قبض های بسیار متفاوتی را برای یک سرویس ماهواره ای Starlink پرداخت کنند. ارزان ترین طرح خانه Starlink نسبت به سال 2020 ماهانه 44 دلار کمتر است، اما مالکیت سخت افزار و قیمت منطقه ای تغییر کرده است. Hadrian/Shutterstock افزودن Engadget به Google: منبع برگزیده Google Discover Starlink نسخه بتای عمومی خود را در اکتبر 2020 با قیمت تجهیزات 499 دلار و اشتراک ماهیانه 99 دلار عرضه کرد. شش سال بعد، خدمات اینترنت ماهواره ای اسپیس ایکس از 55 دلار ماهانه برای مشتریان آمریکایی شروع می شود و تجهیزات اجاره ای بدون هیچ هزینه ای در مناطق خاص در دسترس است. این 44 دلار کمتر در ماه یا 528 دلار کمتر در سال است، تنها با هزینه اشتراک. برخلاف اجاره‌کنندگان امروزی، آن مشترکین اولیه بتا تجهیزاتی را داشتند که برای آن پول پرداخت می‌کردند، اما از آن‌ها نیز خواسته شد که انتظار قطعی‌های گاه به گاه را داشته باشند که این هزینه اولیه نزدیک به 600 دلار را به یک تعهد بسیار قابل توجه تبدیل می‌کند. امروزه استارلینک سه طبقه مسکونی مجزا را با سرعت‌های شبکه و طرح‌های قیمت متفاوت ارائه می‌دهد. این شرکت همچنین نرخ‌های مسکونی خود را در سال 2026 افزایش داد، اما نرخ اولیه همچنان پایین‌تر از سال 2020 است. بر اساس تقاضای محلی، تخفیف‌ها و نرخ‌های نوسانی را اعمال کنید و دو مشتری ممکن است در نهایت برای یک سرویس اینترنت ماهواره‌ای قبض‌های بسیار متفاوتی را پرداخت کنند. اولین نسخه بتای عمومی SpaceX مایک مارین/Shutterstock به عنوان \"Better Than Nothing Beta\" عرضه شد. مطابق با نام بسیار شفاف (و دقیق) آن، از مشتریان خواسته شد که انتظار سرعت دانلود 50 تا 150 مگابیت بر ثانیه و تأخیر بین 20 تا 40 میلی ثانیه را داشته باشند، همراه با دوره های گاه",
+      "source": "Engadget",
+      "source_datetime_fa": "۲ آذر • ۰۵:۰۰",
+      "source_date_raw": "2026-11-23T01:30:00+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "Google"
+      ],
+      "link": "https://www.engadget.com/2319572/how-much-starlink-cost-2020-vs-2026/"
+    },
+    {
+      "hash": "b5b43853b205bacd",
+      "webpage_persian_date": "۲ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۳ November ۲۰۲۶",
+      "webpage_publish_time": "۰۵:۱۰",
+      "topic": "مدیا و هنر",
+      "title": "هایلی استاینفلد بازگشت «انتقام‌جویان: روز قیامت» در نقش کیت بیشاپ را تأیید کرد.",
+      "summary": "هایلی استاینفلد در فیلم آینده «انتقام‌جویان: روز قیامت» در نقش کیت بیشاپ به دنیای سینمایی مارول بازخواهد گشت. استودیو مارول و انیمیشن دیزنی روز یکشنبه با انتشار پستی در اینستاگرام با حضور استاینفلد این خبر را اعلام کردند. هی، پس من با فیلمم Hexed اینجا هستم، اما به نظر می رسد که آنها یک صندلی از یک فیلم دیگر تحویل داده اند، بازیگر زن [] قبل از بازگشت در Avengers: Doomsday، هایلی استاینفلد را در فیلم Hexed دیزنی بگیرید. استاینفلد قبلاً در نقش اسقف در سریال 2021 + Disney Hawkeye و در 2023 The Marvels ظاهر شد. در Hawkeye، هنرپیشه Sinners صفحه نمایش را با ابرقهرمان جرمی رنر به اشتراک گذاشت، در حالی که او برای مدت کوتاهی در یک صحنه پس از اعتبار در کنار بری لارسون، تیونا پریس، ایمان ولانی و غیره برای The Marvels ظاهر شد. استاینفلد قبلاً در مورد تجسم شخصیت کمیک محبوب به Variety گفته بود: «این واقعاً یک امتیاز است که بتوانی نقش شخصیتی را بازی کنی که به هر طریقی می‌تواند الهام‌بخش هر کسی باشد. کیت بیشاپ شخصیتی است که من دوست داشتم در دوران رشد داشته باشم - شخصی که کاملاً جاه طلب، با انگیزه و منضبط است و هر کاری را که برای رسیدن به اهدافش انجام می دهد به عهده می گیرد. قبل از اعلام استاینفلد، اخیراً مشخص شد که الیزابت اولسن اسکارلت ویچ در پایان فصل VisionQuest دوباره به فرنچایز این فیلم می‌پیوندد. یک صحنه پس از اعتبار، پایان فیلم بلند سال 2022 «دکتر استرنج در چند جهان جنون» را بازپخش کرد، جایی که واندا ماکسیموف قبل از اینکه (به ظاهر) از درون کوه له شود، Darkhold را از تمام چندجهانی ریشه کن کرد. اما این بار، صحنه با حضور دکتر دووم ساخته رابرت داونی جونیور ادامه می‌یابد، آوارها را از روی واندا برداشته و او را مورد خطاب",
+      "source": "Variety",
+      "source_datetime_fa": "۲ آذر • ۰۵:۰۲",
+      "source_date_raw": "2026-11-23T01:32:26+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "سینما"
+      ],
+      "link": "https://variety.com/2026/film/news/hailee-steinfeld-avengers-doomsday-kate-bishop-1236955585/"
+    },
     {
       "hash": "6b7dbde13c2536fe",
       "webpage_persian_date": "۲ آذر ۱۴۰۵",
@@ -26705,60 +26756,6 @@
         "سرمایه‌گذاری"
       ],
       "link": "https://www.businessinsider.com/guides/deals/black-friday-power-station-generator-deals-2026-11-20"
-    },
-    {
-      "hash": "eee3eb8e47e99f89",
-      "webpage_persian_date": "۲۹ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۰ November ۲۰۲۶",
-      "webpage_publish_time": "۱۵:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "IPO پرفروش آنتروپیک 3 سرنخ در مورد اینکه تجارت هوش مصنوعی به کجا می رسد ارائه کرد",
-      "summary": "CHARLY TRIBALLEAU / AFP via Getty Images Anthropic's blockbuster debut sparked an broader AI relief rally that quickly fizzled. The record IPO proved Wall Street will fund AI, but only the companies that can show the returns. Sign up for First Trade , Business Insider's daily markets newsletter. Wall Street's blockbuster IPO trilogy is now two-thirds complete. SpaceX set the stage this summer, Anthropic delivered the second installment on Thursday, and OpenAI is the much-anticipated finale waiting in the wings. Anthropic's public-market debut was certainly a hit: It priced above range , opened 34% above its IPO price, and sealed a record $107 billion deal, including a separate private placement. Shares ended the day 17% higher. But Wall Street gave the broader AI trade much harsher reviews. After a strong open on the heels of Anthropic's pricing the prior evening, investors sold the news . It was ultimately a good day for Anthropic and a bad one for pretty much everyone else. Here are three takeaways from the AI titan's first day of trading: 1. The AI relief rally had no legs AI stocks surged out of the gate on Thursday, with chipmakers, neoclouds, and the broader Nasdaq 100 posting meaningful early gains. But the rally disintegrated as the session wore on. Notable movers included neocloud bellwether CoreWeave swinging from a double-digit gain into the red, while the Philadelphia Semiconductor Index sharply reversed after rising 5% in the first hour of trading. Anthropic itself — similar to SpaceX in June — faded significantly from its $111.50 opening trade, even if it remained above the IPO price. The trading session showed that the market still has even bigger concerns than the biggest IPO in history. For investors… 2. … The AI trade's biggest bills are still coming due Let's start with what Anthropic's offering did clarify: Initial demand and the bigger-than-anticipated deal size showed there is still an enormous investor appetite for a premier AI asset. But that doesn't solve the existential problem of return on AI investment. Anthropic has committed to spend roughly $900 billion of compute and infrastructure over time — not far from the entire company's market value at IPO time. How will that jibe with credit-market pressure, geopolitical risks, and — most importantly — concerns that spending will always outrun profits? Put differently, Anthropic's IPO showed that Wall Street is still willing to finance AI . But it didn't show how AI plans to eventual",
-      "source": "Business Insider",
-      "source_datetime_fa": "۲۹ آبان • ۱۴:۲۰",
-      "source_date_raw": "2026-11-20T10:50:02+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "هوش مصنوعی",
-        "Anthropic"
-      ],
-      "link": "https://www.businessinsider.com/anthropic-ipo-ai-trade-takeaways-wall-street-investors-stock-market-2026-11"
-    },
-    {
-      "hash": "1e49676aba16a6c4",
-      "webpage_persian_date": "۲۹ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۰ November ۲۰۲۶",
-      "webpage_publish_time": "۱۵:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "چرا کسب و کارهای کوچک حتی با افزایش هزینه ها و تثبیت هوش مصنوعی خوشبین هستند",
-      "summary": "بیش از نیمی از صاحبان مشاغل کوچک که توسط گوستو مورد بررسی قرار گرفتند، گفتند که قیمت ها را در سال گذشته افزایش داده اند. MoMo Productions/Getty Images بر اساس یک نظرسنجی جدید، بیش از نیمی از صاحبان مشاغل کوچک در سال گذشته قیمت ها را افزایش دادند. مالکان نسبت به اقتصاد ایالات متحده نسبت به تجارت خود خوشبین تر هستند. این نظرسنجی همچنین نشان داد که صاحبان بیشتری از هوش مصنوعی به روش های معناداری استفاده می کنند. افزایش هزینه ها، صاحبان مشاغل کوچک را مجبور می کند تا تصمیمات دشواری در مورد اینکه چه چیزی از مشتریان دریافت کنند، بگیرند. بر اساس آخرین گزارش Gusto در وضعیت کسب و کار کوچک، بیش از نیمی از مالکان (52٪) در سال گذشته قیمت ها را افزایش دادند. نیمی از آنها انتظار دارند سال آینده این کار را تکرار کنند. با این حال، تصویر گسترده‌تر گزارش تصویری از خوش‌بینی محتاطانه است. خدمات حقوق و دستمزد و منابع انسانی Gusto از 1731 صاحب کسب و کار کوچک نظرسنجی کرد و دریافت که، در حالی که کارآفرینان نسبت به اقتصاد گسترده تر و افزایش هزینه ها محتاط هستند، در مورد آنچه می توانند کنترل کنند، احساس اطمینان می کنند. نیک ترمپر، اقتصاددان اصلی گوستو، سه نکته را درباره وضعیت کسب و کارهای کوچک امروز به اشتراک گذاشت. 1. مالکان نسبت به اقتصاد احساس بهتری نسبت به شرکت های خود دارند بیش از نیمی (61%) از مالکان نسبت به کسب و کار خود خوش بین هستند، اما فقط 18 درصد نسبت به اقتصاد ایالات متحده همین احساس را دارند - نسبت به 29 درصد در سال 2025. ترمپر گفت: «ابهام وجود دارد، و آنها نگران اقتصاد کلی هستند. اما وقتی به چیزهایی که می توانند کنترل کنند نگاه می کنند، بیشتر احساس اعتماد به نفس می کنند. با حسن نیت از Gusto این اعتماد",
-      "source": "Business Insider",
-      "source_datetime_fa": "۲۹ آبان • ۱۴:۲۰",
-      "source_date_raw": "2026-11-20T10:50:01+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "هوش مصنوعی",
-        "OpenAI"
-      ],
-      "link": "https://www.businessinsider.com/small-business-owners-juggle-rising-costs-weak-economy-ai-2026-11"
-    },
-    {
-      "hash": "d2ab3aa4c32e461c",
-      "webpage_persian_date": "۲۹ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۰ November ۲۰۲۶",
-      "webpage_publish_time": "۱۵:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "جک دورسی می‌گوید بلاک اکنون بسیار صاف‌تر است و 3 \"نقش مهم\" برای کارکنان دارد",
-      "summary": "جک دورسی گفت که نیروی کار بلاک در حال حاضر بسیار ضعیف تر است. جک دورسی، مدیرعامل جو رادل/ گتی ایماژز در مصاحبه ای با HBR گفت که نیروی کار بلاک اکنون \"بسیار مسطح تر\" است. بلاک چندین دور کاهش کار، از جمله اخراج بیش از 40 درصد از کارکنان در ماه فوریه را انجام داده است. او گفت بلوک 3 نقش مهم دارد: مشارکت کنندگان فردی، افراد مسئول مستقیم و مربیان. هفته‌ها پس از دور دوم اخراج‌های خود در سال جاری، جک دورسی می‌گوید که نیروی کار بلاک «بسیار ثابت‌تر» است. دورسی در پادکست \"IdeaCast\" هاروارد بیزینس ریویو که پنجشنبه منتشر شد، گفت: \"این بسیار بیشتر حول تکلیف سازماندهی شده است تا فرمان و کنترل.\" و همه در یک زمین بازی به داده‌ها، یعنی هوش شرکت دسترسی دارند.» او گفت که این شرکت را در موقعیت بهتری برای ایجاد سیستم هایی پیرامون دانش خود قرار داده است که به پیش بینی اقدامات بعدی آن کمک می کند. دورسی توضیح داد که ساختار جدید ناشی از دو عامل است. اول، به عنوان یک شرکت از راه دور، هر تعاملی در شرکت دارای \"نوعی مصنوعات مکتوب\" مرتبط با آن است. او گفت که ابزارهای اطلاعاتی اکنون اجازه می‌دهند که این اطلاعات سازماندهی شوند تا هرکسی بتواند در هر زمانی از آن پرس و جو کند یا بر اساس آن عمل کند. به گفته او، این «واقعاً نیاز به سلسله مراتب ارتباطی را کاهش می‌دهد» که شرکت را به ارزیابی مجدد انواع نقش‌های مورد نیاز خود سوق داد. دورسی می‌گوید: «به نظر می‌رسد که زنجیره فرماندهی و سلسله‌مراتب ارتباطی تعداد زیادی از این اطلاعات را کاهش داده است. دورسی گفت: «3 نقش مهم» نیروی دومی که در پس این سازمان مسطح‌تر قرار دارد، ساختار نقش‌آفرینی مجدد آن است. او گفت که در میان اتوماسیون و بازسازی، این شرکت نیروی کار خود را",
-      "source": "Business Insider",
-      "source_datetime_fa": "۲۹ آبان • ۱۴:۱۹",
-      "source_date_raw": "2026-11-20T10:49:01+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "فناوری",
-        "نوآوری"
-      ],
-      "link": "https://www.businessinsider.com/dorsey-says-block-flatter-3-significant-roles-great-flattening-2026-11"
     }
   ]
 }
