@@ -3,8 +3,25 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-23T03:40:19.168978+00:00",
+  "last_updated": "2026-11-23T03:50:15.169733+00:00",
   "items": [
+    {
+      "hash": "80de9667a250debc",
+      "webpage_persian_date": "۲ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۳ November ۲۰۲۶",
+      "webpage_publish_time": "۰۷:۲۰",
+      "topic": "عمومی و ایران",
+      "title": "یک کرسی قرمز دیگر آبی شد؛ دموکرات‌ها بزرگترین اکثریت مجلس نمایندگان در ۳۵ سال گذشته را کسب کردند",
+      "summary": "با اعلام نتیجه انتخابات میان‌دوره‌ای مجلس نمایندگان برای یک کرسی کارولینای شمالی در روز یکشنبه، دموکرات‌ها در مجموع صاحب ۲۵۸ کرسی شدند و بزرگ‌ترین اکثریت مجلس نمایندگان در ۳۵ سال گذشته را به دست آوردند.",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۲ آذر • ۰۷:۰۰",
+      "source_date_raw": "2026-11-23T03:30:35+00:00",
+      "category": "سیاست و دیپلماسی",
+      "tags": [
+        "عامل‌های هوشمند"
+      ],
+      "link": "https://parsi.euronews.com/2026/11/23/another-red-seat-flips-blue-democrats-win-largest-house-majority-in-35-years"
+    },
     {
       "hash": "0ea34646ff97e1be",
       "webpage_persian_date": "۲ آذر ۱۴۰۵",
@@ -26735,24 +26752,6 @@
         "گزارش"
       ],
       "link": "https://www.iranintl.com/202611202194"
-    },
-    {
-      "hash": "e1f4d61d3c0fdb8c",
-      "webpage_persian_date": "۲۹ آبان ۱۴۰۵",
-      "webpage_gregorian_date": "۲۰ November ۲۰۲۶",
-      "webpage_publish_time": "۱۵:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "G.T.A. VI یک دستاورد بزرگ بشری است",
-      "summary": "Anthropic عمومی می شود، Jensen Huang می خواهد در Nvidia بازگردد، و به نظر می رسد وصله های نرم افزاری همه چیز را خراب می کنند. اما ابتدا اجازه دهید در مورد G.T.A صحبت کنیم.",
-      "source": "NYT Tech",
-      "source_datetime_fa": "۲۹ آبان • ۱۴:۳۰",
-      "source_date_raw": "2026-11-20T11:00:17+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "Anthropic",
-        "Nvidia"
-      ],
-      "link": "https://www.nytimes.com/2026/11/20/podcasts/hardfork-gta6-nvidia-anthropic.html"
     }
   ]
 }
