@@ -3,8 +3,27 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-24T03:31:15.742971+00:00",
+  "last_updated": "2026-11-24T03:40:59.121821+00:00",
   "items": [
+    {
+      "hash": "3460eac66b72ba97",
+      "webpage_persian_date": "۳ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۴ November ۲۰۲۶",
+      "webpage_publish_time": "۰۷:۱۰",
+      "topic": "مدیا و هنر",
+      "title": "«Caréme» و «División Palermo» جوایز برتر جوایز بین‌المللی امی را دریافت می‌کنند: فهرست کامل برندگان",
+      "summary": "سریال Caréme فرانسه در پنجاه و چهارمین دوره جوایز بین المللی امی که دوشنبه شب در منهتن برگزار شد، به عنوان بهترین سریال درام انتخاب شد. دیویزیون پالرمو از آرژانتین برنده جایزه سریال کمدی شد. لیست کامل برندگان را در زیر مشاهده کنید. با میزبانی مایکل اوری، دو بار نامزد امی برای فیلم «کوچک شدن»، برندگان در 16 دسته، برگرفته از [ ] Frances Caréme به عنوان بهترین سریال درام در پنجاه و چهارمین دوره جوایز بین المللی امی معرفی شدند که دوشنبه شب در منهتن برگزار شد. دیویزیون پالرمو از آرژانتین برنده جایزه سریال کمدی شد. لیست کامل برندگان را در زیر مشاهده کنید. دیگر برندگان امشب عبارتند از: بابی شوفیلد بریتانیایی در فیلم نابخشودنی برای بهترین نقش آفرینی یک بازیگر مرد و مونا مینا لئون از بلژیک در فیلم Holy Sh!t برای بهترین اجرای یک بازیگر زن. تماشا در ددلاین علاوه بر دسته‌های رقابتی، دوشنبه شب در مراسمی در هیلتون میدتاون نیویورک، دو افتخار ویژه اهدا شد: بلا باجاریا، مدیر ارشد محتوای سابق نتفلیکس، جایزه بین‌المللی موسس امی را دریافت کرد، و گرهارد زیلیر، اتریشی، جایزه مدیریت بین‌المللی امی را پذیرفت. سریال درام Caréme / VVZ / داستان براق / اپل تی وی، فرانسه سریال کمدی بخش بخش پالرمو فصل 2 [جوخه انجمن] فیلم‌های K S / نتفلیکس، فیلم تلویزیونی آرژانتین / MINISERIES Prisoner 951 Dancing Ledge Productions: The UK PRODUCTS UK UK ARTS PROGRAMMING Der Talentierte Mr. F [ The Talented Mr. F ], آلمان سری کوتاه فرم De Klas Van 2000 [ The Class of 2000 ], Belgium News 24 Hours in the Kill Zone Sky News, UK RRENT AFFAIRS Exposure: Breaking Ranks: Inside Israel’s War Zandland / ITV, UK Principle SPORTYSPORTS UK فیلم‌ها، آفریقای جنوبی سرگرمی بدون فیلمنامه آموزش یورکشایر فصل 2 TwoFour، انیمیشن بچه‌های بریتانیا تصاویر نور جادویی عروسی Scarecrow، بچه‌های بریتانیا: اکشن زنده",
+      "source": "Deadline",
+      "source_datetime_fa": "۳ آذر • ۰۶:۵۷",
+      "source_date_raw": "2026-11-24T03:27:23+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "Apple",
+        "سینما",
+        "نتفلیکس"
+      ],
+      "link": "https://deadline.com/2026/11/2026-international-emmys-winners-list-1237232118/"
+    },
     {
       "hash": "0eeef83269b1c18c",
       "webpage_persian_date": "۳ آذر ۱۴۰۵",
@@ -26769,24 +26788,6 @@
         "موسیقی"
       ],
       "link": "https://www.billboard.com/music/pop/ariana-grande-bikini-wax-song-story-focker-in-law-interview-1236387309/"
-    },
-    {
-      "hash": "92602fa7d64894f3",
-      "webpage_persian_date": "۱ آذر ۱۴۰۵",
-      "webpage_gregorian_date": "۲۲ November ۲۰۲۶",
-      "webpage_publish_time": "۲۱:۰۰",
-      "topic": "عمومی و ایران",
-      "title": "لیدز پس از ۲۷ سال در خانه چلسی پیروز شد",
-      "summary": "تیم فوتبال لیدز یونایتد در هفته یازدهم لیگ برتر انگلستان با نتیجه ۴ بر یک چلسی را شکست داد و برای نخستین بار از سال ۱۹۹۹ در ورزشگاه استمفورد بریج، خانه چلسی پیروز شد. نوآ اوکافور دو گل زد و لیدز با این پیروزی به رتبه ششم جدول صعود کرد.",
-      "source": "Iran International",
-      "source_datetime_fa": "۳۰ آبان • ۲۰:۴۳",
-      "source_date_raw": "2026-11-21T17:13:22+00:00",
-      "category": "جامعه و رویدادها",
-      "tags": [
-        "رویداد",
-        "گزارش"
-      ],
-      "link": "https://www.iranintl.com/202611211143"
     }
   ]
 }
