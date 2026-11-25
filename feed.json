@@ -3,8 +3,25 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-25T23:20:40.139985+00:00",
+  "last_updated": "2026-11-25T23:30:36.312789+00:00",
   "items": [
+    {
+      "hash": "f48bfbc78d1997a1",
+      "webpage_persian_date": "۵ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۶ November ۲۰۲۶",
+      "webpage_publish_time": "۰۳:۰۰",
+      "topic": "عمومی و ایران",
+      "title": "احتمال فروش اجباری منچسترسیتی به دستور نهاد ناظر بر فوتبال انگلیس",
+      "summary": "بی‌بی‌سی گزارش داد که دیوید کوگان، رییس نهاد مستقل ناظر بر فوتبال انگلیس، در جمع نمایندگان پارلمان از آمادگی این نهاد برای اقدام علیه منچسترسیتی در صورت تایید حکم محکومیت این باشگاه به نقض قوانین مالی لیگ برتر خبر داد.",
+      "source": "Iran International",
+      "source_datetime_fa": "۵ آذر • ۰۲:۴۴",
+      "source_date_raw": "2026-11-25T23:14:16+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "عامل‌های هوشمند"
+      ],
+      "link": "https://www.iranintl.com/202611255235"
+    },
     {
       "hash": "59adedb347dfc075",
       "webpage_persian_date": "۵ آذر ۱۴۰۵",
@@ -1780,25 +1797,6 @@
         "امنیت سایبری"
       ],
       "link": "https://lifehacker.com/tech/these-are-the-best-in-store-freebies-available-on-black-friday?utm_medium=RSS"
-    },
-    {
-      "hash": "9513c52d846118b0",
-      "webpage_persian_date": "۵ آذر ۱۴۰۵",
-      "webpage_gregorian_date": "۲۶ November ۲۰۲۶",
-      "webpage_publish_time": "۰۰:۱۰",
-      "topic": "مدیا و هنر",
-      "title": "«IGNITE» از JO1 در صدر 100 فیلم داغ ژاپن قرار گرفت و اولین بازی هیرومی اوهتا در سال 1975 «Momen no Handkerchief» بود.",
-      "summary": "JO1 s IGNITE به رتبه 1 جدول 100 داغ بیلبورد ژاپن در 25 نوامبر منتشر شد. آهنگ عنوان یازدهمین تک آهنگ گروه AAO که در 18 نوامبر منتشر شد، به عنوان افتتاحیه انیمه تلویزیونی Tokyo Revengers War of the Three Titans Arc عمل می کند. این آهنگ با 678171 نسخه راه اندازی شد و در عین حال در سایر معیارها، از جمله شماره 2 برای دانلود و شماره 6 برای پخش رادیویی، فروش بالایی داشت. امتیاز کل آهنگ نسبت به هفته قبل حدود 7.7 برابر شد. BUDDiiS Mugendai LOVE!!! 48-2 پرش. این آهنگ همچنین در 18 نوامبر منتشر شد، 251,610 نسخه فروخت تا در رتبه دوم فروش قرار گیرد، با مجموع امتیازها حدود 6.2 برابر در هفته. EBiDAN بله! توکیو در رتبه 3 قرار گرفته است، از نظر بازدیدهای ویدیویی پیشرو و در رتبه 2 برای پخش جریانی قرار دارد. ایومو ایمازو s Musubi در رتبه 4 قرار دارد و در صدر استریم قرار دارد و در رتبه 9 برای دانلود قرار گرفته است. Boku ga Mitakatta Aozora با Boku wa Mikata da در رده 5 قرار گرفت. نهمین تک‌آهنگ این گروه که در 18 نوامبر منتشر شد، 94282 نسخه برای شماره 3 فروخت و در رتبه اول قرار گرفت. 4 برای رادیو Kamigami no Tasuki از Keisuke Kuwata در شماره 7 باز می شود. آهنگ تم درام تلویزیونی نیپون Oretachi no Hakone Ekiden در 16 نوامبر روی پلتفرم های دیجیتال عرضه شد و در رادیو و دانلودها در صدر قرار گرفت. آهنگساز و خواننده کهنه کار سال 2007، آشیتا هارو کانا، مجدداً در رتبه 95 قرار گرفت. Shiwaawase از Vaundy در رتبه 6 با شماره 3 برای استریم قرار گرفت. ILLIT دو آهنگ را پشت سر هم قرار می دهد، با You re Under Arrest در شماره 8 و It s Me در شماره 9. دومی از شماره صعود",
-      "source": "Billboard",
-      "source_datetime_fa": "۵ آذر • ۰۰:۰۹",
-      "source_date_raw": "2026-11-25T20:39:38+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "هوش مصنوعی",
-        "سینما",
-        "موسیقی"
-      ],
-      "link": "https://www.billboard.com/music/chart-beat/jo1-ignite-japan-hot-100-hiromi-ohta-momen-no-handkerchief-1236389887/"
     }
   ]
 }
