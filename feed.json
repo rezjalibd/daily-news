@@ -3,8 +3,43 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-26T05:40:26.766003+00:00",
+  "last_updated": "2026-11-26T05:50:27.785643+00:00",
   "items": [
+    {
+      "hash": "9291f954b5481cfe",
+      "webpage_persian_date": "۵ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۶ November ۲۰۲۶",
+      "webpage_publish_time": "۰۹:۲۰",
+      "topic": "عمومی و ایران",
+      "title": "قتل سه کودک‌همسر در یک ماه؛ ازدواج کودکان در ایران همچنان قانونی است",
+      "summary": "در غیاب آمارهای رسمی، حتی رسانه‌های دولتی در ایران به «ثابت ماندن یا افزایش» کودک‌همسری اشاره می‌کنند. در یک ماهه منتهی به روز جهانی مبارزه با کودک‌همسری، دست‌کم سه مورد قتل زنان کودک‌همسر به دست همسرانشان در ایران، در رسانه‌ها گزارش شده است. سازمان ملل متحد روز ۲۷ نوامبر - که امسال با ۶ آذر مصادف شده - را روز جهانی مبارزه با ازدواج کودکان، ازدواج زودهنگام و ازدواج اجباری نامیده است. این در حالی‌ است که در ایران، در غیاب آمارهای رسمی، حتی رسانه‌های دولتی به «ثابت ماندن یا افزایش» کودک‌همسری اشاره می‌کنند. روز مبارزه با کودک‌همسری به این دلیل نامگذاری شده که سازمان ملل متحد می‌گوید «ازدواج کودکان، ازدواج زودهنگام و ازدواج اجباری همچنان یکی از نقض‌های گسترده حقوق بشر در سراسر جهان است». آمارهای این نهاد نشان می‌دهد که هر سال حدود ۱۲ میلیون دختر در جهان پیش از رسیدن به سن ۱۸ سالگی ازدواج می‌کنند. همچنین برآورد می‌شود که در سال ۲۰۲۶، حدود ۶۵۰ میلیون زن و دختر زنده در جهان در دوران کودکی ازدواج کرده باشند. علاوه براین، تخمین زده می‌شود که ۲۲ میلیون نفر در شرایط ازدواج اجباری زندگی می‌کنند که بیش از دوسوم آنان را زنان و دختران تشکیل می‌دهند. یکی از این موارد، مادر نوجوان ۱۴ ساله‌ای به نام سوگند مشترکی بود که بر اساس جزییاتی که روزنامه همشهری ۲۰ آبان منتشر کرده، در ارزوئیه کرمان زندگی می‌کرد و تنها ۱۰ روز بود صاحب فرزند دختر شده بود. او هم‌نام سوگند صیادی است؛ دختر دانش‌آموزی که همان روزها در گیلانغرب توسط پدرش به قتل رسید. «همشهری» به نقل از پدر سوگند نوشت که متهم ۲۰ ساله، دخترش را در مسیر مدرسه دیده و عاشق او شده بود: «او در حالی می‌خواست با دخترم ازدواج کند که فرزندم هنوز دانش‌آموز بود و من مخالف بودم.» بر اساس روایتی که رسانه‌های ایران منتشر کرده‌اند،",
+      "source": "BBC Persian",
+      "source_datetime_fa": "۵ آذر • ۰۹:۱۳",
+      "source_date_raw": "2026-11-26T05:43:33+00:00",
+      "category": "اقتصاد و بازرگانی",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://www.bbc.com/persian/articles/ckvg21j5vxqxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "hash": "f0052c3ce37556c4",
+      "webpage_persian_date": "۵ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۶ November ۲۰۲۶",
+      "webpage_publish_time": "۰۹:۲۰",
+      "topic": "فناوری و هوش مصنوعی",
+      "title": "روزی که «کنجکاوی» به فضا پرتاب شد؛ ۵ آذر",
+      "summary": "سال‌ها پیش کاوشگر Curiosity زمین را به مقصد مریخ ترک کرد، پولاروید انتظار برای دیدن عکس را شکست و نوربرت وینر آینده‌ی ماشین‌ها را پیش‌بینی کرد. تبلیغات بسیاری از فناوری‌هایی که امروز زندگی روزمره را شکل می‌دهند، در پاسخ به یک نیاز ساده یا مشکلی محدود به وجود آمدند؛ از دیدن فوری عکسی که گرفته‌ایم تا کنترل دقیق دما و رطوبت در یک محیط صنعتی. اما بعضی از این ایده‌ها خیلی فراتر از هدف اولیه‌شان رفتند و راه را برای تحولاتی بزرگ‌تر باز کردند؛ تحولاتی که از کاوش سیاره‌های دیگر تا ساخت ماشین‌های هوشمند و بازاندیشی درباره‌ی رابطه‌ی انسان و فناوری امتداد یافته‌اند. در تونل زمان امروز، از عرضه‌ی نخستین دوربین فوری پولاروید و اختراع ویلیس کریر که پایه‌های تهویه‌ی مطبوع مدرن را بنا گذاشت، می‌گوییم؛ پرتاب مریخ‌نورد کیوریاسیتی و فرود تاریخی آن در دهانه‌ی گیل را مرور می‌کنیم و در پایان، به سراغ نوربرت وینر می‌رویم؛ دانشمندی که با بنیان‌گذاری علم سایبرنتیک، مفهوم بازخورد را به یکی از پایه‌های مهندسی کنترل و ارتباطات تبدیل کرد و درباره‌ی پیامدهای اجتماعی اتوماسیون هشدار داد. فهرست مطالب پولاروید و آغاز انتظار یک‌دقیقه‌ای برای عکس اختراعی برای کاغذ که جهان را خنک کرد Curiosity و سفر آزمایشگاهی یک‌تنی به مریخ نوربرت وینر و ماشین‌هایی که بازخورد می‌گیرند کپی لینک پولاروید و آغاز انتظار یک‌دقیقه‌ای برای عکس دختر ۳ ساله‌ی ادوین لند پرسید چرا نمی‌تواند عکسی را که پدرش گرفته همان لحظه ببیند. پاسخ لند چند سال بعد در قالب Land Camera Model 95 به ویترین فروشگاه جردن مارش بوستون رسید. ۷۸ سال پیش، ۵۶ دوربین موجود با قیمت ۸۹٫۷۵ دلار در همان روز فروخته شدند و عکاسی فوری از یک نمایش فنی به کالایی مصرفی تبدیل شد. پولاروید فاصله‌ی فشردن شاتر تا دیدن خاطره را به یک دقیقه رساند فیلم Type 40 تصویری سپیایی را در حدود یک دقیقه ظاهر می‌کرد. کاربر دیگر",
+      "source": "Zoomit",
+      "source_datetime_fa": "۵ آذر • ۰۹:۰۰",
+      "source_date_raw": "2026-11-26T05:30:00+00:00",
+      "category": "موبایل و گجت‌ها",
+      "tags": [
+        "سینما"
+      ],
+      "link": "https://www.zoomit.ir/time-tunnel/471716-curiosity-polaroid-cybernetics-november-26/"
+    },
     {
       "hash": "a605b4e27447a70b",
       "webpage_persian_date": "۵ آذر ۱۴۰۵",
@@ -1746,41 +1781,6 @@
         "سینما"
       ],
       "link": "https://lifehacker.com/tech/best-smart-tv-sales-early-black-friday-2026?utm_medium=RSS"
-    },
-    {
-      "hash": "52608dfbfe3ba510",
-      "webpage_persian_date": "۵ آذر ۱۴۰۵",
-      "webpage_gregorian_date": "۲۶ November ۲۰۲۶",
-      "webpage_publish_time": "۰۲:۰۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "بهترین کارت تعطیلات جمعه سیاه و معاملات کتاب عکس از Shutterfly، Minted، Vistaprint، و موارد دیگر",
-      "summary": "When you buy through our links, Business Insider may earn an affiliate commission. Learn more The best Black Friday deals on holiday cards and photo books include up to 60% off Vistaprint, Minted, and Artifact Uprising Vistaprint; Minted; Artifact Uprising/Business Insider Holiday cards are a great way to reflect on the year and send a little love to friends and family near and far. But they're also one thing you should never have to pay full price for. The best Black Friday holiday card and photo book deals make it easier (and cheaper) to turn your favorite memories into something worth sending or keeping. Top 3 holiday card and photo book Black Friday deals Save 50% on almost everything, plus 10 free holiday cards from Shutterfly Save 20% off sitewide at Minted Save up to 35% off Artifact Uprising holiday cards and photo books During Black Friday, you can get up to 60% off our favorite tested-and-reviewed photo book and holiday cards . Shutterfly, our top pick photo books and a favorite for holiday cards, is offering 50% off both holiday cards and photo books, plus free card offers. Vistaprint has even more impressive sales, with holiday cards up to 60% off . Some services will even address or mail your cards for you, saving you one more holiday chore. Shopping for more discounts? Check out our full roundup of all the best Black Friday deals and follow our Instagram and WhatsApp accounts for deal updates. Shutterfly Black Friday deals Shutterfly Shop 50% off all holiday cards , plus 10 free cards with code HOLIDAY, and up to 50% off customizable items like photo books and wall calendars, at 50% off from Shutterfly Best for: All-in-one holiday cards and photo books Holiday card starting price: From $1.35 per 5×7 card, before discounts Photo book starting price: From $19.99 for an 8×8 hardcover, 20 pages Special features: Foil accents, custom trims, free recipient address printing, photo book design assistance, and Mail for Me direct mailing. Delivery timing: Production and shipping vary by product and delivery method; Basic is 6-10 days while Super Rush can be sent in 1-2 Shop all Shutterfly Black Friday deals Shutterfly is our go-to for a huge range of holiday card and photo book designs. There are thousands of holiday card designs to choose from, and you can take advantage of a free design service when creating your photo book. Holiday cards start at just $0.74 a piece, and you can also get 10 free cards. If you spend $100, you'll get 20 free cards. On ",
-      "source": "Business Insider",
-      "source_datetime_fa": "۵ آذر • ۰۱:۳۶",
-      "source_date_raw": "2026-11-25T22:06:01+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "فناوری",
-        "نوآوری"
-      ],
-      "link": "https://www.businessinsider.com/guides/deals/black-friday-holiday-card-photo-book-deals-2026-11-25"
-    },
-    {
-      "hash": "86099c2dd2e08bc5",
-      "webpage_persian_date": "۵ آذر ۱۴۰۵",
-      "webpage_gregorian_date": "۲۶ November ۲۰۲۶",
-      "webpage_publish_time": "۰۲:۰۰",
-      "topic": "مدیا و هنر",
-      "title": "کارگردان «گرگ و میش» در نقش رابرت پتینسون در نقش جیمز باند: «من تقریباً از تختم افتادم»",
-      "summary": "رابرت پتینسون جیمز باند بعدی است و کارگردان گرگ و میش او با اطلاع از انتخاب او واکنش جالبی داشت. کاترین هاردویک در فیلم گرگ و میش در سال 2008 پتینسون را انتخاب کرد که باعث شهرت جهانی این بازیگر شد. هاردویک در برنامه The Kyle Buchanan Show گفت: تقریباً از تختم بیفتم. من فقط فکر نمی کردم که [ ] او ادامه داد، من تقریباً از تخت بیفتم، و این همان تختی است که راب و کریستن برای اولین بار تست دادند و صحنه بوسیدنشان را انجام دادند. یه جورایی عجیب بود وقتی تست را انجام داد از تخت پایین افتاد و روی زمین افتاد، پس خیلی باحال بود. اخبار مرتبط، چارلی کاکس، بازیگر Daredevil، می خواست برای جیمز باند تست آزمایشی بدهد، اما به او گفته شد که او خیلی پیر است: اما رابرت پتینسون همسن من است! اخبار زمان واقعی: بیل ماهر جوک های GTA VI باعث غیبت های بیشتر از ICE در محل کار شده است، یادداشت می کند که جیمز باند از بازیگران مرد بسیار دگرجنس گرا خوشحال است. سازنده فیلم گفت که پتینسون شدید و جالب است و چیزهای زیادی در آنجا اتفاق افتاده است. او عجیب و غریب است و او اصیل است. او متناسب با قالب نیست. او از گفتن حرف های دیوانه وار نمی ترسد، این چیزی است که در آن دوست دارم. تماشا کنید در Deadline Twilight طرفداران اخیراً یک کلیپ از فیلم را دوباره منتشر کردند که می‌گفتند پیش‌بینی می‌کردند روزی پتینسون باند شود. صحنه‌ای از حماسه نشان می‌دهد که اریک یورکی از جاستین چون در حال پخش آگهی‌هایی است که در آن به موضوع جشن جشن که مونت کارلو بود اشاره می‌کند، قمار، تاکسدو و باند. جیمز باند. سپس دوربین به ادوارد کالن اثر پتینسون می رسد. هاردویک گفت: احتمالاً آن صحنه را آنلاین دیدید که در آن",
-      "source": "Deadline",
-      "source_datetime_fa": "۵ آذر • ۰۱:۵۴",
-      "source_date_raw": "2026-11-25T22:24:49+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "سینما"
-      ],
-      "link": "https://deadline.com/2026/11/twilight-director-reaction-robert-pattinson-james-bond-1237233564/"
     }
   ]
 }
