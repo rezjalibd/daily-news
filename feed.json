@@ -3,8 +3,26 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-27T02:00:32.873898+00:00",
+  "last_updated": "2026-11-27T02:20:22.224055+00:00",
   "items": [
+    {
+      "hash": "54d5b3a9900aa75b",
+      "webpage_persian_date": "۶ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۷ November ۲۰۲۶",
+      "webpage_publish_time": "۰۵:۵۰",
+      "topic": "عمومی و ایران",
+      "title": "درون پایگاه «رامات داوید»، جایی که حمله بعدی اسرائیل به ایران ممکن است از آنجا آغاز شود",
+      "summary": "وای‌نت گزارش داد جنگنده‌های پایگاه رامات داوید برای عملیات احتمالی علیه جمهوری اسلامی آماده نگه داشته می‌شوند. فرمانده پایگاه می‌گوید در جنگ، اف‌ـ۱۶های چنددهه‌ای گاه در یک روز چند ماموریت رزمی انجام دادند و برخی خلبانان سه روز پیاپی نخوابیدند.",
+      "source": "Iran International",
+      "source_datetime_fa": "۶ آذر • ۰۵:۳۱",
+      "source_date_raw": "2026-11-27T02:01:39+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://www.iranintl.com/202611279836"
+    },
     {
       "hash": "e6f78711b0183f17",
       "webpage_persian_date": "۶ آذر ۱۴۰۵",
@@ -1753,24 +1771,6 @@
         "روابط بین‌الملل"
       ],
       "link": "https://parsi.euronews.com/2026/11/26/trump-urges-putin-end-military-aggression-europe-ukraine-peace-talks"
-    },
-    {
-      "hash": "b16609cf7cde0214",
-      "webpage_persian_date": "۶ آذر ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ November ۲۰۲۶",
-      "webpage_publish_time": "۲۱:۴۰",
-      "topic": "عمومی و ایران",
-      "title": "«چند دقیقه دیگر زنده نخواهم بود»؛ آخرین نامه رئیس پیشین پلیس ایتالیا چه اسراری را فاش می‌کند؟",
-      "summary": "آخرین نامه جیانی د جنارو، رئیس پیشین پلیس ایتالیا که خودکشی کرد، منتشر شد. او در این نامه هشت‌صفحه‌ای از چهار دهه فعالیت خود دفاع کرده و به هارددیسکی اشاره می‌کند که ماموران قضایی در جست‌وجوی آن بودند. محتوای کامل این حافظه هنوز مشخص نیست.",
-      "source": "Euronews Persian",
-      "source_datetime_fa": "۵ آذر • ۲۱:۳۱",
-      "source_date_raw": "2026-11-26T18:01:01+00:00",
-      "category": "جامعه و رویدادها",
-      "tags": [
-        "رویداد",
-        "گزارش"
-      ],
-      "link": "https://parsi.euronews.com/2026/11/26/italy-former-police-chief-gianni-de-gennaro-final-letter-hard-drive-suicide"
     }
   ]
 }
