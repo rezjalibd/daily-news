@@ -3,8 +3,26 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-27T06:50:30.675527+00:00",
+  "last_updated": "2026-11-27T07:00:32.810503+00:00",
   "items": [
+    {
+      "hash": "b47e62dfe6c1e9a7",
+      "webpage_persian_date": "۶ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۷ November ۲۰۲۶",
+      "webpage_publish_time": "۱۰:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "درگیری‌ها در دیدار لیگ اروپا بشیکتاش با باشگاه اسرائیلی رخ داد",
+      "summary": "هواداران بشیکتاش در جریان دیدار لیگ اروپا برابر باشگاه اسرائیلی هاپوئل بیرشوا در باتومی با پلیس درگیر شدند و با شعار دادن، مأموران آنها را بیرون ورزشگاه تعقیب کردند.",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۶ آذر • ۱۰:۲۸",
+      "source_date_raw": "2026-11-27T06:58:29+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/video/2026/11/27/clashes-erupt-at-besiktas-europa-league-match-against-israeli-club"
+    },
     {
       "hash": "aca1d203da56848b",
       "webpage_persian_date": "۶ آذر ۱۴۰۵",
@@ -1765,24 +1783,6 @@
         "سینما"
       ],
       "link": "https://variety.com/2026/film/news/luca-guadagnino-next-movie-love-story-1236959119/"
-    },
-    {
-      "hash": "a1f911e184556757",
-      "webpage_persian_date": "۶ آذر ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ November ۲۰۲۶",
-      "webpage_publish_time": "۰۰:۱۰",
-      "topic": "عمومی و ایران",
-      "title": "راین‌متال؛ رشد غول تسلیحاتی آلمان در سایه تشدید تنش‌ها میان جمهوری اسلامی و آمریکا",
-      "summary": "کشته شدن دو تکنسین ایتالیایی شرکت راین‌متال در حمله پهپادی به کویت، بار دیگر توجه‌ها را به نقش این غول تسلیحاتی آلمان در تامین و پشتیبانی از سامانه‌های دفاعی کشورهای خاورمیانه جلب کرده است.",
-      "source": "Iran International",
-      "source_datetime_fa": "۵ آذر • ۲۳:۴۷",
-      "source_date_raw": "2026-11-26T20:17:54+00:00",
-      "category": "جامعه و رویدادها",
-      "tags": [
-        "رویداد",
-        "گزارش"
-      ],
-      "link": "https://www.iranintl.com/202611266940"
     }
   ]
 }
