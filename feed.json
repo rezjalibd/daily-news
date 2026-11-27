@@ -3,8 +3,44 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-27T11:50:28.613040+00:00",
+  "last_updated": "2026-11-27T12:00:33.984198+00:00",
   "items": [
+    {
+      "hash": "08acb6f6b682acf8",
+      "webpage_persian_date": "۶ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۷ November ۲۰۲۶",
+      "webpage_publish_time": "۱۵:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "اعتصاب کامیون‌داران در ششمین روز در ۲۰ شهر ایران ادامه دارد",
+      "summary": "اتحادیه تشکل‌های کامیون‌داران و رانندگان سراسر ایران اعلام کرد اعتصاب این صنف در اعتراض به بحران سوخت، افزایش هزینه‌ها و پایین بودن کرایه حمل بار، در ششمین روز در ۲۰ شهر کشور ادامه دارد.",
+      "source": "Iran International",
+      "source_datetime_fa": "۶ آذر • ۱۵:۱۸",
+      "source_date_raw": "2026-11-27T11:48:46+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://www.iranintl.com/202611279500"
+    },
+    {
+      "hash": "8e8614c7170060a0",
+      "webpage_persian_date": "۶ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۷ November ۲۰۲۶",
+      "webpage_publish_time": "۱۵:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "انتخابی جام جهانی؛ تیم ملی بسکتبال ایران ۸۴ به ۶۷ مغلوب استرالیا شد",
+      "summary": "تیم ملی بسکتبال ایران در نخستین دیدار خود در پنجره پنجم انتخابی جام جهانی ۲۰۲۷ قطر، برابر استرالیا با نتیجه ۸۴ بر ۶۷ شکست خورد.",
+      "source": "Iran International",
+      "source_datetime_fa": "۶ آذر • ۱۵:۰۷",
+      "source_date_raw": "2026-11-27T11:37:12+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://www.iranintl.com/202611276192"
+    },
     {
       "hash": "26433975f8557548",
       "webpage_persian_date": "۶ آذر ۱۴۰۵",
@@ -1736,42 +1772,6 @@
         "گزارش"
       ],
       "link": "https://parsi.euronews.com/2026/11/27/san-francisco-zoos-oldest-animal-euthanized-at-79"
-    },
-    {
-      "hash": "8604e6616bd73e6c",
-      "webpage_persian_date": "۶ آذر ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ November ۲۰۲۶",
-      "webpage_publish_time": "۱۲:۵۰",
-      "topic": "عمومی و ایران",
-      "title": "هشدار بختیاری‌زاده به بازیکنانش؛ بازی با صنعت نفت را مثل العین ببینید",
-      "summary": "سهراب بختیاری‌زاده، سرمربی تیم فوتبال استقلال، پیش از دیدار تیمش مقابل صنعت نفت آبادان در هفته چهاردهم لیگ برتر، ضمن تمجید از نمایش شاگردانش در آسیا، نسبت به خطر غفلت در لیگ هشدار داد.",
-      "source": "Iran International",
-      "source_datetime_fa": "۶ آذر • ۱۲:۳۱",
-      "source_date_raw": "2026-11-27T09:01:04+00:00",
-      "category": "جامعه و رویدادها",
-      "tags": [
-        "رویداد",
-        "گزارش"
-      ],
-      "link": "https://www.iranintl.com/202611277689"
-    },
-    {
-      "hash": "bf758dc40d315c46",
-      "webpage_persian_date": "۶ آذر ۱۴۰۵",
-      "webpage_gregorian_date": "۲۷ November ۲۰۲۶",
-      "webpage_publish_time": "۱۲:۵۰",
-      "topic": "مدیا و هنر",
-      "title": "RECLab 2026: فیلم‌های جدید از «آلکاراس»، «رومریا» تهیه‌کنندگان به انجمن استعدادهای جدید اسپانیایی می‌روند",
-      "summary": "عنوان هوش مصنوعی لوئیس سگورا \"Electrónica\" و همچنین \"Mother of Sugar\" و \"La Unión\" از تولیدکنندگان \"Alcarràs\" و \"Romería\" به ترتیب، پیشنهاد داد تا در دوازدهمین نسخه از Primer Test، مرکز صنعتی و مهم‌ترین کارگردان استعدادهای جدید RECLab، یکی از برجسته‌ترین افراد بالقوه باشند. بخشی از جشنواره فیلم RECTarragona، [ ] با مضمون هوش مصنوعی و ساخته شده از «Electronica»، «Mother of Sugar»، با کاوش در مورد مادری با ناتوانی ذهنی، و موضوع مهاجرت با موضوع «La Union» به نظر می رسد سه تا از برجسته های بالقوه امسال Lluis Segura در AI «عنوان «Electrón، و Lather of» «Electrón, theMother of» و «Electrón, theMother of» در سال جاری میلادی هستند. تهیه‌کنندگان «آلکاراس» و «رومریا» به ترتیب در دوازدهمین نسخه از آزمون پرایمر، مرکز صنعت RECLab، یکی از مهم‌ترین آزمایشگاه‌های استعدادهای کارگردانی جدید اسپانیا، منصفانه پیشنهاد دادند تا برگزیده‌های بالقوه باشند. در فاصله 75 دقیقه‌ای رانندگی در جنوب بارسلونا، پروژه‌هایی از کاتالونیا و صحنه هنری پر جنب و جوش آن تامین می‌شود. تولیدکنندگان عناوین Primer Test برخی از برجسته‌ترین چهره‌های صنعت کاتالونیا از جمله Tono Folguera (\"Alcarràs\")، Àngels Masclans (\"Romería\")، Ariadna Dot (تهیه‌کننده برنده جایزه TIFF Fipresci \"Forastera\" و برنده پلتفرم \"They Will Be Dust\" و S. \"خشم\"). با این حال، حداقل پنج عنوان از هفت عنوانی که قرار است در مراحل پس از تولید به عنوان آثاری در حال پیشرفت به نمایش درآیند، اولین فیلم برای کارگردانانشان است.",
-      "source": "Variety",
-      "source_datetime_fa": "۶ آذر • ۱۲:۵۰",
-      "source_date_raw": "2026-11-27T09:20:15+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "هوش مصنوعی",
-        "سینما"
-      ],
-      "link": "https://variety.com/2026/film/global/reclab-2026-new-films-from-alcarras-romeria-producers-1236959234/"
     }
   ]
 }
