@@ -3,8 +3,26 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-28T05:50:41.434804+00:00",
+  "last_updated": "2026-11-28T06:00:44.260416+00:00",
   "items": [
+    {
+      "hash": "6ab21cec9d2a1588",
+      "webpage_persian_date": "۷ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۸ November ۲۰۲۶",
+      "webpage_publish_time": "۰۹:۳۰",
+      "topic": "عمومی و ایران",
+      "title": "بهترین و بدترین کشورها در اروپا برای جوانان؛ کجا می‌توانند کار پیدا کنند؟",
+      "summary": "بیکاری در میان جوانان ۱۵ تا ۲۴ ساله در اتحادیه اروپا سه برابر افراد ۲۵ تا ۷۴ سال است. در کجای اروپا بیکاری جوانان بیشترین است و چه عواملی این شکاف میان دو گروه سنی را توضیح می‌دهد؟",
+      "source": "Euronews Persian",
+      "source_datetime_fa": "۷ آذر • ۰۹:۲۹",
+      "source_date_raw": "2026-11-28T05:59:12+00:00",
+      "category": "جامعه و رویدادها",
+      "tags": [
+        "رویداد",
+        "گزارش"
+      ],
+      "link": "https://parsi.euronews.com/2026/11/28/best-and-worst-places-in-europe-for-young-people-to-find-a-job"
+    },
     {
       "hash": "1f49acefc2f30695",
       "webpage_persian_date": "۷ آذر ۱۴۰۵",
@@ -1746,24 +1764,6 @@
         "Microsoft"
       ],
       "link": "https://www.theverge.com/tech/1044612/allstate-has-been-suffering-an-outage-since-monday"
-    },
-    {
-      "hash": "3244e473a5369663",
-      "webpage_persian_date": "۷ آذر ۱۴۰۵",
-      "webpage_gregorian_date": "۲۸ November ۲۰۲۶",
-      "webpage_publish_time": "۰۱:۳۰",
-      "topic": "فناوری و هوش مصنوعی",
-      "title": "25 بهترین معاملات بازی که تاکنون برای جمعه سیاه پیدا کرده ایم",
-      "summary": "اشتراک یک ساله با تخفیف World of Warcraft از جمله معاملات جمعه سیاه است. | تصویر: بلیزارد در حالی که معاملات کنسول‌ها و اجزای کلیدی رایانه شخصی در جمعه سیاه کم است (یا به اندازه کافی خوب نیستند که پوشش آن را تضمین کند)، تخفیف‌های فوق‌العاده زیادی برای بازی‌های ویدیویی، لوازم جانبی و مانیتورها وجود دارد تا آن را جبران کند. ما فکر کردیم مفید است که همه معاملاتی را که فکر می‌کنیم ارزش توجه شما را دارند در یک صفحه نمایش دهیم، به‌جای اینکه در پوشش ما این‌جا و آنجا بپاشیم. در زیر، بهترین تخفیف‌هایی را که برای PlayStation، Xbox، Nintendo Switch 2، و بازیکنان رایانه شخصی برای خرید پیدا کرده‌ایم، خواهید دید. می‌توانید جدول زیر را فیلتر کنید تا دقیقاً نوع محصولات مورد نظرتان را نمایش دهید. Sony DualSense Edge هر دو نسخه سفید و سیاه نیمه شب DualSense Edge دارای تخفیف هستند. نسخه های بازسازی شده (با ضمانت مشابه با کنترلرهای جدید) 25 دلار دیگر تخفیف دارند. کجا بخریم: 199 دلار 169 دلار در آمازون 199 دلار 169.99 دلار در بهترین حالت خرید 169 دلار 144 دلار در PlayStation Direct (بازسازی شده) Nintendo Switch 2 + Mario Kart World Bundle Nintendo Switch 2 دارای صفحه نمایش 7.9 اینچی LCD، عنوان ال سی دی 7.9 اینچی، بازی های انحصاری با قابلیت اتصال مغناطیسی با اکثر بازی های Joy-Con به سمت عقب S2 می باشد. مانند Donkey Kong Bananza و The Legend of Zelda: Ocarina of Time. بررسی ما را بخوانید. از کجا بخریم: 549.99 دلار، 499 دلار در آمازون، 549.99 دلار، 499 دلار در Walmart، 549.99 دلار، 499.99 دلار در Best Buy Samsung P9 microSD Express کارت P9 عالی است اگر به فضای ذخیره سازی بیشتری برای Nintendo Switch 2 خود نیاز دارید. کارت microSD Express سرعت خواندن متوالی حداکثر تا 800 مگابایت را ارائه می دهد، اما",
-      "source": "The Verge",
-      "source_datetime_fa": "۷ آذر • ۰۱:۲۰",
-      "source_date_raw": "2026-11-27T21:50:00+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "فناوری",
-        "نوآوری"
-      ],
-      "link": "https://www.theverge.com/gadgets/1042951/best-black-friday-gaming-deals-ps5-nintendo-2026-sale"
     }
   ]
 }
