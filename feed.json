@@ -3,8 +3,26 @@
   "home_page_url": "https://news.recart.ir/",
   "feed_url": "https://news.recart.ir/feed.json",
   "description": "فید یکپارچه اخبار روزانه، فناوری و رسانه",
-  "last_updated": "2026-11-28T05:20:36.196562+00:00",
+  "last_updated": "2026-11-28T05:30:38.619423+00:00",
   "items": [
+    {
+      "hash": "c3a1797e6275ba3e",
+      "webpage_persian_date": "۷ آذر ۱۴۰۵",
+      "webpage_gregorian_date": "۲۸ November ۲۰۲۶",
+      "webpage_publish_time": "۰۹:۰۰",
+      "topic": "فناوری و هوش مصنوعی",
+      "title": "مدل موی Dreame's Airstyle Era برای جمعه سیاه 65 دلار تخفیف دارد",
+      "summary": "برای کسری از هزینه، Dreame's AirStyle Era سهولت و راحتی Dyson Airwrap را تکرار می کند. Era دارای هشت ضمیمه برای فر کردن، صاف کردن، پخش کردن و موارد دیگر است.",
+      "source": "Business Insider",
+      "source_datetime_fa": "۷ آذر • ۰۸:۵۴",
+      "source_date_raw": "2026-11-28T05:24:33+00:00",
+      "category": "هوش مصنوعی مولد",
+      "tags": [
+        "فناوری",
+        "نوآوری"
+      ],
+      "link": "https://www.businessinsider.com/guides/deals/dreame-airstyle-era-black-friday-deal-2026-11-27"
+    },
     {
       "hash": "2c5473d7f0b50ca9",
       "webpage_persian_date": "۷ آذر ۱۴۰۵",
@@ -1745,24 +1763,6 @@
         "Apple"
       ],
       "link": "https://www.rollingstone.com/product-recommendations/tech/black-friday-cyber-monday-tech-deals-2026-1235663961/"
-    },
-    {
-      "hash": "53e2667968d007f3",
-      "webpage_persian_date": "۷ آذر ۱۴۰۵",
-      "webpage_gregorian_date": "۲۸ November ۲۰۲۶",
-      "webpage_publish_time": "۰۱:۱۰",
-      "topic": "مدیا و هنر",
-      "title": "کجا می‌توان «جوایز قطار روح» ۲۰۲۶ را به‌صورت آنلاین و بدون کابل پخش کرد",
-      "summary": "جوایز Soul Train پس از دو سال وقفه بازگشته است. در اینجا نحوه تماشای آنلاین جوایز بازسازی شده آمده است اگر محصول یا خدماتی را که به طور مستقل بررسی شده را از طریق پیوندی در وب سایت ما خریداری کنید، رولینگ استون ممکن است کمیسیون وابسته دریافت کند. جوایز Soul Train با نام تجاری مجدد، امشب پس از یک وقفه دو ساله بازگشته است. این نمایش سال گذشته قبل از اینکه به لطف همکاری با اسپاتیفای برای سال 2026 احیا شود، در وقفه نامحدود قرار گرفت. جوایز Soul Train 2026 در اوایل این ماه در شیکاگو برگزار شد، جایی که دان کورنلیوس Soul Train را در سال 1971 ایجاد کرد. چاکا خان، المین و دوراند برنار جوایز ویژه دریافت کردند. هر سه دریافت کننده همچنین در کنار Lucky Daye، Kirk Franklin، Muni Long، El DeBarge، Micky Guyton، Robert Randolph و Erykah Badu اجرا کردند. مجری این برنامه آنتونی اندرسون ستاره سیاه پوست بود. لوئیس کار، رئیس BET گفت: \"من به عنوان یک بومی شیکاگو، مفتخرم که جوایز Soul Train را به شهری بازگردانم که همه چیز از آنجا شروع شد.\" این بازگشت که سالی برجسته برای BET است، کاری را که ما بهترین انجام می‌دهیم را مجدداً تأیید می‌کند: اجتماع خود را پیرامون فرهنگ گرد هم می‌آوریم و هنرمندانی را که این صدا را ساخته‌اند به کسانی که آن را به جلو می‌برند، متصل کنیم.» Ahead یک راهنمای سریع درباره نحوه تماشای جوایز Soul Train 2026، از جمله راه‌هایی برای پخش آنلاین نمایش رایگان است. جوایز ترن روح احیا شده 2026 جمعه 27 نوامبر از ساعت 20 پخش خواهد شد. ET/5 بعد از ظهر PT در CBS، BET، و چندین شبکه دیگر. فیلو مقرون به صرفه ترین سرویس پخش زنده تلویزیونی است که می توانید از آن برای تماشای جوایز Soul Train بدون کابل استفاده کنید. این سرویس BET",
-      "source": "Rolling Stone",
-      "source_datetime_fa": "۷ آذر • ۰۱:۰۳",
-      "source_date_raw": "2026-11-27T21:33:21+00:00",
-      "category": "هوش مصنوعی مولد",
-      "tags": [
-        "رسانه",
-        "هنر"
-      ],
-      "link": "https://www.rollingstone.com/tv-movies/tv-movie-news/stream-soul-train-awards-2026-online-free-without-cable-1235665413/"
     }
   ]
 }
